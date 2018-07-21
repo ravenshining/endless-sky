@@ -19,7 +19,7 @@ mission "Assisting Merchant (Small)"
 	to offer
 		random < 20
 	source
-		government "Merchant"
+		government "Merchant" "Navy Intelligence"
 		category "Interceptor" "Light Warship" "Transport" "Light Freighter"
 		not attributes "automaton"
 	on offer
@@ -36,7 +36,7 @@ mission "Assisting Merchant (Medium)"
 	to offer
 		random < 15
 	source
-		government "Merchant"
+		government "Merchant" "Navy Intelligence"
 		category "Medium Warship" "Heavy Freighter"
 		not attributes "automaton"
 	on offer
@@ -51,7 +51,7 @@ mission "Assisting Merchant (Large)"
 	to offer
 		random < 10
 	source
-		government "Merchant"
+		government "Merchant" "Navy Intelligence"
 		category "Heavy Warship"
 		not attributes "automaton"
 	on offer
@@ -184,7 +184,8 @@ mission "Assisting Free Worlds"
 		random < 5
 	source
 		government "Free Worlds"
-		not category "Fighter" "Drone"
+		not category "Drone"
+		not category "Fighter"
 		not attributes "automaton"
 	destination
 		government "Free Worlds"
@@ -217,7 +218,8 @@ mission "Assisting Republic"
 		random < 5
 	source
 		government "Republic"
-		not category "Fighter" "Drone"
+		not category "Drone"
+		not category "Fighter"
 		not attributes "automaton"
 	destination
 		government "Republic"
@@ -250,7 +252,8 @@ mission "Assisting Deep Security"
 		random < 5
 	source
 		government "Deep Security"
-		not category "Fighter" "Drone"
+		not category "Drone"
+		not category "Fighter"
 		not attributes "automaton"
 	destination
 		attributes "deep"
@@ -283,7 +286,8 @@ mission "Assisting Syndicate"
 		random < 5
 	source
 		government "Syndicate"
-		not category "Fighter" "Drone"
+		not category "Drone"
+		not category "Fighter"
 		not attributes "automaton"
 	destination
 		government "Syndicate"
@@ -423,3 +427,173 @@ mission "Assisting Hai"
 			`Knowing you risked your life to save the <origin>, the captain gives you <payment>.`
 				decline
 	destination "Hai-home"
+
+mission "Repairing Pirate"
+	assisting
+	repeat
+	to offer
+		random < 27
+	source
+		government Pirate
+		not category "Drone"
+	on offer
+		payment 50
+		conversation
+			`The captain of the <origin> pours you a drink and flips you a <payment>-credit coin in thanks for supporting a fellow pirate.`
+				decline
+	destination "Buccaneer Bay"
+
+mission "Repairing Parrot"
+	assisting
+	repeat
+	to offer
+		random < 100
+	source
+		government Parrot
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 50000
+		conversation
+			`While carefully attempting to bind <origin>'s wounds, the bird squacks about the importance of contributing to open-source software and pays you <payment>.`
+				decline
+	destination Watcher
+
+mission "Repairing Author"
+	assisting
+	repeat
+	to offer
+		random < 100
+	source
+		government Author
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 50000
+		conversation
+			`Amazed that you were able to rescue them from their own creation, the author thanks you for your assistance and writes <payment> into your account.`
+				decline
+	destination Hope
+
+mission "Repairing Syndicate"
+	assisting
+	repeat
+	to offer
+		random < 10
+	source
+		government Syndicate
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 3000
+		conversation
+			`Muttering about their deadline, the captain of the <origin> hurriedly thanks you and gives you <payment>.`
+				decline
+	destination Foundry
+
+mission "Repairing Republic"
+	assisting
+	repeat
+	to offer
+		random < 27
+	source
+		government Republic
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 10000
+		conversation
+			`When you repair the <origin>, the captain eagerly hands you a recruitment brochure and pays you <payment>.`
+				decline
+	destination Geminus
+
+mission "Assisting Oathkeeper"
+	assisting
+	repeat
+	to offer
+		random < 10
+	source
+		government "Navy (Oathkeeper)"
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 30000
+		conversation "assisting merchant"
+	destination Farpoint
+
+mission "Repairing Hai (Unfettered)"
+	assisting
+	repeat
+	to offer
+		random < 10
+	source
+		government "Hai (Unfettered)"
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 3000
+		conversation
+			`The hyperactive captain of the <origin> hurriedly thanks you and gives you <payment>.`
+				decline
+	destination Darkcloak
+
+mission "Repairing Militia"
+	assisting
+	repeat
+	to offer
+		random < 27
+	source
+		government Militia "Free Worlds"
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 5000
+		conversation
+			`The captain of the <origin> thanks you profusely for coming to their aid and pays you <payment>.`
+				decline
+	destination Glaze
+
+mission "Assisting Independent"
+	assisting
+	repeat
+	to offer
+		random < 10
+	source
+		government Independent
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 1000
+		conversation "assisting merchant"
+	destination Thule
+
+mission "Assisting Neutral"
+	assisting
+	repeat
+	to offer
+		random < 10
+	source
+		government Neutral
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 5000
+		conversation "assisting merchant"
+	destination Poisonwood
+
+mission "Repairing Wanderer"
+	assisting
+	repeat
+	to offer
+		random < 10
+		has "Wanderers: Translation Machine: done"
+	source
+		government Wanderer
+		not category "Drone"
+		not category "Fighter"
+	on offer
+		payment 30000
+		conversation
+			`Knowing you risked your life to save the <origin>, the captain gives you <payment>.`
+				decline
+	destination "Vara K'chrai"
