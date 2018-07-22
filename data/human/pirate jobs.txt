@@ -20,10 +20,10 @@ mission "Cargo Smuggling [0]"
 			"reputation: Pirate" > -100
 			"combat rating" > 150
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	destination
 		distance 3 6
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -43,10 +43,10 @@ mission "Cargo Smuggling [1]"
 			"reputation: Pirate" > -100
 			"combat rating" > 150
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	destination
 		distance 3 8
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -66,10 +66,10 @@ mission "Cargo Smuggling [2]"
 			"reputation: Pirate" > -100
 			"combat rating" > 150
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	destination
 		distance 4 10
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -89,10 +89,10 @@ mission "Cargo Smuggling [3]"
 			"reputation: Pirate" > -100
 			"combat rating" > 150
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	destination
 		distance 5 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -114,10 +114,10 @@ mission "Drug Running [0]"
 			"reputation: Pirate" > -50
 			"combat rating" > 400
 	source
-		government "Pirate"
+		government "Pirate" Buccaneer Zenithite
 	destination
 		distance 3 10
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -137,10 +137,10 @@ mission "Drug Running [1]"
 			"reputation: Pirate" > -50
 			"combat rating" > 400
 	source
-		government "Pirate"
+		government "Pirate" Buccaneer Zenithite
 	destination
 		distance 4 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -160,10 +160,10 @@ mission "Drug Running [2]"
 			"reputation: Pirate" > -50
 			"combat rating" > 400
 	source
-		government "Pirate"
+		government "Pirate" Buccaneer Zenithite
 	destination
 		distance 5 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -183,10 +183,10 @@ mission "Drug Running [3]"
 			"reputation: Pirate" > -50
 			"combat rating" > 400
 	source
-		government "Pirate"
+		government "Pirate" Buccaneer Zenithite
 	destination
 		distance 6 16
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -208,10 +208,10 @@ mission "Bulk Cargo Smuggling [0]"
 			"reputation: Pirate" > -50
 			"combat rating" > 400
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Cartel
 	destination
 		distance 3 8
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -231,10 +231,10 @@ mission "Bulk Cargo Smuggling [1]"
 			"reputation: Pirate" > -50
 			"combat rating" > 400
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Cartel
 	destination
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -254,10 +254,10 @@ mission "Bulk Cargo Smuggling [2]"
 			"reputation: Pirate" > -50
 			"combat rating" > 400
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Cartel
 	destination
 		distance 4 16
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -278,11 +278,11 @@ mission "Bulk Drug Running [0]"
 		or
 			"reputation: Pirate" > -25
 			"combat rating" > 1100
-	source
-		government "Pirate"
+	sourcec
+		government "Pirate" Buccaneer Zenithite
 	destination
 		distance 4 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -302,10 +302,10 @@ mission "Bulk Drug Running [1]"
 			"reputation: Pirate" > -25
 			"combat rating" > 1100
 	source
-		government "Pirate"
+		government "Pirate" Buccaneer
 	destination
 		distance 5 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -325,10 +325,10 @@ mission "Bulk Drug Running [2]"
 			"reputation: Pirate" > -25
 			"combat rating" > 1100
 	source
-		government "Pirate"
+		government "Pirate" Buccaneer
 	destination
 		distance 6 16
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" "Mesans" "Privateer" "Zenithite" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete
@@ -351,11 +351,10 @@ mission "Stealth Cargo Smuggling (North) [0]"
 		"reputation: Pirate" > -10
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Mesans Zenithite Privateer
 	destination
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Zenithite Privateer Buccaneer
 	npc
 		government Republic
 		personality heroic waiting
@@ -408,11 +407,10 @@ mission "Stealth Cargo Smuggling (North) [1]"
 		"reputation: Pirate" > -10
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Mesans Zenithite Privateer
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Zenithite Privateer Buccaneer
 	npc
 		government Republic
 		personality heroic waiting
@@ -488,11 +486,10 @@ mission "Stealth Cargo Smuggling (Core) [0]"
 		"reputation: Pirate" > -10
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	destination
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Zenithite Privateer Buccaneer Cartel
 	npc
 		government Syndicate
 		personality heroic waiting
@@ -544,11 +541,10 @@ mission "Stealth Cargo Smuggling (Core) [1]"
 		"reputation: Pirate" > -10
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government "Buccaneer Cartel
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Zenithite Privateer Buccaneer Cartel
 	npc
 		government Syndicate
 		personality heroic waiting
@@ -627,10 +623,9 @@ mission "Stealth Cargo Smuggling (South) [0]"
 		"combat rating" > 1100
 	source
 		government "Pirate"
-		attributes "south pirate"
 	destination
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Buccaneer Cartel
 	npc
 		government Militia
 		personality heroic waiting
@@ -684,10 +679,9 @@ mission "Stealth Cargo Smuggling (South) [1]"
 		"combat rating" > 1100
 	source
 		government "Pirate"
-		attributes "south pirate"
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Buccaneer Cartel
 	npc
 		government Militia
 		personality heroic waiting
@@ -768,11 +762,10 @@ mission "Stealth Drug Running (North) [0]"
 		"reputation: Pirate" > 0
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Zenithite
 	destination
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Zenithite Privateer Buccaneer Cartel
 	npc
 		government Republic
 		personality heroic waiting
@@ -825,11 +818,10 @@ mission "Stealth Drug Running (North) [1]"
 		"reputation: Pirate" > 0
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Zenithite
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Zenithite Privateer Buccaneer Cartel
 	npc
 		government Republic
 		personality heroic waiting
@@ -905,11 +897,10 @@ mission "Stealth Drug Running (Core) [0]"
 		"reputation: Pirate" > 0
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer
 	destination
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Zenithite Privateer Buccaneer Cartel
 	npc
 		government Syndicate
 		personality heroic waiting
@@ -961,11 +952,10 @@ mission "Stealth Drug Running (Core) [1]"
 		"reputation: Pirate" > 0
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Zenithite Privateer Buccaneer Cartel
 	npc
 		government Syndicate
 		personality heroic waiting
@@ -1044,10 +1034,9 @@ mission "Stealth Drug Running (South) [0]"
 		"combat rating" > 1100
 	source
 		government "Pirate"
-		attributes "south pirate"
 	destination
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Buccaneer Cartel
 	npc
 		government Militia
 		personality heroic waiting
@@ -1101,10 +1090,9 @@ mission "Stealth Drug Running (South) [1]"
 		"combat rating" > 1100
 	source
 		government "Pirate"
-		attributes "south pirate"
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Cartel
 	npc
 		government Militia
 		personality heroic waiting
@@ -1185,7 +1173,7 @@ mission "Wanted Passenger [0]"
 			"reputation: Pirate" > -100
 			"combat rating" > 400
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	destination
 		distance 2 10
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
@@ -1209,7 +1197,7 @@ mission "Wanted Passengers [1]"
 		"reputation: Pirate" > -50
 		"combat rating" > 1100
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	destination
 		distance 2 10
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
@@ -1233,7 +1221,7 @@ mission "Wanted Passengers [2]"
 		"reputation: Pirate" > -50
 		"combat rating" > 1100
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	destination
 		distance 2 10
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
@@ -1257,7 +1245,7 @@ mission "Wanted Passengers [3]"
 		"reputation: Pirate" > -50
 		"combat rating" > 1100
 	source
-		government "Pirate"
+		government "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	destination
 		distance 2 10
 		government "Republic" "Free Worlds" "Syndicate" "Neutral"
@@ -1284,11 +1272,10 @@ mission "Highly Wanted Passenger (North)"
 		"reputation: Pirate" > 10
 		"combat rating" > 3000
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Mesans Zenithite Privateer
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	npc
 		government Republic
 		personality heroic waiting
@@ -1372,11 +1359,10 @@ mission "Highly Wanted Passenger (Core)"
 		"reputation: Pirate" > 10
 		"combat rating" > 3000
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	npc
 		government Syndicate
 		personality heroic waiting
@@ -1463,10 +1449,9 @@ mission "Highly Wanted Passenger (South)"
 		"combat rating" > 3000
 	source
 		government "Pirate"
-		attributes "south pirate"
 	destination
 		distance 4 14
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Pirate" Mesans Privateer Zenithite Buccaneer Cartel
 	npc
 		government Militia
 		personality heroic waiting
@@ -1554,10 +1539,10 @@ mission "Slave Transport [0]"
 	on offer
 		require "Brig"
 	source
-		government "Pirate"
+		government "Pirate" Cartel Buccaneer
 	destination
 		distance 3 30
-		government "Pirate"
+		government "Pirate" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1578,10 +1563,10 @@ mission "Slave Transport [1]"
 	on offer
 		require "Brig"
 	source
-		government "Pirate"
+		government "Pirate" Cartel Buccaneer
 	destination
 		distance 3 30
-		government "Pirate"
+		government "Pirate" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1602,10 +1587,10 @@ mission "Slave Transport [2]"
 	on offer
 		require "Brig"
 	source
-		government "Pirate"
+		government "Pirate" Cartel Buccaneer
 	destination
 		distance 3 30
-		government "Pirate"
+		government "Pirate" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1628,10 +1613,10 @@ mission "Bulk Slave Transport [0]"
 	on offer
 		require "Brig"
 	source
-		government "Pirate"
+		government "Pirate" Cartel Buccaneer
 	destination
 		distance 3 30
-		government "Pirate"
+		government "Pirate" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1652,10 +1637,10 @@ mission "Bulk Slave Transport [1]"
 	on offer
 		require "Brig"
 	source
-		government "Pirate"
+		government "Pirate" Cartel Buccaneer
 	destination
 		distance 3 30
-		government "Pirate"
+		government "Pirate" "Buccaneer" "Cartel"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1678,8 +1663,7 @@ mission "Mercenary Job (Medium, North, Dangerous Origin)"
 		government Republic "Free Worlds" Syndicate Neutral
 		attributes frontier north
 	destination
-		government "Pirate"
-		attributes "north pirate"
+		government Mesans Privateer Zenithite
 		distance 3 4
 	npc
 		government Republic
@@ -1727,12 +1711,11 @@ mission "Escort Illegal Cargo (Large, North, Dangerous Path)"
 		"combat rating" > 1100
 		"reputation: Pirate" > 0
 	source
-		government Republic "Free Worlds" Syndicate Neutral Pirate
-		attributes frontier north "north pirate"
+		government Republic Mesans Privateer Zenithite
+		attributes frontier north
 		distance 3 6
 	destination
-		government "Pirate"
-		attributes "north pirate"
+		government Mesans Privateer Zenithite
 	npc
 		government Republic
 		personality staying
@@ -1775,11 +1758,10 @@ mission "Escort Stolen Vessel (Extra Large, North, Dangerous Path)"
 		"combat rating" > 3000
 		"reputation: Pirate" > 0
 	source
-		government Republic "Free Worlds" Syndicate Neutral Pirate
-		attributes frontier north "north pirate"
+		government Republic Mesans Privateer Zenithite
+		attributes frontier north
 	destination
-		government "Pirate"
-		attributes "north pirate"
+		government Mesans Privateer Zenithite
 		distance 3 6
 	npc
 		government Republic
@@ -1822,11 +1804,10 @@ mission "Mercenary Job (Medium, Core, Dangerous Origin)"
 		"combat rating" > 400
 		"reputation: Pirate" > 0
 	source
-		government Republic "Free Worlds" Syndicate Neutral
+		government Republic Syndicate
 		attributes core
 	destination
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 		distance 3 4
 	npc
 		government Syndicate
@@ -1868,12 +1849,11 @@ mission "Escort Illegal Cargo (Large, Core, Dangerous Path)"
 		"combat rating" > 1100
 		"reputation: Pirate" > 0
 	source
-		government Republic "Free Worlds" Syndicate Neutral Pirate
-		attributes core "core pirate"
+		government Republic Syndicate Buccaneer Cartel
+		attributes core
 		distance 3 6
 	destination
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	npc
 		government Syndicate
 		personality staying
@@ -1912,11 +1892,10 @@ mission "Escort Stolen Vessel (Extra Large, Core, Dangerous Path)"
 		"combat rating" > 3000
 		"reputation: Pirate" > 0
 	source
-		government Republic "Free Worlds" Syndicate Neutral Pirate
-		attributes core "core pirate"
+		government Republic Syndicate Buccaneer Cartel
+		attributes core
 	destination
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 		distance 3 6
 	npc
 		government Syndicate
@@ -1969,7 +1948,6 @@ mission "Mercenary Job (Medium, South, Dangerous Origin)"
 		attributes south
 	destination
 		government "Pirate"
-		attributes "south pirate"
 		distance 3 4
 	npc
 		government Militia
@@ -2012,11 +1990,10 @@ mission "Escort Illegal Cargo (Large, South, Dangerous Path)"
 		"reputation: Pirate" > 0
 	source
 		government Republic "Free Worlds" Syndicate Neutral Pirate
-		attributes south "south pirate"
+		attributes south pirate
 		distance 3 6
 	destination
 		government "Pirate"
-		attributes "south pirate"
 	npc
 		government Militia
 		personality staying
@@ -2058,10 +2035,9 @@ mission "Escort Stolen Vessel (Extra Large, South, Dangerous Path)"
 		"reputation: Pirate" > 0
 	source
 		government Republic "Free Worlds" Syndicate Neutral Pirate
-		attributes south "south pirate"
+		attributes south pirate
 	destination
 		government "Pirate"
-		attributes "south pirate"
 		distance 3 6
 	npc
 		government Militia
@@ -2110,8 +2086,7 @@ mission "Eliminating Law Enforcement (North, Small)"
 		random < 25
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Privateer Mesans Zenithite
 	npc kill
 		government "Republic"
 		personality heroic staying target
@@ -2133,8 +2108,7 @@ mission "Eliminating Law Enforcement (North, Large)"
 		random < 15
 		"combat rating" > 3000
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Privateer Mesans Zenithite
 	npc kill
 		government "Republic"
 		personality heroic staying target
@@ -2157,8 +2131,7 @@ mission "Eliminating Law Enforcement (Core, Small)"
 		random < 25
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	npc kill
 		government "Syndicate"
 		personality heroic staying target
@@ -2180,8 +2153,7 @@ mission "Eliminating Law Enforcement (Core, Large)"
 		random < 15
 		"combat rating" > 3000
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	npc kill
 		government "Syndicate"
 		personality heroic staying target
@@ -2204,8 +2176,7 @@ mission "Eliminating Law Enforcement (South, Small)"
 		random < 25
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "south pirate"
+		government Pirate
 	npc kill
 		government "Militia"
 		personality heroic staying target
@@ -2227,8 +2198,7 @@ mission "Eliminating Law Enforcement (South, Large)"
 		random < 15
 		"combat rating" > 3000
 	source
-		government "Pirate"
-		attributes "south pirate"
+		government Pirate
 	npc kill
 		government "Militia"
 		personality heroic staying target
@@ -2253,8 +2223,7 @@ mission "Eliminating Competition (North, Small)"
 		random < 20
 		"combat rating" > 400
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Mesans Privateer Zenithite
 	npc kill
 		government Pirate
 		personality heroic staying target marked
@@ -2275,8 +2244,7 @@ mission "Eliminating Competition (North, Large)"
 		random < 10
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Mesans Privateer Zenithite
 	npc kill
 		government Pirate
 		personality heroic staying target marked
@@ -2298,8 +2266,7 @@ mission "Eliminating Competition (Core, Small)"
 		random < 20
 		"combat rating" > 400
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	npc kill
 		government Pirate
 		personality heroic staying target marked
@@ -2320,8 +2287,7 @@ mission "Eliminating Competition (Core, Large)"
 		random < 10
 		"combat rating" > 1100
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	npc kill
 		government Pirate
 		personality heroic staying target marked
@@ -2344,7 +2310,6 @@ mission "Eliminating Competition (South, Small)"
 		"combat rating" > 400
 	source
 		government "Pirate"
-		attributes "south pirate"
 	npc kill
 		government Pirate
 		personality heroic staying target marked
@@ -2366,7 +2331,6 @@ mission "Eliminating Competition (South, Large)"
 		"combat rating" > 1100
 	source
 		government "Pirate"
-		attributes "south pirate"
 	npc kill
 		government Pirate
 		personality heroic staying target marked
@@ -2389,12 +2353,11 @@ mission "Raid on Merchants (North)"
 	to offer
 		random < 50
 		"combat rating" > 150
-		"reputation: Pirate" > 0
+		"reputation: Privateer" > 0
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Privateer
 	npc
-		government "Pirate"
+		government "Privateer"
 		personality plunders harvests escort
 		fleet "Small Northern Pirates"
 	
@@ -2418,12 +2381,11 @@ mission "Raid on Merchants (Core)"
 	to offer
 		random < 50
 		"combat rating" > 150
-		"reputation: Pirate" > 0
+		"reputation: Buccaneer" > 0
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer
 	npc
-		government "Pirate"
+		government Buccaneer
 		personality plunders harvests escort
 		fleet "Small Core Pirates"
 	
@@ -2450,7 +2412,6 @@ mission "Raid on Merchants (South)"
 		"reputation: Pirate" > 0
 	source
 		government "Pirate"
-		attributes "south pirate"
 	npc
 		government "Pirate"
 		personality plunders harvests escort
@@ -2478,8 +2439,7 @@ mission "Northern Pirate Defense"
 		random < 15
 		"reputation: Pirate" >= 0
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Privateer Mesans Zenithite
 	npc evade
 		government "Republic"
 		personality heroic staying waiting
@@ -2505,8 +2465,7 @@ mission "Northern Pirate Defense [Unpaid]"
 		random < 5
 		"reputation: Pirate" >= 0
 	source
-		government "Pirate"
-		attributes "north pirate"
+		government Privateer Mesans Zenithite
 	npc evade
 		government "Republic"
 		personality heroic staying waiting
@@ -2542,8 +2501,7 @@ mission "Core Pirate Defense"
 		random < 15
 		"reputation: Pirate" >= 0
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	npc evade
 		government "Syndicate"
 		personality heroic staying waiting
@@ -2569,8 +2527,7 @@ mission "Core Pirate Defense [Unpaid]"
 		random < 5
 		"reputation: Pirate" >= 0
 	source
-		government "Pirate"
-		attributes "core pirate"
+		government Buccaneer Cartel
 	npc evade
 		government "Syndicate"
 		personality heroic staying waiting
@@ -2606,7 +2563,6 @@ mission "Southern Pirate Defense"
 		"reputation: Pirate" >= 0
 	source
 		government "Pirate"
-		attributes "south pirate"
 	npc evade
 		government "Militia"
 		personality heroic staying waiting
@@ -2633,7 +2589,6 @@ mission "Southern Pirate Defense [Unpaid]"
 		"reputation: Pirate" >= 0
 	source
 		government "Pirate"
-		attributes "south pirate"
 	npc evade
 		government "Militia"
 		personality heroic staying waiting
@@ -2676,8 +2631,7 @@ mission "Cargo Theft (North)"
 		random < 15
 		"combat rating" > 3000
 	source
-		government Pirate
-		attributes "north pirate"
+		government Mesans Privateer Zenithite
 	npc
 		government "Merchant"
 		personality staying heroic target
@@ -2710,8 +2664,7 @@ mission "Cargo Theft (Core)"
 		random < 15
 		"combat rating" > 3000
 	source
-		government Pirate
-		attributes "core pirate"
+		government Buccaneer Cartel
 	npc
 		government "Merchant"
 		personality staying heroic target
@@ -2745,7 +2698,6 @@ mission "Cargo Theft (South)"
 		"combat rating" > 3000
 	source
 		government Pirate
-		attributes "south pirate"
 	npc
 		government "Merchant"
 		personality staying heroic target
@@ -2782,8 +2734,9 @@ mission "FW Assassination [1]"
 		"reputation: Pirate" > -100
 		has "event: war begins"
 	source
-		government "Pirate"
-		attributes "south pirate"
+		government "Republic" "Syndicate" "Free Worlds" "Neutral" Independent "Pirate" Mesans Zenithite Privateer Buccaneer Cartel
+		attributes south
+		attributes pirate
 	npc kill
 		government "Free Worlds"
 		personality staying target
@@ -2889,8 +2842,8 @@ mission "FW Assassination [4]"
 		"reputation: Pirate" > 100
 		has "event: war begins"
 	source
-		government "Pirate"
-		attributes "south pirate"
+		government "Republic" "Pirate" "Buccaneer"
+		attributes south
 	npc kill
 		government "Free Worlds"
 		personality staying target
