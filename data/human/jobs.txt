@@ -348,7 +348,7 @@ mission "Escort (Large, Northern, Dangerous Destination)"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "deep" "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Mesans" "Independent"
 		attributes "frontier" "north"
 		distance 3 4
 	npc
@@ -390,7 +390,7 @@ mission "Escort (Large, Northern, Dangerous Origin)"
 		random < 30
 		"combat rating" > 60
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Mesans"
 		attributes "frontier" "north"
 	destination
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -439,7 +439,7 @@ mission "Escort (Extra Large, Northern, Dangerous Destination)"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "deep" "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Mesans"
 		attributes "frontier" "north"
 		distance 3 4
 	npc
@@ -483,7 +483,7 @@ mission "Escort (Extra Large, Northern, Dangerous Origin)"
 		random < 15
 		"combat rating" > 100
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Mesans"
 		attributes "frontier" "north"
 	destination
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -953,7 +953,7 @@ mission "Escort (Extra Large, Core, Dangerous Destination)"
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
 		attributes "paradise" "near earth"
 	destination
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Cartel"
 		attributes "core" "north" "frontier" "dirt belt"
 		distance 3 4
 	npc
@@ -997,7 +997,7 @@ mission "Escort (Extra Large, Core, Dangerous Origin)"
 		random < 20
 		"combat rating" > 100
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Cartel"
 		attributes "core" "north" "frontier"
 	destination
 		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
@@ -1263,6 +1263,121 @@ mission "Escort (Extra Large, Southern, Dangerous Origin or Destination)"
 	on visit
 		dialog phrase "generic arrived-without-npc dialog"
 
+
+mission "Bounty Hunting (Big)"
+	name "Hunt down <npc>"
+	description "A pirate vessel named <npc> has been attacking merchants near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 500
+		random < 20
+	source
+		government Republic "Free Worlds" Syndicate Neutral Independent Zenithite Privateer Mesans Cartel
+		attributes rim south north "dirt belt" core frontier
+	npc kill
+		government Bounty
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "pirate"
+			variant
+				"Leviathan"
+			variant
+				"Leviathan (Heavy)"
+			variant
+				"Leviathan (Laser)"
+			variant
+				"Falcon"
+			variant
+				"Falcon (Heavy)"
+			variant
+				"Falcon (Laser)"
+			variant
+				"Vanguard"
+			variant
+				"Vanguard (Particle)"
+		dialog "The <npc> has been eliminated. You can claim the bounty payment by returning to <destination>."
+	on complete
+		payment 250000
+		dialog "The government of <planet> gratefully pays you <payment> for eliminating the <npc>."
+
+mission "Bounty Hunting (Medium)"
+	name "Hunt down <npc>"
+	description "A pirate vessel named <npc> has been attacking merchants near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 400
+		random < 20
+	source
+		government Republic "Free Worlds" Syndicate Neutral Independent Zenithite Privateer Mesans Cartel
+		attributes rim south north "dirt belt" core frontier
+	npc kill
+		government Bounty
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "pirate"
+			variant
+				"Protector"
+			variant
+				"Protector (Laser)"
+			variant
+				"Osprey (Missile)"
+			variant
+				"Bastion (Heavy)"
+			variant
+				"Bastion (Laser)"
+			variant
+				"Firebird (Plasma)"
+		dialog "The <npc> has been eliminated. You can claim the bounty payment by returning to <destination>."
+	on complete
+		payment 200000
+		dialog "The government of <planet> gratefully pays you <payment> for eliminating the <npc>."
+
+mission "Bounty Hunting (Small)"
+	name "Hunt down <npc>"
+	description "A pirate vessel named <npc> has been attacking merchants near the <system> system. Destroy it and return to <planet> for payment (<payment>)."
+	repeat
+	job
+	to offer
+		"combat rating" > 300
+		random < 40
+	source
+		government Republic "Free Worlds" Syndicate Neutral Independent Zenithite Privateer Mesans Cartel
+		attributes rim south north "dirt belt" core frontier
+	npc kill
+		government Bounty
+		personality heroic staying nemesis target
+		system
+			distance 1 2
+		fleet
+			names "pirate"
+			variant
+				"Firebird"
+			variant
+				"Firebird (Missile)"
+			variant
+				"Splinter"
+			variant
+				"Splinter (Laser)"
+			variant
+				"Osprey"
+			variant
+				"Osprey (Laser)"
+			variant
+				"Bastion"
+			variant
+				"Manta"
+			variant
+				"Manta (Proton)"
+		dialog "The <npc> has been eliminated. You can claim the bounty payment by returning to <destination>."
+	on complete
+		payment 150000
+		dialog "The government of <planet> gratefully pays you <payment> for eliminating the <npc>."
 
 
 mission "Southern Pirate Attack"
@@ -1803,7 +1918,7 @@ mission "Transport miners to <planet>"
 	destination
 		attributes "mining"
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1823,7 +1938,7 @@ mission "Transport farmers to <planet>"
 	destination
 		attributes "farming"
 		distance 3 12
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Mesans"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1884,7 +1999,7 @@ mission "Tourists out [0]"
 	destination
 		attributes "tourism"
 		distance 6 35
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Buccaneer"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1905,7 +2020,7 @@ mission "Tourists out [1]"
 	destination
 		attributes "tourism"
 		distance 2 25
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Buccaneer"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1929,7 +2044,7 @@ mission "Wealthy tourists out"
 	destination
 		attributes "tourism"
 		distance 4 30
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Buccaneer"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -1945,7 +2060,8 @@ mission "Tourists back [0]"
 	to offer
 		random < 20
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Buccaneer"
+
 		attributes "tourism"
 	destination
 		distance 6 35
@@ -1966,7 +2082,7 @@ mission "Tourists back [1]"
 	to offer
 		random < 50
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Buccaneer"
 		attributes "tourism"
 	destination
 		distance 2 25
@@ -1990,7 +2106,7 @@ mission "Wealthy tourists back"
 		require "Luxury Accommodations"
 	source
 		attributes "tourism"
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Buccaneer"
 	destination
 		attributes "rich" "urban"
 		distance 4 30
@@ -2095,11 +2211,11 @@ mission "Strike Breakers [mining]"
 		random < 10
 		"passenger space" > 20
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Cartel"
 	destination
 		attributes "mining"
 		distance 2 20
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Cartel"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -2117,7 +2233,7 @@ mission "Strike Breakers [textile]"
 		random < 10
 		"passenger space" > 20
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Cartel"
 	destination
 		attributes "textiles"
 		distance 2 20
@@ -2139,11 +2255,11 @@ mission "Strike Breakers [factory]"
 		random < 10
 		"passenger space" > 20
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Cartel"
 	destination
 		attributes "factory"
 		distance 2 20
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Cartel"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -2166,7 +2282,7 @@ mission "Colonists [0]"
 	destination
 		attributes "frontier" "dirt belt" "south" "farming" "mining" "rim" "forest"
 		distance 2 20
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Zenithite" "Mesans"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -2189,7 +2305,7 @@ mission "Colonists [1]"
 	destination
 		attributes "frontier" "dirt belt" "south" "farming" "mining" "rim" "forest"
 		distance 4 30
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Zenithite" "Mesans"
 	on visit
 		dialog phrase "generic passenger on visit"
 	on complete
@@ -2791,7 +2907,7 @@ mission "Bounty Hunting (Marauder I)"
 				"combat rating" < 1200
 				random < 35
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
@@ -2819,7 +2935,8 @@ mission "Bounty Hunting (Marauder II)"
 				"combat rating" < 1800
 				random < 30
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
+
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
@@ -2847,7 +2964,7 @@ mission "Bounty Hunting (Marauder III)"
 				"combat rating" < 2200
 				random < 25
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
@@ -2875,7 +2992,7 @@ mission "Bounty Hunting (Marauder IV)"
 				"combat rating" < 2700
 				random < 30
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
@@ -2903,7 +3020,7 @@ mission "Bounty Hunting (Marauder V)"
 				"combat rating" < 3500
 				random < 25
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
@@ -2932,7 +3049,7 @@ mission "Bounty Hunting (Marauder VI)"
 				"combat rating" < 5000
 				random < 20
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
@@ -2956,7 +3073,7 @@ mission "Bounty Hunting (Marauder VII)"
 		"combat rating" > 2980
 		random < 20
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
@@ -2980,7 +3097,7 @@ mission "Bounty Hunting (Marauder VIII)"
 		"combat rating" > 4000
 		random < 15
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"
@@ -3004,7 +3121,7 @@ mission "Bounty Hunting (Marauder IX)"
 		"combat rating" > 6000
 		random < 10
 	source
-		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent"
+		government "Republic" "Free Worlds" "Syndicate" "Neutral" "Independent" "Privateer" "Cartel" "Mesans" "Zenithites"
 		attributes "rim" "south" "north" "dirt belt" "core" "frontier"
 	npc kill
 		government "Bounty"

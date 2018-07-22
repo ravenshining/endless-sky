@@ -177,7 +177,7 @@ government "Independent"
 	"fine" 0
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
-	raid "Large Southern Pirates"
+	raid "pirate raid"
 
 government " Independent "
 	"display name" "Independent"
@@ -321,6 +321,7 @@ government "Merchant"
 	"attitude toward"
 		"Pirate" -.2
 		"Korath" -.2
+		"Buccaneer" -.2
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly civilian"
@@ -334,6 +335,7 @@ government "Militia"
 	"attitude toward"
 		"Merchant" .3
 		"Pirate" -.4
+		"Buccaneer" -.2
 	"bribe" .1
 	"friendly hail" "friendly militia"
 	"hostile hail" "hostile militia"
@@ -345,6 +347,8 @@ government "Navy Intelligence"
 	"attitude toward"
 		"Syndicate" -.1
 		"Pirate" -.3
+		"Buccaneer" -.2
+		"Privateer" -.3
 
 government "Navy (Oathkeeper)"
 	swizzle 0
@@ -361,6 +365,10 @@ government "Navy (Oathkeeper)"
 		"Kor Sestor" -.1
 		"Kor Mereti" -.1
 		"Navy Intelligence" 1
+		"Buccaneer" -.2
+		"Privateer" -.3
+		"East Mesan" -.1
+		"West Mesan" -.1
 	"friendly hail" "friendly navy"
 	"hostile hail" "hostile navy"
 
@@ -394,6 +402,8 @@ government "Pirate"
 		"Korath" -.01
 		"Merchant" -.1
 		"Syndicate" -.01
+		"Buccaneer" .3
+		"Privateer" -.01
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly pirate"
@@ -440,6 +450,7 @@ government "Quarg"
 		"Hai" .01
 		" Hai " .01
 		"Pirate" -.01
+		"Buccaneer" -.01
 	"hostile hail" "hostile quarg"
 	"hostile disabled hail" "hostile quarg"
 
@@ -476,6 +487,12 @@ government "Republic"
 		"Navy Intelligence" 1
 		"Navy (Oathkeeper)" 1
 		"Neutral" .1
+		"Zenithite" -.1
+		"East Mesan" -.1
+		"West Mesan" -.1
+		"Buccaneer" -.2
+		"Privateer" -.3
+		"Cartel" -.1
 	"friendly hail" "friendly navy"
 	"hostile hail" "hostile navy"
 	raid "pirate raid"
@@ -489,6 +506,8 @@ government "Syndicate"
 		"Merchant" .3
 		"Pirate" -.4
 		"Korath" -.5
+		"Privateer" -.1
+		"Buccaneer" -.3
 	"bribe" .08
 	"friendly hail" "friendly syndicate"
 	"hostile hail" "hostile syndicate"
@@ -550,3 +569,123 @@ government "Wormhole Alpha"
 	"attitude toward"
 		"Hai" -.01
 		"Hai (Unfettered)" -.01
+
+government "Buccaneer"
+	swizzle 6
+	color .9 0 .3
+	"player reputation" -5
+	"attitude toward"
+		"Author" -.01
+		"Korath" -.3
+		"Merchant" -.1
+		"Syndicate" -.2
+		"Republic" -.1
+		"Cartel" .3
+		"Privateer" .01
+		"Zenithite" .2
+		"Pirate" .01
+		"East Mesan" .2
+		"West Mesan" .2
+		"Independent" .1
+	"bribe" .01
+	"fine" 0
+	"friendly hail" "friendly pirate"
+	"hostile hail" "hostile pirate"
+	raid "pirate raid"
+
+government "Cartel"
+	swizzle 6
+	color .9 0 .2
+	"player reputation" 0
+	"attitude toward"
+		"Korath" -.01
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly civilian"
+	"hostile hail" "hostile pirate"
+	raid "pirate raid"
+
+government "Mesans"
+	swizzle 6
+	"player reputation" -5
+	"attitude toward"
+		"Syndicate" -.1
+		"Republic" -.2
+		"Navy (Oathkeeper)" -.3
+		"Privateer" .2
+		"Zenithite" .2
+		"East Mesan" .3
+		"West Mesan" .3
+	"bribe" .01
+	"fine" 0
+	raid "pirate raid"
+
+government "East Mesan"
+	swizzle 6
+	color .8 .1 0
+	"player reputation" 0
+	"attitude toward"
+		"Syndicate" -.1
+		"Republic" -.2
+		"Navy (Oathkeeper)" -.3
+		"Pirate" -.01
+		"Privateer" .3
+		"Zenithite" .2
+		"Buccaneer" .1
+	"bribe" .01
+	"friendly hail" "friendly free worlds"
+	"hostile hail" "hostile pirate"
+
+government "West Mesan"
+	swizzle 6
+	color .8 .1 0
+	"player reputation" 0
+	"attitude toward"
+		"Syndicate" -.1
+		"Republic" -.2
+		"Navy (Oathkeeper)" -.3
+		"Pirate" -.01
+		"Privateer" .3
+		"Zenithite" .2
+		"Buccaneer" .1
+	"bribe" .01
+	"friendly hail" "friendly free worlds"
+	"hostile hail" "hostile pirate"
+
+government "Zenithite"
+	swizzle 6
+	color .9 0 0
+	"player reputation" 0
+	"attitude toward"
+		"Syndicate" -.1
+		"Republic" -.3
+		"Privateer" .3
+		"Buccaneer" .1
+		"East Mesan" .2
+		"West Mesan" .2
+	"bribe" .01
+	"fine" 0
+	"friendly hail" "friendly free worlds"
+	"hostile hail" "hostile pirate"
+	raid "pirate raid"
+
+government "Privateer"
+	swizzle 6
+	color .9 .2 0
+	"player reputation" -5
+	"attitude toward"
+		"Author" -.01
+		"Merchant" -.01
+		"Syndicate" -.1
+		"Republic" -.2
+		"Navy (Oathkeeper)" -.3
+		"Zenithite" .3
+		"Buccaneer" .1
+		"Pirate" -.01
+		"East Mesan" .2
+		"West Mesan" .2
+	"bribe" .05
+	"fine" 0
+	"friendly hail" "friendly militia"
+	"hostile hail" "hostile pirate"
+	raid "pirate raid"

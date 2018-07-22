@@ -2200,12 +2200,15 @@ system "Al Dhanab"
 	trade Metal 262
 	trade Plastic 317
 	fleet "Small Core Merchants" 400
-	fleet "Large Core Merchants" 400
+	fleet "Large Core Merchants" 500
+	fleet "Cartel" 1600
 	fleet "Small Syndicate" 1000
 	fleet "Large Syndicate" 800
 	fleet "Republic Logistics" 5300
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 3000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 6000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 6000
 	fleet "Human Miners" 2000
 	object
 		sprite star/g0
@@ -2372,7 +2375,7 @@ system Albireo
 
 system Alcyone
 	pos -80 -144
-	government Pirate
+	government Buccaneer
 	habitable 270
 	belt 1438
 	haze _menu/haze-133
@@ -2395,9 +2398,11 @@ system Alcyone
 	trade Medical 705
 	trade Metal 249
 	trade Plastic 439
-	fleet "Small Core Pirates" 400
-	fleet "Large Core Pirates" 600
+	fleet "Small Core Pirates" 500
+	fleet "Large Core Pirates" 800
 	fleet "Large Syndicate" 1200
+	fleet "small Buccaneers" 1600
+	fleet "large Buccaneers" 2400
 	object
 		sprite star/m4
 		distance 45.5
@@ -2507,10 +2512,13 @@ system Alderamin
 	trade Plastic 373
 	fleet "Small Core Merchants" 2000
 	fleet "Large Core Merchants" 3200
+	fleet "Cartel" 1200
 	fleet "Small Syndicate" 800
 	fleet "Large Syndicate" 800
-	fleet "Small Core Pirates" 1000
-	fleet "Large Core Pirates" 1200
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 2400
+	fleet "small Buccaneers" 2000
+	fleet "large Buccaneers" 2400
 	object
 		sprite star/g0
 		distance 36.6569
@@ -2606,7 +2614,7 @@ system Aldhibain
 
 system Algenib
 	pos -118 341
-	government Pirate
+	government Buccaneer
 	habitable 455.625
 	belt 1273
 	link Gienah
@@ -2621,9 +2629,12 @@ system Algenib
 	trade Medical 607
 	trade Metal 293
 	trade Plastic 423
-	fleet "Small Core Pirates" 300
-	fleet "Large Core Pirates" 500
+	fleet "Small Core Pirates" 600
+	fleet "Large Core Pirates" 1000
 	fleet "Large Syndicate" 800
+	fleet "small Buccaneers" 600
+	fleet "large Buccaneers" 1000
+	fleet "Cartel" 600
 	object
 		sprite star/k0-old
 		period 10
@@ -2749,9 +2760,12 @@ system Algol
 	trade Plastic 309
 	fleet "Small Core Merchants" 1600
 	fleet "Large Core Merchants" 4000
-	fleet "Small Core Pirates" 1800
-	fleet "Large Core Pirates" 5000
+	fleet "Small Core Pirates" 2700
+	fleet "Large Core Pirates" 10000
 	fleet "Small Syndicate" 2400
+	fleet "small Buccaneers" 5400
+	fleet "large Buccaneers" 10000
+	fleet "Cartel" 8000
 	object
 		sprite star/k5-old
 		distance 42.7246
@@ -2886,8 +2900,9 @@ system Alheka
 	fleet "Large Republic" 4400
 	fleet "Republic Logistics" 4600
 	fleet "Small Northern Pirates" 2000
-	fleet "Large Northern Pirates" 2000
+	fleet "Large Northern Pirates" 4000
 	fleet "Human Miners" 3000
+	fleet "Privateers" 4000
 	object
 		sprite star/g0
 		period 10
@@ -3102,7 +3117,7 @@ system Alkaid
 
 system Almaaz
 	pos -349 -538
-	government Pirate
+	government Mesans
 	habitable 1080
 	belt 1873
 	haze _menu/haze-33
@@ -3127,8 +3142,12 @@ system Almaaz
 	trade Medical 814
 	trade Metal 523
 	trade Plastic 308
-	fleet "Small Northern Pirates" 500
-	fleet "Large Northern Pirates" 600
+	fleet "Small Northern Pirates" 2000
+	fleet "East Mesans" 500
+	fleet "West Mesans" 500
+	fleet "Zenithites" 1000
+	fleet "Large Northern Pirates" 4000
+	fleet "Privateers" 3000
 	fleet "Large Republic" 4000
 	object
 		sprite star/g0
@@ -3148,7 +3167,7 @@ system Almaaz
 
 system Almach
 	pos -7 232
-	government Pirate
+	government Buccaneer
 	habitable 320
 	belt 1914
 	haze _menu/haze-133
@@ -3172,10 +3191,13 @@ system Almach
 	trade Medical 746
 	trade Metal 338
 	trade Plastic 266
-	fleet "Small Core Pirates" 500
-	fleet "Large Core Pirates" 1400
+	fleet "Small Core Pirates" 1000
+	fleet "Large Core Pirates" 2800
 	fleet "Large Syndicate" 6000
 	fleet "Korath Raid" 20000
+	fleet "small Buccaneers" 1000
+	fleet "large Buccaneers" 2800
+	fleet "Cartel" 3000
 	object
 		sprite star/k5
 		period 10
@@ -3235,11 +3257,14 @@ system Alnair
 	trade Metal 241
 	trade Plastic 467
 	fleet "Small Core Merchants" 2000
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 4000
+	fleet "Small Core Pirates" 6000
+	fleet "Large Core Pirates" 8000
 	fleet "Small Syndicate" 4000
 	fleet "Large Syndicate" 6000
 	fleet "Human Miners" 2000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 8000
+	fleet "Cartel" 4000
 	object
 		sprite star/m4
 		period 10
@@ -3340,7 +3365,7 @@ system Alnasl
 
 system Alnilam
 	pos -487 -513
-	government Pirate
+	government Zenithite
 	habitable 1715
 	belt 1099
 	haze _menu/haze-33
@@ -3364,8 +3389,12 @@ system Alnilam
 	trade Medical 880
 	trade Metal 520
 	trade Plastic 334
-	fleet "Small Northern Pirates" 500
-	fleet "Large Northern Pirates" 700
+	fleet "Small Northern Pirates" 1000
+	fleet "East Mesans" 2000
+	fleet "West Mesans" 2000
+	fleet "Zenithites" 500
+	fleet "Large Northern Pirates" 2000
+	fleet "Privateers" 1500
 	fleet "Large Republic" 10000
 	object
 		sprite star/f5
@@ -3440,8 +3469,12 @@ system Alnitak
 	trade Medical 809
 	trade Metal 318
 	trade Plastic 452
-	fleet "Small Northern Pirates" 3000
-	fleet "Large Northern Pirates" 5000
+	fleet "Small Northern Pirates" 12000
+	fleet "East Mesans" 12000
+	fleet "West Mesans" 12000
+	fleet "Zenithites" 12000
+	fleet "Large Northern Pirates" 10000
+	fleet "Privateers" 10000
 	fleet "Small Republic" 3000
 	fleet "Large Republic" 4000
 	fleet "Republic Logistics" 6000
@@ -3696,12 +3729,15 @@ system "Alpha Hydri"
 	trade Metal 324
 	trade Plastic 390
 	fleet "Small Core Merchants" 900
-	fleet "Large Core Merchants" 3000
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 6000
+	fleet "Large Core Merchants" 4000
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 7000
 	fleet "Small Syndicate" 4000
 	fleet "Large Syndicate" 9000
 	fleet "Korath Raid" 40000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 21000
+	fleet "Cartel" 12000
 	object
 		sprite star/g0
 		distance 24.6857
@@ -3874,8 +3910,11 @@ system Alpheratz
 	fleet "Large Core Merchants" 600
 	fleet "Small Syndicate" 800
 	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 1200
-	fleet "Large Core Pirates" 3000
+	fleet "Small Core Pirates" 2400
+	fleet "Large Core Pirates" 6000
+	fleet "small Buccaneers" 2400
+	fleet "large Buccaneers" 6000
+	fleet "Cartel" 12000
 	object
 		sprite star/g5
 		distance 48.2767
@@ -4133,7 +4172,8 @@ system Ankaa
 	fleet "Small Core Merchants" 600
 	fleet "Large Core Merchants" 700
 	fleet "Small Syndicate" 900
-	fleet "Large Core Pirates" 4000
+	fleet "Large Core Pirates" 5000
+	fleet "large Buccaneers" 20000
 	object
 		sprite star/g5
 		period 10
@@ -4538,7 +4578,7 @@ system Arculus
 
 system Arneb
 	pos -523 -580
-	government Pirate
+	government Privateer
 	habitable 1715
 	belt 1947
 	haze _menu/haze-none
@@ -4557,8 +4597,12 @@ system Arneb
 	trade Medical 890
 	trade Metal 566
 	trade Plastic 358
-	fleet "Small Northern Pirates" 400
-	fleet "Large Northern Pirates" 500
+	fleet "Small Northern Pirates" 3000
+	fleet "East Mesans" 2500
+	fleet "West Mesans" 2500
+	fleet "Zenithites" 2000
+	fleet "Large Northern Pirates" 3500
+	fleet "Privateers" 400
 	fleet "Large Republic" 15000
 	object
 		sprite star/f5
@@ -5049,10 +5093,11 @@ system Bellatrix
 	trade Metal 422
 	trade Plastic 274
 	fleet "Small Core Merchants" 800
-	fleet "Large Core Merchants" 1500
+	fleet "Large Core Merchants" 1200
 	fleet "Small Syndicate" 1000
 	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 3000
+	fleet "Small Core Pirates" 6000
+	fleet "small Buccaneers" 6000
 	object
 		sprite star/k0
 		distance 34.556
@@ -5375,8 +5420,9 @@ system Betelgeuse
 	fleet "Small Republic" 2500
 	fleet "Large Republic" 3500
 	fleet "Republic Logistics" 6000
-	fleet "Large Northern Pirates" 4000
+	fleet "Large Northern Pirates" 8000
 	fleet "Human Miners" 3000
+	fleet "Privateers" 8000
 	object
 		sprite star/g0
 		period 10
@@ -6231,11 +6277,17 @@ system Cardax
 	trade Plastic 424
 	fleet "Small Northern Merchants" 1200
 	fleet "Large Northern Merchants" 3000
-	fleet "Small Northern Pirates" 1000
-	fleet "Large Northern Pirates" 3000
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 9000
 	fleet "Small Core Pirates" 3000
 	fleet "Small Republic" 2000
 	fleet "Large Republic" 5000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 9000
+	fleet "Privateers" 9000
+	fleet "East Mesans" 6000
+	fleet "West Mesans" 6000
+	fleet "Zenithites" 3000
 	object
 		sprite star/g0
 		distance 45.4545
@@ -7300,7 +7352,7 @@ system Dabih
 
 system Danoa
 	pos -239 -321
-	government Republic
+	government Uninhabited
 	habitable 135
 	belt 1689
 	haze _menu/haze-67
@@ -7326,10 +7378,14 @@ system Danoa
 	trade Metal 223
 	trade Plastic 396
 	fleet "Small Northern Merchants" 15000
-	fleet "Small Northern Pirates" 5000
-	fleet "Large Northern Pirates" 16000
-	fleet "Large Republic" 30000
+	fleet "Small Northern Pirates" 15000
+	fleet "Large Northern Pirates" 30000
+	fleet "Quarg" 32000
 	fleet "Human Miners" 1600
+	fleet "Privateers" 32000
+	fleet "East Mesans" 30000
+	fleet "West Mesans" 30000
+	fleet "Zenithites" 15000
 	object
 		sprite star/m4
 		period 10
@@ -7608,10 +7664,12 @@ system "Delta Capricorni"
 	trade Metal 269
 	trade Plastic 292
 	fleet "Small Core Merchants" 700
-	fleet "Large Core Merchants" 800
+	fleet "Large Core Merchants" 900
 	fleet "Small Syndicate" 2000
-	fleet "Small Core Pirates" 4000
+	fleet "Small Core Pirates" 5000
 	fleet "Human Miners" 3000
+	fleet "small Buccaneers" 20000
+	fleet "Cartel" 7200
 	object
 		sprite star/g5
 		distance 29.7539
@@ -8373,10 +8431,12 @@ system Durax
 	trade Medical 791
 	trade Metal 329
 	trade Plastic 372
-	fleet "Small Core Pirates" 600
-	fleet "Large Core Pirates" 900
+	fleet "Small Core Pirates" 1200
+	fleet "Large Core Pirates" 1800
 	fleet "Large Syndicate" 2500
 	fleet "Korath Raid" 5000
+	fleet "small Buccaneers" 1200
+	fleet "large Buccaneers" 1800
 	object
 		sprite star/g0-old
 		period 10
@@ -10937,10 +10997,12 @@ system "Gamma Cassiopeiae"
 	trade Medical 694
 	trade Metal 261
 	trade Plastic 284
-	fleet "Small Core Pirates" 1000
-	fleet "Large Core Pirates" 2000
+	fleet "Small Core Pirates" 2000
+	fleet "Large Core Pirates" 4000
 	fleet "Large Syndicate" 5000
 	fleet "Human Miners" 2000
+	fleet "small Buccaneers" 2000
+	fleet "large Buccaneers" 4000
 	object
 		sprite star/k0-old
 		period 10
@@ -11093,7 +11155,7 @@ system Gerenus
 
 system Gienah
 	pos -176 354
-	government Pirate
+	government Cartel
 	habitable 534.375
 	belt 1939
 	link Persian
@@ -11117,9 +11179,13 @@ system Gienah
 	trade Medical 600
 	trade Metal 245
 	trade Plastic 460
-	fleet "Small Core Pirates" 500
-	fleet "Large Core Pirates" 800
+	fleet "Cartel" 500
+	fleet "Small Core Pirates" 3000
+	fleet "Large Core Pirates" 20000
 	fleet "Large Syndicate" 5000
+	fleet "small Buccaneers" 900
+	fleet "large Buccaneers" 10000
+	fleet "Cartel" 600
 	object
 		sprite star/k5-old
 		distance 31.893
@@ -11521,10 +11587,14 @@ system Gorvi
 	trade Medical 882
 	trade Metal 514
 	trade Plastic 455
-	fleet "Small Northern Pirates" 1000
-	fleet "Large Northern Pirates" 1000
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 2000
 	fleet "Large Republic" 4000
-	fleet "Small Northern Merchants" 8000
+	fleet "Human Miners" 8000
+	fleet "Privateers" 2000
+	fleet "East Mesans" 6000
+	fleet "West Mesans" 6000
+	fleet "Zenithites" 3000
 	object
 		sprite star/wr
 		period 100
@@ -11761,10 +11831,13 @@ system Hamal
 	trade Metal 332
 	trade Plastic 404
 	fleet "Small Core Merchants" 1000
-	fleet "Large Core Merchants" 1000
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 8000
+	fleet "Large Core Merchants" 1100
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 9000
 	fleet "Small Syndicate" 4000
+	fleet "small Buccaneers" 12000
+	fleet "large Buccaneers" 72000
+	fleet "Cartel" 10000
 	object
 		sprite star/g0
 		period 10
@@ -11877,10 +11950,14 @@ system Hassaleh
 	trade Metal 265
 	trade Plastic 462
 	fleet "Small Northern Merchants" 9000
-	fleet "Small Northern Pirates" 6000
-	fleet "Large Northern Pirates" 20000
+	fleet "Small Northern Pirates" 18000
+	fleet "Large Northern Pirates" 40000
 	fleet "Large Republic" 20000
 	fleet "Human Miners" 2000
+	fleet "Privateers" 40000
+	fleet "East Mesans" 36000
+	fleet "West Mesans" 36000
+	fleet "Zenithites" 18000
 	object
 		sprite star/k0
 		distance 36.1558
@@ -11934,9 +12011,13 @@ system Hatysa
 	trade Medical 863
 	trade Metal 546
 	trade Plastic 330
-	fleet "Small Northern Pirates" 600
-	fleet "Large Northern Pirates" 1000
+	fleet "Small Northern Pirates" 1800
+	fleet "Large Northern Pirates" 2000
 	fleet "Large Republic" 15000
+	fleet "Privateers" 2000
+	fleet "East Mesans" 3600
+	fleet "West Mesans" 3600
+	fleet "Zenithites" 1800
 	object
 		sprite star/k0
 		distance 13.6124
@@ -15584,11 +15665,14 @@ system Matar
 	trade Metal 209
 	trade Plastic 407
 	fleet "Small Core Merchants" 2000
-	fleet "Large Core Merchants" 2500
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 4000
+	fleet "Large Core Merchants" 5000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 8000
 	fleet "Small Syndicate" 3000
 	fleet "Large Syndicate" 6000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 8000
+	fleet "Cartel" 5000
 	object
 		sprite star/k0
 		period 10
@@ -16170,8 +16254,9 @@ system Menkar
 	fleet "Large Core Merchants" 1000
 	fleet "Small Syndicate" 1500
 	fleet "Large Syndicate" 2000
-	fleet "Large Core Pirates" 4000
+	fleet "Large Core Pirates" 8000
 	fleet "Human Miners" 2000
+	fleet "large Buccaneers" 8000
 	object
 		sprite star/k0
 		period 10
@@ -16698,11 +16783,15 @@ system Mintaka
 	trade Medical 826
 	trade Metal 432
 	trade Plastic 370
-	fleet "Small Northern Pirates" 2000
-	fleet "Large Northern Pirates" 2000
+	fleet "Small Northern Pirates" 6000
+	fleet "Large Northern Pirates" 4000
 	fleet "Large Republic" 5000
 	fleet "Small Northern Merchants" 4000
 	fleet "Human Miners" 2000
+	fleet "Privateers" 4000
+	fleet "East Mesans" 18000
+	fleet "West Mesans" 18000
+	fleet "Zenithites" 6000
 	object
 		sprite star/k0
 		distance 34.4496
@@ -16762,11 +16851,13 @@ system Mirach
 	trade Metal 267
 	trade Plastic 299
 	fleet "Small Core Merchants" 1000
-	fleet "Large Core Merchants" 1200
-	fleet "Small Core Pirates" 4000
+	fleet "Large Core Merchants" 1500
+	fleet "Small Core Pirates" 8000
 	fleet "Small Syndicate" 3000
 	fleet "Large Syndicate" 5000
 	fleet "Human Miners" 3000
+	fleet "small Buccaneers" 8000
+	fleet "Cartel" 4800
 	object
 		sprite star/m0
 		distance 21.1004
@@ -17000,8 +17091,12 @@ system Moktar
 	fleet "Large Core Merchants" 2000
 	fleet "Small Syndicate" 3000
 	fleet "Large Syndicate" 4000
-	fleet "Small Core Pirates" 2000
-	fleet "Small Northern Pirates" 3000
+	fleet "Small Core Pirates" 4000
+	fleet "Small Northern Pirates" 4000
+	fleet "East Mesans" 48000
+	fleet "West Mesans" 48000
+	fleet "Zenithites" 24000
+	fleet "small Buccaneers" 4000
 	object
 		sprite star/k5
 		distance 29.0769
@@ -17696,9 +17791,11 @@ system Oblate
 	trade Medical 656
 	trade Metal 328
 	trade Plastic 399
-	fleet "Small Core Pirates" 600
-	fleet "Large Core Pirates" 1000
+	fleet "Small Core Pirates" 1200
+	fleet "Large Core Pirates" 2000
 	fleet "Large Syndicate" 3000
+	fleet "small Buccaneers" 1200
+	fleet "large Buccaneers" 2000
 	object
 		sprite star/giant
 		period 10
@@ -18493,9 +18590,12 @@ system Persian
 	trade Plastic 502
 	fleet "Small Syndicate" 800
 	fleet "Large Syndicate" 1200
-	fleet "Small Core Pirates" 600
-	fleet "Large Core Pirates" 2000
+	fleet "Small Core Pirates" 1200
+	fleet "Large Core Pirates" 12000
 	fleet "Human Miners" 3000
+	fleet "small Buccaneers" 1200
+	fleet "large Buccaneers" 12000
+	fleet "Cartel" 3000
 	object
 		sprite star/f5-old
 		distance 27.8124
@@ -18942,9 +19042,11 @@ system Polaris
 	fleet "Small Core Merchants" 600
 	fleet "Large Core Merchants" 700
 	fleet "Small Syndicate" 1000
-	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 1500
+	fleet "Large Syndicate" 3000
+	fleet "Small Core Pirates" 3000
 	fleet "Korath Raid" 50000
+	fleet "small Buccaneers" 3000
+	fleet "Cartel" 6000
 	object
 		sprite star/k5
 		period 10
@@ -19736,7 +19838,7 @@ system Queri
 
 system Rajak
 	pos -270 -236
-	government Republic
+	government Uninhabited
 	habitable 78.125
 	belt 1410
 	haze _menu/haze-67
@@ -19759,8 +19861,13 @@ system Rajak
 	trade Medical 672
 	trade Metal 341
 	trade Plastic 415
-	fleet "Small Northern Pirates" 4000
-	fleet "Large Northern Pirates" 10000
+	fleet "Small Northern Merchants" 30000
+	fleet "Small Northern Pirates" 12000
+	fleet "Large Northern Pirates" 30000
+	fleet "Privateers" 30000
+	fleet "East Mesans" 24000
+	fleet "West Mesans" 24000
+	fleet "Zenithites" 12000
 	object
 		sprite star/m8
 		period 10
@@ -20277,9 +20384,13 @@ system Rigel
 	fleet "Small Republic" 3500
 	fleet "Large Republic" 7000
 	fleet "Republic Logistics" 7000
-	fleet "Small Northern Pirates" 3000
-	fleet "Large Northern Pirates" 5000
+	fleet "Small Northern Pirates" 9000
+	fleet "Large Northern Pirates" 10000
 	fleet "Human Miners" 2000
+	fleet "Privateers" 10000
+	fleet "East Mesans" 18000
+	fleet "West Mesans" 18000
+	fleet "Zenithites" 9000
 	object
 		sprite star/g0
 		period 10
@@ -20423,11 +20534,14 @@ system Ruchbah
 	trade Metal 334
 	trade Plastic 353
 	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 600
+	fleet "Large Core Merchants" 700
 	fleet "Small Syndicate" 1000
 	fleet "Large Syndicate" 2000
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 3000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 6000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 6000
+	fleet "Cartel" 4200
 	object
 		sprite star/f0
 		period 10
@@ -20853,10 +20967,14 @@ system Saiph
 	trade Plastic 473
 	fleet "Small Northern Merchants" 1200
 	fleet "Large Northern Merchants" 2000
-	fleet "Small Northern Pirates" 2000
-	fleet "Large Northern Pirates" 3000
+	fleet "Small Northern Pirates" 3000
+	fleet "Large Northern Pirates" 4000
 	fleet "Small Republic" 4000
 	fleet "Large Republic" 7000
+	fleet "Privateers" 12000
+	fleet "East Mesans" 24000
+	fleet "West Mesans" 24000
+	fleet "Zenithites" 12000
 	object
 		sprite star/k5
 		period 10
@@ -21152,12 +21270,15 @@ system Scheat
 	trade Metal 259
 	trade Plastic 312
 	fleet "Small Core Merchants" 500
-	fleet "Large Core Merchants" 600
+	fleet "Large Core Merchants" 700
 	fleet "Small Syndicate" 1000
 	fleet "Large Syndicate" 2000
 	fleet "Republic Logistics" 4700
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 5000
+	fleet "Small Core Pirates" 6000
+	fleet "Large Core Pirates" 10000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 10000
+	fleet "Cartel" 4200
 	object
 		sprite star/g5
 		period 10
@@ -21213,11 +21334,14 @@ system Schedar
 	trade Metal 325
 	trade Plastic 279
 	fleet "Small Core Merchants" 900
-	fleet "Large Core Merchants" 1000
+	fleet "Large Core Merchants" 1100
 	fleet "Small Syndicate" 3000
 	fleet "Large Syndicate" 4000
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 3000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 6000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 6000
+	fleet "Cartel" 10000
 	object
 		sprite star/g0
 		period 10
@@ -21686,9 +21810,11 @@ system Sheratan
 	trade Plastic 355
 	fleet "Small Core Merchants" 1500
 	fleet "Large Core Merchants" 1800
-	fleet "Small Core Pirates" 3000
-	fleet "Large Core Pirates" 5000
+	fleet "Small Core Pirates" 6000
+	fleet "Large Core Pirates" 10000
 	fleet "Korath Raid" 30000
+	fleet "small Buccaneers" 6000
+	fleet "large Buccaneers" 10000
 	object
 		sprite star/f5
 		distance 21.0713
@@ -23122,7 +23248,7 @@ system Suhail
 
 system Sumar
 	pos -236 -273
-	government Republic
+	government Uninhabited
 	habitable 2560
 	belt 1778
 	link Cardax
@@ -23140,9 +23266,13 @@ system Sumar
 	trade Medical 713
 	trade Metal 306
 	trade Plastic 408
-	fleet "Small Northern Pirates" 2000
-	fleet "Large Northern Pirates" 6000
-	fleet "Large Republic" 30000
+	fleet "Small Northern Pirates" 6000
+	fleet "Large Northern Pirates" 12000
+	fleet "Quarg" 30000
+	fleet "Privateers" 12000
+	fleet "East Mesans" 12000
+	fleet "West Mesans" 12000
+	fleet "Zenithites" 6000
 	object
 		sprite star/f0
 		period 10
@@ -23837,10 +23967,14 @@ system Tortor
 	trade Medical 845
 	trade Metal 493
 	trade Plastic 431
-	fleet "Small Northern Pirates" 1000
-	fleet "Large Northern Pirates" 1000
+	fleet "Small Northern Pirates" 2000
+	fleet "Large Northern Pirates" 3000
 	fleet "Large Republic" 6000
-	fleet "Small Northern Merchants" 6000
+	fleet "Human Miners" 6000
+	fleet "Privateers" 4000
+	fleet "East Mesans" 6000
+	fleet "West Mesans" 6000
+	fleet "Zenithites" 3000
 	object
 		sprite star/k0
 		period 10
@@ -24161,8 +24295,12 @@ system Unagi
 	trade Medical 797
 	trade Metal 479
 	trade Plastic 364
-	fleet "Small Northern Pirates" 1500
-	fleet "Large Northern Pirates" 3000
+	fleet "Small Northern Pirates" 5000
+	fleet "Large Northern Pirates" 6000
+	fleet "Privateers" 6000
+	fleet "East Mesans" 7500
+	fleet "West Mesans" 7500
+	fleet "Zenithites" 5000
 	object
 		sprite star/k5
 		period 10
@@ -24492,10 +24630,14 @@ system Volax
 	trade Plastic 423
 	fleet "Small Northern Merchants" 1500
 	fleet "Large Northern Merchants" 3000
-	fleet "Small Northern Pirates" 1000
-	fleet "Large Northern Pirates" 3000
+	fleet "Small Northern Pirates" 1100
+	fleet "Large Northern Pirates" 4000
 	fleet "Small Republic" 5000
 	fleet "Large Republic" 9000
+	fleet "Privateers" 12000
+	fleet "East Mesans" 40000
+	fleet "West Mesans" 40000
+	fleet "Zenithites" 20000
 	object
 		sprite star/f5
 		period 10
@@ -25214,9 +25356,11 @@ system Zaurak
 	fleet "Large Core Merchants" 1000
 	fleet "Small Syndicate" 1600
 	fleet "Large Syndicate" 2500
-	fleet "Small Core Pirates" 2000
-	fleet "Large Core Pirates" 4000
+	fleet "Small Core Pirates" 4000
+	fleet "Large Core Pirates" 8000
 	fleet "Human Miners" 2000
+	fleet "small Buccaneers" 4000
+	fleet "large Buccaneers" 8000
 	object
 		sprite star/g5
 		period 10
@@ -25684,7 +25828,7 @@ planet Aksaray
 	government Uninhabited
 	
 planet Albatross
-	attributes pirate "south pirate" south frontier
+	attributes pirate south frontier
 	landscape land/snow6
 	description `Albatross is a cold ocean world orbiting a small, cold sun. The first settlers on Albatross were anarchists who believed that in a society free from unnatural laws and constraints, everyone would happily and freely work for the common good. The next settlers were pirates who believed that a planet free from laws and constraints would be a great base of operations.`
 	description `	The anarchist farming communes, each operating independently but trading with outsiders to gain necessary supplies, are clustered in the barely temperate climate near the equator. The pirate bases, having a much more ready source of supplies, are located wherever there are flat landing areas close to craggy, defensible mountains.`
@@ -25902,7 +26046,7 @@ planet Bivrost
 		fleet "Large Deep Security" 35
 
 planet Bloodsea
-	attributes pirate "south pirate" south frontier
+	attributes pirate south frontier
 	landscape land/beach5
 	description `Bloodsea is nearly uninhabited, except for a few pirate outposts. Its name comes from the planet's oceans, which are blood-red due to rhodophyte algae. Although the climate is temperate and there are many white sand beaches, no one comes here hoping to go swimming.`
 	description `	The pirates have no industry of their own, but instead make a living by reselling stolen cargo from raids on merchant fleets.`
@@ -25997,7 +26141,7 @@ planet "Bright Echo"
 	outfitter "Coalition Basics"
 
 planet "Buccaneer Bay"
-	attributes pirate "core pirate" core frontier
+	attributes pirate core frontier tourism
 	landscape land/beach0
 	description `Pirates who have struck it rich dream of retiring on Buccaneer Bay. It is a warm ocean planet, with many places reminiscent of the islands in the ancient Caribbean where humanity's first pirate fleets sailed.`
 	description `	Many of the inhabitants are in fact not pirates, but their descendants, and these children and grand-children of anarchist outlaws have built a system of regional government that oversees hospitals, schools, and other public services, all created without funding from the Republic or taxes paid to it. The planet even sports its own shipyard, although many of the ships built here are, not surprisingly, based on designs pirated from the Syndicate and Republic shipyards.`
@@ -26238,7 +26382,7 @@ planet "Corral of Meblumem"
 	"required reputation" 15
 
 planet Covert
-	attributes pirate mining "core pirate" core frontier
+	attributes pirate mining factory core
 	landscape land/badlands2
 	description `Covert is home to a powerful mining cartel, operating outside the control of Republic law or any other external authority. It is rumored to be one of the few planets in human space where weapons-grade uranium and plutonium is mined and enriched. Any goods for sale here were most likely produced by slave labor, often by survivors of ships that have been captured by pirates. A massive pirate fleet is docked on the outskirts of the spaceport, a warning to any private pilot who might think of cheating or opposing the cartel.`
 	spaceport `From the moment you landed, you have been followed by a pair of security guards with earpieces and laser guns. The spaceport is one enormous building, with square, straight hallways and featureless walls, and nearly every door you pass is locked. Cameras at each hallway intersection pivot to watch as you approach. This is simultaneously one of the most secure spaceports you have visited, and one of the most dangerous, although if you do not do anything to provoke the animosity of the cartel, you will probably be able to leave in peace.`
@@ -26314,7 +26458,7 @@ planet Darkwaste
 	description `This planet seems to have all the conditions necessary for a vibrant, Earth-like ecology. The gravity and temperature are moderate, and there is a fair amount of surface water, although the oceans are quite small. However, aside from a few stunted plants and lichen, there is almost no native life here. Given how skilled the Hai appear to be at terraforming other worlds, it is strange that this one has been left barren.`
 
 planet "Deadman's Cove"
-	attributes pirate "core pirate" core frontier
+	attributes pirate core frontier
 	landscape land/sea1
 	description `Deadman's Cove is an ocean planet; the continents take up only a tenth of its surface area. Legends tell of massive sea creatures hiding in the deeps: serpents hundreds of meters long; colossal sea turtles; strange tentacled monsters and exotic fish.`
 	description `	One island archipelago is home to the spaceport, the only part of the planet where it is safe to land uninvited. The other islands - even some that seem from a distance to be uninhabited - are often used as staging bases for pirate fleets, who guard their secrets closely.`
@@ -26745,7 +26889,7 @@ planet "Fourth Shadow"
 	spaceport `The spaceport is crowded with travelers, about equally divided between those who are freshly arriving, drawn by the promise of plentiful work and a cheap cost of living, and those who are preparing to leave and attempt to build a better life somewhere else. Most Kimek choose to specialize as workers rather than raising families, so the vast majority of the travelers are alone or traveling only with a loosely knit group of friends.`
 
 planet Freedom
-	attributes pirate farming "north pirate" north frontier
+	attributes pirate farming north frontier
 	landscape land/bwerner7
 	description `Freedom is home to the oldest and largest anarchist colonies in human history. The original settlers arrived in the first century after the invention of the hyperdrive, coming with the goal of simply getting as far away from civilization as possible. The colony has reinvented itself countless times since then as different leaders have taken control, and in fact at present it is split into two separate towns, East Mesa and West Mesa.`
 	description `	The environment is a mix of deserts and brackish oceans, with a fair amount of native wildlife and good potential for farming. Anywhere else in human space, this planet would have become densely settled, but out here it has remained mostly empty.`
@@ -26911,7 +27055,7 @@ planet Greenbloom
 	security 0.1
 
 planet Greenrock
-	attributes pirate "south pirate" south frontier
+	attributes pirate south frontier
 	landscape land/sky0
 	description `Greenrock is the closest thing that the pirates in southern human space have to a center of government, but taking the form of large, powerful corporations rather than elected officials. When rival pirate bands seek to negotiate on neutral territory, this is where they meet. Nearly everything is for sale here: illegal weapons, ships customized for pirating, and even slaves.`
 	spaceport `You have heard enough about this port's reputation that you are not surprised to see the slave markets, heavily guarded in case any visitors happen to find themselves in possession of a conscience. Nor are you shocked by the shady establishments catering to all manner of prurient interests. This is, after all, a pirate port, and everything is for sale here.`
@@ -26979,7 +27123,7 @@ planet Harmony
 	security 0
 
 planet Haven
-	attributes pirate mining "north pirate" north frontier
+	attributes pirate mining north frontier
 	landscape land/dune1
 	description `Haven was founded by highly successful "privateers" nearly two centuries ago. Since then, as rival bands of pirates have fought over it, it has changed hands fourteen times, but has never been successfully invaded by the Republic. Numerous small manufacturing shops sell outfits that cannot be bought legally, and there is even a small shipyard where customized ships are sold to those who have the right connections.`
 	description `	Much of the planet is desert, but with enough moisture to grow enough crops to feed the entire population. Strip mining has turned other parts of the planet into barren wastelands, and has polluted many of the rivers.`
@@ -28597,7 +28741,7 @@ planet Slylandro
 	description `Far beneath the swirling blue surface of Slylandro's atmosphere, void sprites and other strange creatures float about. As improbable as it may seem, the void sprites must have somehow evolved the capability to manipulate gravity fields, because every once in a while one of them will rise up from the surface powered by an antigravity field similar to the landing repulsors used by human ships. When they do so, the decrease in atmospheric pressure causes them to nearly double in size.`
 
 planet "Smuggler's Den"
-	attributes pirate station "south pirate" south frontier
+	attributes pirate station south frontier
 	landscape land/loc1
 	description `Smuggler's Den was formerly known as Grendel Station, back when it was an operating refinery. But, it has since been taken over by pirates, who turned it into a haven for all manner of smugglers and privateers. As a hub of pirate activity, Smuggler's Den has access to fenced goods from beyond the region, resulting in repair shops that can make a variety of legal and illegal modifications to your ship. This confluence also provides the opportunity to buy refurbished starships... if it does not trouble your conscience to think about the likely fates of their previous owners. Rumor has it that pilots with the right connections may be able to purchase heavily modified ships here.`
 	spaceport `It is a strange but indisputable fact that pirates smell worse than ordinary human beings. In this day and age, where even the cheapest shuttlecraft at least has a sonic shower, there is no logical explanation for it, except that anarchist tendencies must somehow go hand in hand with a tendency to reject society's norms around hygiene. Here in a space station, with nothing but recycled air to breathe, the effect is overpowering.`
@@ -28718,7 +28862,7 @@ planet Stonebreak
 	security 0.3
 
 planet Stormhold
-	attributes pirate "core pirate" core frontier
+	attributes pirate core frontier
 	landscape land/fog3
 	description `A cold planet, with dense, foggy atmosphere. As with many pirate outposts, Stormhold is home to an unknown number of villages and hidden outposts, each controlled by a different pirate faction. It is also said that some of the most dangerous fugitives in the galaxy live deep in the forests of this planet, escaping detection by living underground or by avoiding the use of electronic devices.`
 	spaceport `The spaceport is a large town, with a population of roughly thirty thousand. People of all races and cultures mingle freely, while keeping a wary eye open for off-worlders who may be Republic agents in disguise.`
@@ -28818,7 +28962,7 @@ planet Thrall
 		fleet "Large Republic" 8
 
 planet Thule
-	attributes pirate "south pirate" south frontier
+	attributes pirate south frontier
 	landscape land/dmottl2
 	description `Thule is a mountainous world with a population of nearly a billion, settled in the early days of space exploration. When the colony was first established, the Earth government did not yet have the strength to control any system but its own, and when the Republic was formed, Thule did not join, and has repulsed all efforts to force them to do so. It is well-known that the planet sponsors pirate fleets which bring it cheap materials to bolster its economy, but the planet is so far from the center of Republic space that fighting a war here would be prohibitively expensive, and so they remain unopposed.`
 	spaceport `The inhabitants of Thule are notoriously suspicious of strangers. They all seem to immediately recognize you as an off-worlder, perhaps by your clothing or your accent. The food sold in the shops is like nothing you have seen elsewhere, and the natives' accents are so strong that they almost seem to be speaking a different language. You feel as if you are visiting an alien world; centuries of separation has created a culture here that is very different from your own.`
@@ -29293,7 +29437,7 @@ planet Yedikule
 	government Uninhabited
 
 planet Zenith
-	attributes pirate "north pirate" north frontier
+	attributes pirate north frontier
 	landscape land/water4
 	description `Zenith is a cold and unpleasant world, where the fog seldom lifts and the sun is rarely seen, where much of the lowlands are flooded each day by the tide, and storms are unpredictable and fierce. It has, however, one major advantage as a place to settle: it is far enough away that the Republic makes no attempt to control it.`
 	description `	Several villages have been founded near the equator, and in addition there are an unknown number of private holdings, ranging from underground bunkers to enormous cement fortresses. Because the land is owned by no government and anyone can build a dwelling without permission or paperwork as long as they are willing to fight off any other claimants, the total population of Zenith is unknown.`
