@@ -298,9 +298,10 @@ void ShipyardPanel::BuyShip(const string &name)
 	if(licenseCost)
 	{
 		player.Accounts().AddCredits(-licenseCost);
-		for(const string &licenseName : selectedShip->Attributes().Licenses())
-			if(player.GetCondition("license: " + licenseName) <= 0)
-				player.Conditions()["license: " + licenseName] = true;
+		const vector<string> &licenses = selectedShip->Licenses(player.GetSystem()->GetGovernment());
+		for(const string &name : licenses)
+			if(player.GetCondition("license: " + name) <= 0)
+				player.Conditions()["license: " + name] = true;
 	}
 	
 	for(int i = 1; i <= modifier; ++i)
@@ -338,4 +339,26 @@ void ShipyardPanel::SellShip()
 	if(playerShip)
 		playerShips.insert(playerShip);
 	player.UpdateCargoCapacities();
+}
+
+	playerShip = player.Flagship();
+	if(playerShip)
+		playerShips.insert(playerShip);
+}
+
+
+
+int64_t ShipyardPanel::LicenseCost() const
+{
+	int64_t cost = 0;
+	const vector<string> &licenses = selectedShip->Licenses(player.GetSystem()->GetGovernment());
+	for(const string &name : licenses)
+		if(player.GetCondition("license: " + name) <= 0)
+		{
+			const Outfit *outfit = GameData::Outfits().Get(name + " License");
+			if(!outfit->Cost())
+				return -1;
+			cost += outfit->Cost();
+		}
+	return cost;
 }

@@ -138,6 +138,8 @@ public:
 	// Check if this ship is configured in such a way that it would be difficult
 	// or impossible to fly.
 	std::string FlightCheck() const;
+	// Get the licenses needed to buy or operate this ship.
+	const std::vector<std::string> &Licenses(const Government *government) const;
 	
 	void SetPosition(Point position);
 	// When creating a new ship, you must set the following:
@@ -413,6 +415,10 @@ private:
 	// Characteristics of this particular ship:
 	std::string name;
 	bool canBeCarried = false;
+	const Government *government = nullptr;
+	
+	// Licenses needed to operate this ship.
+	std::map<const Government *, std::vector<std::string>> licenses;
 	
 	int forget = 0;
 	bool isInSystem = true;

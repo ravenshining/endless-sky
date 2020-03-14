@@ -186,7 +186,7 @@ ship "Bactrian"
 	sprite "ship/bactrian"
 	thumbnail "thumbnail/bactrian"
 	attributes
-		licenses
+		licenses Republic
 			City-Ship
 		category "Heavy Warship"
 		"cost" 17600000
@@ -396,7 +396,7 @@ ship "Bastion"
 	explode "medium explosion" 30
 	explode "large explosion" 20
 	"final explode" "final explosion medium"
-	description "The Southbound Shipyards Bastion is designed as a heavy defense platform to accompany freighter convoys, in addition to having enough cargo capacity to serve as a freighter in its own right. Because of its heavy armament, it is classified as a warship rather than a freighter."
+	description "The Southbound Shipyards Bastion is designed as a heavy defense platform to accompany freighter convoys, in addition to having enough cargo capacity to serve as a freighter in its own right. Because of its heavy armament, it is classified as a Warship, and throughout Republic space any captain without a warship license is barred from purchasing or operating a Bastion."
 
 
 
@@ -712,7 +712,7 @@ ship "Carrier"
 	thumbnail "thumbnail/carrier"
 	attributes
 		category "Heavy Warship"
-		licenses
+		licenses Republic
 			Navy
 			Carrier
 		"cost" 15200000
@@ -916,7 +916,7 @@ ship "Combat Drone"
 	thumbnail "thumbnail/combat drone"
 	attributes
 		category "Drone"
-		licenses
+		licenses Republic
 			Navy
 		"cost" 83000
 		"hull" 700
@@ -1014,7 +1014,7 @@ ship "Cruiser"
 	thumbnail "thumbnail/cruiser"
 	attributes
 		category "Heavy Warship"
-		licenses
+		licenses Republic
 			Navy
 			Cruiser
 		"cost" 11200000
@@ -1135,7 +1135,7 @@ ship "Dreadnought"
 	thumbnail "thumbnail/dreadnought"
 	attributes
 		category "Heavy Warship"
-		licenses
+		licenses "Free Worlds"
 			"Militia"
 		"cost" 11900000
 		"shields" 18100
@@ -1467,7 +1467,7 @@ ship "Frigate"
 	thumbnail "thumbnail/frigate"
 	attributes
 		category "Medium Warship"
-		licenses
+		licenses Republic
 			Navy
 		"cost" 5200000
 		"shields" 8000
@@ -1583,7 +1583,7 @@ ship "Gunboat"
 	thumbnail "thumbnail/gunboat"
 	attributes
 		category "Light Warship"
-		licenses
+		licenses Republic
 			Navy
 		"cost" 3200000
 		"shields" 5800
@@ -2470,7 +2470,7 @@ ship "Rainmaker"
 	thumbnail "thumbnail/rainmaker"
 	attributes
 		category "Light Warship"
-		licenses
+		licenses Republic
 			Navy
 		"cost" 1580000
 		"shields" 3500
@@ -2744,7 +2744,7 @@ ship "Skein"
 	thumbnail "thumbnail/skein"
 	attributes
 		category "Medium Warship"
-		licenses
+		licenses "Free Worlds"
 			"Militia"
 		"cost" 3500000
 		"shields" 3300
@@ -3017,7 +3017,7 @@ ship "Surveillance Drone"
 	thumbnail "thumbnail/surveillance drone"
 	attributes
 		category "Drone"
-		licenses
+		licenses Republic
 			Navy
 		"cost" 50000
 		"hull" 300

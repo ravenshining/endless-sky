@@ -205,6 +205,16 @@ void Ship::Load(const DataNode &node)
 			if(armament.Get().size() == 33)
 				child.PrintTrace("Warning: ship has more than 32 weapon hardpoints. Some weapons may not fire:");
 		}
+		else if(key == "licenses")
+		{
+			const Government *gov = nullptr;
+				if(child.Size() >= 2)
+					gov = GameData::Governments().Get(child.Token(1));
+				
+				vector<string> &vec = licenses[gov];
+				for(const DataNode &grand : child)
+					vec.push_back(grand.Token(0));
+		}
 		else if(key == "never disabled")
 			neverDisabled = true;
 		else if(key == "uncapturable")
@@ -361,6 +371,8 @@ void Ship::FinishLoading(bool isNewInstance)
 			reinterpret_cast<Body &>(*this) = *base;
 		if(customSwizzle == -1)
 			customSwizzle = base->CustomSwizzle();
+		if(licenses.empty())
+			licenses = base->licenses;
 		if(baseAttributes.Attributes().empty())
 			baseAttributes = base->baseAttributes;
 		if(bays.empty() && !base->bays.empty())
@@ -582,6 +594,18 @@ void Ship::Save(DataWriter &out) const
 		if(thumbnail)
 			out.Write("thumbnail", thumbnail->Name());
 		
+		for(const auto &it : licenses)
+		{
+			if(it.first)
+				out.Write("licenses", it.first->GetName());
+			else
+				out.Write("licenses");
+			
+			out.BeginChild();
+			for(const auto &license : it.second)
+				out.Write(license);
+			out.EndChild();
+		}
 		if(neverDisabled)
 			out.Write("never disabled");
 		if(!isCapturable)
@@ -746,6 +770,18 @@ int64_t Ship::Cost() const
 }
 
 
+// Get the licenses needed to buy or operate this ship.
+const vector<string> &Ship::Licenses(const Government *government) const
+{
+	// Find out if we have any licenses specifically for this government. If
+	// not, check if there are any universally required licenses.
+	auto it = licenses.find(government);
+	if(it == licenses.end())
+		it = licenses.find(nullptr);
+	
+	static const vector<string> empty;
+	return (it == licenses.end()) ? empty : it->second;
+}
 
 // Get the cost of this ship's chassis, with no outfits installed.
 int64_t Ship::ChassisCost() const

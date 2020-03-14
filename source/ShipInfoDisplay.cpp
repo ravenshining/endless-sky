@@ -104,6 +104,38 @@ void ShipInfoDisplay::DrawOutfits(const Point &topLeft) const
 void ShipInfoDisplay::DrawSale(const Point &topLeft) const
 {
 	Draw(topLeft, saleLabels, saleValues);
+}
+
+
+
+void ShipInfoDisplay::UpdateDescription(const Ship &ship, const Government *systemGovernment)
+{
+	description.SetAlignment(WrappedText::JUSTIFIED);
+	description.SetWrapWidth(WIDTH - 20);
+	description.SetFont(FontSet::Get(14));
+	
+	const vector<string> &licenses = ship.Licenses(systemGovernment);
+	if(licenses.empty())
+		description.Wrap(ship.Description());
+	else
+	{
+		string text = ship.Description() + "\tTo purchase or operate this ship you must have ";
+		for(unsigned i = 0; i < licenses.size(); ++i)
+		{
+			if(i)
+			{
+				if(licenses.size() > 2)
+					text += ", ";
+				else
+					text += " ";
+			}
+			if(i && i == licenses.size() - 1)
+				text += "and ";
+			text += "a " + licenses[i] + " License";
+		}
+		text += ".";
+		description.Wrap(text);
+	}
 	
 	const Color &color = *GameData::Colors().Get("medium");
 	FillShader::Fill(topLeft + Point(.5 * WIDTH, saleHeight + 8.), Point(WIDTH - 20., 1.), color);
