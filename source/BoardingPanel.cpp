@@ -408,9 +408,9 @@ bool BoardingPanel::KeyDown(SDL_Keycode key, Uint16 mod, const Command &command,
 				isCapturing = false;
 				
 				// If you suffered any casualties, you need to split the value
-				// of the ship with their bereaved families. You get two shares,
-				// and each dead crew member gets one.
-				int64_t bonus = (victim->Cost() * casualties * Depreciation::Full()) / (casualties + 2);
+				// of the ship with their bereaved families. You get three shares,
+				// each dead crew member gets two, and each surviving crewmember gets one.
+				int64_t bonus = (victim->Cost() * 2 * casualties * Depreciation::Full()) / (initialCrew + casualties + 2);
 				deathBenefits += bonus;
 				
 				// Report this ship as captured in case any missions care.
