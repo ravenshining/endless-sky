@@ -323,11 +323,11 @@ const vector<Mortgage> &Account::Mortgages() const
 
 
 
-// Add a new mortgage for the given amount, with an interest rate determined by
+// Add a new mortgage for the given amount, with an interest rate and term determined by
 // your credit score.
 void Account::AddMortgage(int64_t principal)
 {
-	mortgages.emplace_back(principal, creditScore);
+	mortgages.emplace_back(principal, creditScore, creditScore * creditScore / 478 + 30);
 	credits += principal;
 }
 
@@ -336,7 +336,7 @@ void Account::AddMortgage(int64_t principal)
 // Add a "fine" with a high, fixed interest rate and a short term.
 void Account::AddFine(int64_t amount)
 {
-	mortgages.emplace_back(amount, 0, 60);
+	mortgages.emplace_back(amount, 0, creditScore / 27 + 30);
 }
 
 
@@ -344,7 +344,7 @@ void Account::AddFine(int64_t amount)
 // Death benefits have a short term but lower interest than the best mortgage rate.
 void Account::AddDeathBenefits(int64_t bonus)
 {
-	mortgages.emplace_back(bonus, 1000, 60);
+	mortgages.emplace_back(bonus, creditScore / 4 + 800, creditScore / 13 + 30);
 }
 
 
