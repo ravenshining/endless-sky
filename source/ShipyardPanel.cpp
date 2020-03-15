@@ -93,7 +93,7 @@ int ShipyardPanel::TileSize() const
 
 int ShipyardPanel::DrawPlayerShipInfo(const Point &point)
 {
-	shipInfo.Update(*playerShip, player.FleetDepreciation(), player.GetDate().DaysSinceEpoch());
+	shipInfo.Update(*playerShip, player.FleetDepreciation(), player.GetDate().DaysSinceEpoch(), player.GetPlanet()->GetGovernment());
 	shipInfo.DrawSale(point);
 	shipInfo.DrawAttributes(point + Point(0, shipInfo.SaleHeight()));
 	
@@ -138,7 +138,7 @@ int ShipyardPanel::DetailWidth() const
 
 int ShipyardPanel::DrawDetails(const Point &center)
 {
-	shipInfo.Update(*selectedShip, player.StockDepreciation(), player.GetDate().DaysSinceEpoch());
+	shipInfo.Update(*selectedShip, player.StockDepreciation(), player.GetDate().DaysSinceEpoch(), player.GetPlanet()->GetGovernment());
 	Point offset(shipInfo.PanelWidth(), 0.);
 	
 	shipInfo.DrawDescription(center - offset * 1.5);
@@ -298,7 +298,7 @@ void ShipyardPanel::BuyShip(const string &name)
 	if(licenseCost)
 	{
 		player.Accounts().AddCredits(-licenseCost);
-		const vector<string> &licenses = selectedShip->Licenses(player.GetSystem()->GetGovernment());
+		const vector<string> &licenses = selectedShip->Licenses(player.GetPlanet()->GetGovernment());
 		for(const string &name : licenses)
 			if(player.GetCondition("license: " + name) <= 0)
 				player.Conditions()["license: " + name] = true;
@@ -339,26 +339,4 @@ void ShipyardPanel::SellShip()
 	if(playerShip)
 		playerShips.insert(playerShip);
 	player.UpdateCargoCapacities();
-}
-
-	playerShip = player.Flagship();
-	if(playerShip)
-		playerShips.insert(playerShip);
-}
-
-
-
-int64_t ShipyardPanel::LicenseCost() const
-{
-	int64_t cost = 0;
-	const vector<string> &licenses = selectedShip->Licenses(player.GetSystem()->GetGovernment());
-	for(const string &name : licenses)
-		if(player.GetCondition("license: " + name) <= 0)
-		{
-			const Outfit *outfit = GameData::Outfits().Get(name + " License");
-			if(!outfit->Cost())
-				return -1;
-			cost += outfit->Cost();
-		}
-	return cost;
 }

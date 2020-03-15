@@ -124,7 +124,7 @@ void ItemInfoDisplay::ClearHover()
 
 
 
-void ItemInfoDisplay::UpdateDescription(const string &text, const vector<string> &licenses, bool isShip)
+void ItemInfoDisplay::UpdateDescription(const string &text, const vector<string> &licenses, bool isShip, const Government *systemGovernment)
 {
 	if(licenses.empty())
 		description.Wrap(text);
