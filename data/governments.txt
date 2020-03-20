@@ -47,6 +47,22 @@ government "Bounty Hunter"
 	"fine" 0
 	"hostile hail" "hostile bounty hunter"
 
+government "Bounty Hunter that Attacks Hai"
+	"display name" "Bounty Hunter"
+	swizzle 6
+	color .78 0 0
+	
+	"attitude toward"
+		"Hai (Friendly Unfettered)" -.3
+		"Hai" -.3
+		" Hai " -.3
+		"Hai (Unfettered)" -.3
+
+	"player reputation" -1000
+	"bribe" .2
+	"fine" 0
+	"hostile hail" "hostile bounty hunter"
+
 government "Coalition"
 	swizzle 5
 	color 1 .6 .7
@@ -108,6 +124,7 @@ government "Hai"
 		" Hai " 1
 		"Hai (Unfettered)" -.1
 		"Merchant" .01
+		"Bounty Hunter that Attacks Hai" -.01
 	"bribe" .02
 	"friendly hail" "friendly hai"
 	"friendly disabled hail" "friendly disabled hai"
@@ -124,6 +141,7 @@ government " Hai "
 		"Hai" 1
 		"Hai (Unfettered)" -.1
 		"Merchant" .01
+		"Bounty Hunter that Attacks Hai" -.01
 	"bribe" .02
 	"friendly hail" "friendly hai"
 	"friendly disabled hail" "friendly disabled hai"
@@ -142,6 +160,25 @@ government "Hai (Unfettered)"
 		"Pug" -.01
 		"Merchant" -.01
 		"Kor Efret" -.01
+		"Bounty Hunter that Attacks Hai" -.01
+	"bribe" .02
+	"fine" 0
+	"friendly hail" "friendly unfettered"
+	"friendly disabled hail" "friendly disabled unfettered"
+	"hostile hail" "hostile unfettered"
+	"hostile disabled hail" "hostile disabled unfettered"
+
+government "Hai (Friendly Unfettered)"
+	swizzle 4
+	color .69 .33 .82
+	"display name" "Hai (Unfettered)"
+	
+	"player reputation" 100
+	"attitude toward"
+		"Pirate" -.01
+		"Korath" -.01
+		"Hai" .01
+		"Bounty Hunter that Attacks Hai" -.01
 	"bribe" .02
 	"fine" 0
 	"friendly hail" "friendly unfettered"
@@ -247,6 +284,7 @@ government "Korath"
 	
 	"attitude toward"
 		"Kor Sestor" -.01
+		"Hai (Friendly Unfettered)" -.01
 	
 	"player reputation" -10
 
@@ -377,6 +415,7 @@ government "Pirate"
 		"Korath" -.01
 		"Merchant" -.1
 		"Syndicate" -.01
+		"Hai (Friendly Unfettered)" -.01
 	"bribe" .05
 	"fine" 0
 	"friendly hail" "friendly pirate"
