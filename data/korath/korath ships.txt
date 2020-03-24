@@ -183,7 +183,7 @@ ship "Korath Chaser"
 
 
 
-ship "Korath World-Ship"
+ship "Korath Freighter"
 	sprite "ship/world-ship a"
 	thumbnail "thumbnail/world-ship a"
 	attributes
@@ -191,16 +191,81 @@ ship "Korath World-Ship"
 		cost 27690000
 		shields 47000
 		hull 34000
-		"required crew" 794
-		"bunks" 1492
+		"required crew" 237
+		"bunks" 449
 		"mass" 1735
 		"drag" 21
 		"heat dissipation" .4
-		"fuel capacity" 1000
-		"cargo space" 264
-		"outfit space" 779
-		"weapon capacity" 314
-		"engine capacity" 165
+		"fuel capacity" 900
+		"cargo space" 963
+		"outfit space" 1108
+		"weapon capacity" 366
+		"engine capacity" 207
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Korath Banisher" 2
+		"Korath Warder" 2
+		"Korath Grab-Strike" 1
+		"Korath Fire-Lance" 2
+		
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 2
+		"Fuel Processor"
+		"Cargo Scanner"
+		"Security Station" 7
+		"Korath Repeater Rifle" 237
+		
+		"Thruster (Stellar Class)"
+		"Steering (Planetary Class)"
+		"Hyperdrive"
+	
+	engine -37 343 .8
+	engine 0 343 .9
+	engine 37 343 .8
+	fighter -76 -157 over
+	fighter 76 -157 over
+	fighter -56 -135 under
+	fighter 56 -135 under
+	fighter -61 -6 over
+	fighter 61 -6 over
+	gun -47 -251 "Korath Fire-Lance"
+	gun 47 -251 "Korath Fire-Lance"
+	turret -58 23 "Korath Warder"
+	turret 58 23 "Korath Banisher"
+	turret -66 210 "Korath Banisher"
+	turret 0 210 "Korath Grab-Strike"
+	turret 66 210 "Korath Warder"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "The largest of Korath military vessels share a common and ancient chassis.  This one has been adapted for plundering and for hauling materials between refinery and factory stations."
+
+ship "Korath Carrier"
+	sprite "ship/world-ship b"
+	thumbnail "thumbnail/world-ship b"
+	attributes
+		category "Heavy Warship"
+		cost 27690000
+		shields 47000
+		hull 34000
+		"required crew" 308
+		"bunks" 499
+		"mass" 1815
+		"drag" 22
+		"heat dissipation" .45
+		"fuel capacity" 900
+		"cargo space" 353
+		"outfit space" 1406
+		"weapon capacity" 535
+		"engine capacity" 222
 		weapon
 			"blast radius" 400
 			"shield damage" 8000
@@ -209,13 +274,88 @@ ship "Korath World-Ship"
 	outfits
 		"Korath Grab-Strike" 2
 		"Korath Banisher" 3
-		"Korath Warder" 3
+		"Korath Warder" 2
+		"Korath Fire-Lance" 3
 		
 		"Triple Plasma Core"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
-		"Korath Repeater Rifle" 150
+		"Asteroid Scanner"
+		"Security Station" 11
+		"Korath Repeater Rifle" 308
+		
+		"Thruster (Stellar Class)"
+		"Steering (Stellar Class)"
+		"Hyperdrive"
+	
+	engine -37 343 .8
+	engine 0 343 .9
+	engine 37 343 .8
+	fighter -56 -240 under
+	fighter 56 -240 under
+	fighter -76 -219 over
+	fighter 76 -219 over
+	fighter -56 -188 under
+	fighter 56 -188 under
+	fighter -83 165 over
+	fighter 83 165 over
+	fighter -59 256 over
+	fighter 59 256 over
+	gun -75 -112 "Korath Fire-Lance"
+	gun 75 -112 "Korath Fire-Lance"
+	gun 0 -112 "Korath Fire-Lance"
+	turret -29 121 "Korath Banisher"
+	turret 29 121 "Korath Warder"
+	turret -65 197 "Korath Grab-Strike"
+	turret 65 197 "Korath Grab-Strike"
+	turret 0 277 "Korath Warder"
+	turret -59 285 "Korath Banisher"
+	turret 59 285 "Korath Banisher"
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "The largest of Korath military vessels share a common and ancient chassis.  This one has been adapted to carry fighters into large-scale raids, or mining craft into asteroid belts."
+
+ship "Korath Transport"
+	sprite "ship/world-ship c"
+	thumbnail "thumbnail/world-ship c"
+	attributes
+		category "Transport"
+		cost 27690000
+		shields 47000
+		hull 34000
+		"required crew" 272
+		"bunks" 688
+		"mass" 1795
+		"drag" 20
+		"heat dissipation" .35
+		"fuel capacity" 900
+		"cargo space" 234
+		"outfit space" 982
+		"weapon capacity" 306
+		"engine capacity" 170
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+		"Korath Grab-Strike" 1
+		"Korath Banisher" 2
+		"Korath Warder" 2
+		"Korath Fire-Lance" 2
+		
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 2
+		"Fuel Processor"
+		"Brig"
+		"Security Station" 7
+		"Korath Repeater Rifle" 272
 		
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
@@ -224,47 +364,28 @@ ship "Korath World-Ship"
 	engine -37 343 .8
 	engine 0 343 .9
 	engine 37 343 .8
-	turret -76 -157 "Korath Grab-Strike"
-	turret 76 -157 "Korath Banisher"
-	turret -59 -135 "Korath Warder"
-	turret 59 -135 "Korath Grab-Strike"
-	turret -61 -6 "Korath Banisher"
-	turret 61 -6 "Korath Warder"
-	turret -66 210 "Korath Warder"
-	turret 66 210 "Korath Banisher"
+	fighter -47 -58 over
+	fighter 47 -58 over
+	fighter -82 251 under
+	fighter 82 251 under
+	fighter -91 290 over
+	fighter 91 290 over
+	gun -45 -243 "Korath Fire-Lance"
+	gun 45 -243 "Korath Fire-Lance"
+	turret -46 -81 "Korath Banisher"
+	turret 46 -81 "Korath Warder"
+	turret -70 57 "Korath Warder"
+	turret 0 57 "Korath Grab-Strike"
+	turret 70 57 "Korath Banisher"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "Korath World-Ships are massive nomadic habitats that hold all that is left of their people."
+	description "The largest of Korath military vessels share a common and ancient chassis.  This one has been adapted to carry passengers between stations, or boarding parties into enemy strongholds."
 
-ship "Korath World-Ship" "Korath World-Ship B"
-	sprite "ship/world-ship b"
-	thumbnail "thumbnail/world-ship b"
-	turret -76 -219 "Korath Grab-Strike"
-	turret 76 -219 "Korath Grab-Strike"
-	turret -75 -112 "Korath Banisher"
-	turret 75 -112 "Korath Banisher"
-	turret 0 -92 "Korath Warder"
-	turret -83 165 "Korath Warder"
-	turret 83 165 "Korath Warder"
-	turret 0 277 "Korath Banisher"
-
-ship "Korath World-Ship" "Korath World-Ship C"
-	sprite "ship/world-ship c"
-	thumbnail "thumbnail/world-ship c"
-	turret -45 -243 "Korath Warder"
-	turret 45 -243 "Korath Grab-Strike"
-	turret -47 -136 "Korath Grab-Strike"
-	turret 47 -136 "Korath Banisher"
-	turret -70 57 "Korath Warder"
-	turret 70 57 "Korath Banisher"
-	turret -91 290 "Korath Banisher"
-	turret 91 290 "Korath Warder"
-
-ship "Korath World-Ship" "Korath World-Ship A (Jump)"
+ship "Korath Freighter" "Korath Freighter (Jump)"
 	outfits
 		"Korath Grab-Strike" 2
 		"Korath Banisher" 3
@@ -289,7 +410,7 @@ ship "Korath World-Ship" "Korath World-Ship A (Jump)"
 	turret -66 210 "Korath Warder"
 	turret 66 210 "Korath Banisher"
 
-ship "Korath World-Ship" "Korath World-Ship B (Jump)"
+ship "Korath Carrier" "Korath Carrier (Jump)"
 	sprite "ship/world-ship b"
 	outfits
 		"Korath Grab-Strike" 2
@@ -315,7 +436,7 @@ ship "Korath World-Ship" "Korath World-Ship B (Jump)"
 	turret 83 165 "Korath Warder"
 	turret 0 277 "Korath Banisher"
 
-ship "Korath World-Ship" "Korath World-Ship C (Jump)"
+ship "Korath Transport" "Korath Transport (Jump)"
 	sprite "ship/world-ship c"
 	outfits
 		"Korath Grab-Strike" 2
@@ -341,7 +462,7 @@ ship "Korath World-Ship" "Korath World-Ship C (Jump)"
 	turret -91 286 "Korath Banisher"
 	turret 91 286 "Korath Warder"
 
-ship "Korath World-Ship" "Korath World-Ship B (Ember)"
+ship "Korath Carrier" "Korath Carrier (Ember)"
 	sprite "ship/world-ship b"
 	outfits
 		"Korath Grab-Strike" 2
@@ -369,7 +490,7 @@ ship "Korath World-Ship" "Korath World-Ship B (Ember)"
 	turret 83 165 "Korath Warder"
 	turret 0 277 "Korath Banisher"
 
-ship "Korath World-Ship" "Korath World-Ship B (Crippled)"
+ship "Korath Carrier" "Korath Carrier (Crippled)"
 	sprite "ship/world-ship b"
 	outfits
 		"Korath Banisher" 3
