@@ -265,10 +265,10 @@ outfit "EMP Torpedo Bay"
 		"infrared tracking" .7
 		"radar tracking" .8
 		"blast radius" 200
-		"shield damage" -630
-		"hull damage" -90
-		"ion damage" -43
-		"hit force" -81
+		"shield damage" -700
+		"hull damage" -100
+		"ion damage" -48
+		"hit force" -90
 		"missile strength" 80
 		"submunition" "emp torpedo armed"
 	description "Electromagnetic pulse weapons were developed by the Remnant during the early days of their colony, when they were living in fear that the Alphas would overrun human space and expand beyond it."

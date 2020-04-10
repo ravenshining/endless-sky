@@ -159,10 +159,10 @@ outfit "Ka'het EMP Deployer"
 		"infrared tracking" .7
 		"radar tracking" .8
 		"blast radius" 200
-		"shield damage" -630
-		"hull damage" -90
-		"ion damage" -43
-		"hit force" -81
+		"shield damage" -700
+		"hull damage" -100
+		"ion damage" -48
+		"hit force" -90
 		"missile strength" 80
 		"submunition" "emp torpedo armed"
 	description "Eons ago, the Builders were attacked by alien ships which used weapons that ignored their hull and damaged their reactors. Although they never did recover any of these weapons, after years of research they managed to replicate their effects."

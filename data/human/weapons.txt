@@ -953,9 +953,9 @@ outfit "Heavy Rocket Launcher"
 		"acceleration" .8
 		"drag" .1
 		"blast radius" 50
-		"shield damage" -765
-		"hull damage" -648
-		"hit force" -540
+		"shield damage" -850
+		"hull damage" -720
+		"hit force" -600
 		"missile strength" 16
 		"submunition" "heavy rocket armed"
 	description "Heavy Rockets are the most powerful missile weapon available, but at a price: instead of having a homing system, they simply fire straight forward and rely on a proximity trigger to set them off after flying a minimum safe distance.  Once triggered, however, they damage all ships within their blast radius, making them highly effective against clusters of fighters."
@@ -1023,9 +1023,9 @@ outfit "Nuclear Missile"
 		"radar tracking" .5
 		"optical tracking" 1
 		"blast radius" 150
-		"shield damage" -8910
-		"hull damage" -6930
-		"hit force" -3960
+		"shield damage" -9000
+		"hull damage" -7000
+		"hit force" -4000
 		"missile strength" 200
 		"submunition" "nuclear missile armed"
 	description "It has been centuries since the last nuclear war was fought, and until very recently, most people in the galaxy assumed that that era of chaos and destruction was forever behind us..."
