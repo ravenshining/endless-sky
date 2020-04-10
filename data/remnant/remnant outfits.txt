@@ -248,16 +248,15 @@ outfit "EMP Torpedo Bay"
 		ammo "EMP Torpedo"
 		icon "icon/emp"
 		"fire effect" "emp torpedo fire" 5
-		"hit effect" "nuke explosion"
-		"hit effect" "emp ring" 30
-		"hit effect" "emp spark" 20
-		"die effect" "tiny explosion"
+		"hit effect" "tiny explosion"
+		"hit effect" "emp spark"
+		"die effect" "missile death"
 		stream
 		"reload" 330
 		"firing energy" 400
 		"firing heat" 18
 		"inaccuracy" 5
-		"lifetime" 300
+		"lifetime" 30
 		"velocity" 7
 		"acceleration" .7
 		"drag" .1
@@ -265,13 +264,13 @@ outfit "EMP Torpedo Bay"
 		"homing" 3
 		"infrared tracking" .7
 		"radar tracking" .8
-		"trigger radius" 50
 		"blast radius" 200
-		"shield damage" 700
-		"hull damage" 100
-		"ion damage" 48
-		"hit force" 90
+		"shield damage" -630
+		"hull damage" -90
+		"ion damage" -43
+		"hit force" -81
 		"missile strength" 80
+		"submunition" "emp torpedo armed"
 	description "Electromagnetic pulse weapons were developed by the Remnant during the early days of their colony, when they were living in fear that the Alphas would overrun human space and expand beyond it."
 
 effect "emp torpedo fire"

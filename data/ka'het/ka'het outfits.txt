@@ -142,16 +142,15 @@ outfit "Ka'het EMP Deployer"
 		ammo "EMP Torpedo"
 		icon "icon/emp"
 		"fire effect" "emp torpedo fire" 5
-		"hit effect" "nuke explosion"
-		"hit effect" "emp ring" 30
-		"hit effect" "emp spark" 20
-		"die effect" "tiny explosion"
+		"hit effect" "tiny explosion"
+		"hit effect" "emp spark"
+		"die effect" "missile death"
 		stream
 		"reload" 180
 		"firing energy" 540
 		"firing heat" 11
 		"inaccuracy" 4
-		"lifetime" 300
+		"lifetime" 30
 		"velocity" 7
 		"acceleration" .7
 		"drag" .1
@@ -159,14 +158,41 @@ outfit "Ka'het EMP Deployer"
 		"homing" 3
 		"infrared tracking" .7
 		"radar tracking" .8
-		"trigger radius" 50
+		"blast radius" 200
+		"shield damage" -630
+		"hull damage" -90
+		"ion damage" -43
+		"hit force" -81
+		"missile strength" 80
+		"submunition" "emp torpedo armed"
+	description "Eons ago, the Builders were attacked by alien ships which used weapons that ignored their hull and damaged their reactors. Although they never did recover any of these weapons, after years of research they managed to replicate their effects."
+
+outfit "emp torpedo armed"
+	weapon
+		sprite "projectile/emp torpedo"
+			"frame rate" 2
+			"no repeat"
+		"hit effect" "nuke explosion"
+		"hit effect" "emp ring" 30
+		"hit effect" "emp spark" 20
+		"die effect" "tiny explosion"
+		"inaccuracy" 0
+		"lifetime" 270
+		"velocity" 7
+		"acceleration" .8
+		"drag" .1
+		"turn" 2.3
+		"homing" 3
+		"infrared tracking" .7
+		"radar tracking" .8
+		"trigger radius" 80
 		"blast radius" 200
 		"shield damage" 700
 		"hull damage" 100
 		"ion damage" 48
 		"hit force" 90
 		"missile strength" 80
-	description "Eons ago, the Builders were attacked by alien ships which used weapons that ignored their hull and damaged their reactors. Although they never did recover any of these weapons, after years of research they managed to replicate their effects."
+
 
 # Cooling:
 
