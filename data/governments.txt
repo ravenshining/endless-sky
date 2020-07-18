@@ -256,8 +256,22 @@ government "Korath"
 	
 	"attitude toward"
 		"Kor Sestor" -.01
+		"Korath (Civilian)" .01
 	
 	"player reputation" -10
+
+government "Korath (Civilian)"
+	swizzle 5
+	color .8 .5 .1
+	"crew attack" 1.1
+	"crew defense" 2.1
+	language "Korath"
+
+	"attitude toward"
+		"Kor Sestor" -.01
+		"Korath" .01
+
+	"player reputation" 1
 
 government "Korath Nanobots"
 	"player reputation" -1000
@@ -270,7 +284,7 @@ government "Kor Efret"
 	"attitude toward"
 		"Kor Mereti" -.01
 		"Kor Sestor" -.01
-	
+
 	"player reputation" 1
 
 government "Kor Mereti"
@@ -302,6 +316,23 @@ government "Kor Sestor"
 government "Marauder"
 	swizzle 6
 	"player reputation" 1
+	"bribe" .1
+	"fine" 0
+	"hostile hail" "hostile pirate"
+
+government "Marauder that acts like a pirate"
+	swizzle 6
+	"display name" "Marauder"
+	
+	"player reputation" -10
+	"attitude toward"
+		"Author" .01
+		"Pirate" 1
+		"Hai" -.01
+		" Hai " -.01
+		"Korath" -.01
+		"Merchant" -.1
+		"Syndicate" -.01
 	"bribe" .1
 	"fine" 0
 	"hostile hail" "hostile pirate"
@@ -381,6 +412,7 @@ government "Pirate"
 	"player reputation" -10
 	"attitude toward"
 		"Author" -.01
+		"Pirate" 1
 		"Hai" -.01
 		" Hai " -.01
 		"Korath" -.01

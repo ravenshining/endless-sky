@@ -321,7 +321,7 @@ mission "Remnant: Defense 2"
 			names "korath"
 			cargo 3
 			variant
-				"Korath World-Ship B (Crippled)"
+				"Korath Ravager (Crippled Disarmed)"
 		dialog "You have destroyed the Korath ship that was left over from the raid on <planet>. You can now return there to collect your payment."
 	on visit
 		dialog phrase "generic bounty hunting on visit"
@@ -392,8 +392,8 @@ mission "Remnant: Defense 3"
 			names "korath"
 			cargo 3
 			variant
-				"Korath Raider (Crippled)"
-				"Korath Chaser" 2
+				"Korath Dredger (Crippled)"
+				"Korath Chaser (Expeller)" 5
 		dialog "Now that you are alone, you are able to deploy the Remnant surveillance satellite unobserved. Time to report back to <planet>."
 	on visit
 		dialog `You have returned to <planet>, but you haven't deployed the surveillance satellite yet. Return to <waypoints> and make sure that all of the Korath there have been eliminated.`
@@ -1477,7 +1477,8 @@ mission "Remnant: Salvage 2"
 			names "korath"
 			cargo 3
 			variant
-				"Korath World-Ship B (Ember)"
+				# Ravager flagship is equipped like a sturdy slow Raider:
+				"Korath Ravager (Big Raider)"
 	on visit
 		dialog "There are still Korath raiders circling overhead. You should take off and help the Remnant ships to fight them."
 	on complete
@@ -1531,6 +1532,7 @@ mission "Remnant: Salvage 4"
 	to offer
 		has "Remnant: Salvage 3: done"
 	on offer
+		log `A prefect on Viminal asked you to hunt down a Korath ship with unusual behavior and weaponry. Its main weapon that uses fuel, so if you elude it until the fuel is gone, it may be easier to disable.`
 		conversation
 			`Walking into the cafeteria you immediately sense the buoyant mood. According to a report on the video screen, very few Remnant ships were actually lost. Furthermore, of the ships that were lost, the escape pods worked perfectly, ensuring none of the crew were killed. Groups of crew are gathered around tables intermingled with the ground teams that keep their ships operational, and based on the snippets you can catch, they seem to be trading stories of crack shots and clever improvisations.`
 			`	Taely sits over at a corner booth with the prefect who met you at the dock and a couple other mechanics, and she waves you over. "Captain <last>! So, how do you like fighting with our fleet?" asks one of the mechanics.`
@@ -1549,7 +1551,7 @@ mission "Remnant: Salvage 4"
 				`	"Sorry, I don't have time to help you out."`
 					decline
 
-			`	"Thank you," he signs. "It is acting oddly, jumping around destroying ships instead of looting and running. If it simply looted and left we would be pleased, but now it is learning about us instead, so it has reached the end of its usefulness. Please disable it so that we can salvage parts from it." He pauses, then continues, "I doubt we'll be able to salvage the ship itself - they pack those things with soldiers - but we should be able to strip everything else of use off it."`
+			`	"Thank you," he signs. "It is acting oddly, jumping around destroying ships instead of looting and running. If it simply looted and left we would be pleased, but now it is learning about us instead, so it has reached the end of its usefulness. Please disable it so that we can salvage parts from it." He pauses, then continues, "I doubt we'll be able to salvage the ship itself - they pack those things with soldiers - but we should be able to strip everything else of use off it. There's a small hyperspace disturbance when it fires its main weapon. If you evade the shots until it runs out of fuel, the ship will be easier to disable."`
 				accept
 	npc save disable
 		government "Korath"
@@ -1560,7 +1562,7 @@ mission "Remnant: Salvage 4"
 			names "korath"
 			cargo 3
 			variant
-				"Korath Raider (Hyperdrive)"
+				"Korath Ravager (Crippled Strange)"
 		dialog "You have disabled the Korath ship that was left over from the raid on <planet>. You can now return there to collect your payment."
 	on fail
 		payment 350000
