@@ -118,11 +118,11 @@ public:
 	const std::vector<std::shared_ptr<Ship>> &Ships() const;
 	// Inspect the flightworthiness of the player's active fleet as a whole to
 	// determine which ships cannot travel with the group.
-	std::map<const std::shared_ptr<Ship>, const std::string> FlightCheck() const;
+	std::map<const std::shared_ptr<Ship>, std::vector<std::string>> FlightCheck() const;
 	// Add a captured ship to your fleet.
 	void AddShip(const std::shared_ptr<Ship> &ship);
 	// Buy or sell a ship.
-	void BuyShip(const Ship *model, const std::string &name);
+	void BuyShip(const Ship *model, const std::string &name, bool isGift = false);
 	void SellShip(const Ship *selected);
 	void DisownShip(const Ship *selected);
 	void ParkShip(const Ship *selected, bool isParked);
@@ -157,6 +157,7 @@ public:
 	const std::list<Mission> &Missions() const;
 	const std::list<Mission> &AvailableJobs() const;
 	const Mission *ActiveBoardingMission() const;
+	void UpdateMissionNPCs();
 	void AcceptJob(const Mission &mission, UI *ui);
 	// Check to see if there is any mission to offer right now.
 	Mission *MissionToOffer(Mission::Location location);
