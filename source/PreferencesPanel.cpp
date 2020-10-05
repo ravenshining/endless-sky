@@ -435,6 +435,7 @@ void PreferencesPanel::DrawSettings()
 		TURRET_TRACKING,
 		"\n",
 		"Performance",
+		"Always show keyboard shortcuts",
 		"Show CPU / GPU load",
 		"Render motion blur",
 		"Reduce large graphics",

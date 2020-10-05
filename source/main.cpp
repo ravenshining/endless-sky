@@ -239,7 +239,7 @@ void GameLoop(PlayerInfo &player, const Conversation &conversation, const string
 			}
 		}
 		SDL_Keymod mod = SDL_GetModState();
-		Font::ShowUnderlines(mod & KMOD_ALT);
+		Font::ShowUnderlines(mod & KMOD_ALT || Preferences::Has("Always show keyboard shortcuts") );
 		
 		// In full-screen mode, hide the cursor if inactive for ten seconds,
 		// but only if the player is flying around in the main view.
