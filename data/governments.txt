@@ -10,8 +10,8 @@
 
 government "Alpha"
 	swizzle 1
-	"crew attack" 1.4
-	"crew defense" 2.2
+	"crew attack" 1.5
+	"crew defense" 2.5
 	"player reputation" -1000
 	"bribe" 0
 
@@ -95,6 +95,7 @@ government "Drak"
 	"fine" 0
 	"attitude toward"
 		"Indigenous Lifeform" 1
+		"Ember Waste" 1
 
 government "Escort"
 	swizzle 5
@@ -158,6 +159,7 @@ government "Hai (Unfettered)"
 		" Hai " -.01
 		"Wanderer" -.01
 		"Pug" -.01
+		"Pug (Wanderer)" -.01
 		"Merchant" -.01
 		"Kor Efret" -.01
 		"Bounty Hunter that Attacks Hai" -.01
@@ -253,6 +255,10 @@ government "Ka'het"
 		"Wanderer" -.01
 	
 	"player reputation" -1
+	"friendly hail" "friendly ka'het"
+	"friendly disabled hail" "friendly disabled ka'het"
+	"hostile hail" "hostile ka'het"
+	"hostile disabled hail" "hostile disabled ka'het"
 
 government " Ka'het "
 	"display name" "Ka'het"
@@ -274,6 +280,10 @@ government " Ka'het "
 		"Wanderer" -.01
 	
 	"player reputation" -1
+	"friendly hail" "friendly ka'het"
+	"friendly disabled hail" "friendly disabled ka'het"
+	"hostile hail" "hostile ka'het"
+	"hostile disabled hail" "hostile disabled ka'het"
 
 government "Korath"
 	swizzle 0
@@ -480,6 +490,8 @@ government "Remnant"
 		assist -0.25
 		capture 10
 		destroy 10
+	"friendly hail" "remnant uncontacted"
+	"hostile hail" "remnant uncontacted hostile"
 
 government "Republic"
 	swizzle 0
@@ -534,6 +546,19 @@ government "Test Dummy"
 
 government "Uninhabited"
 	color .4 .4 .4
+
+government "Ember Waste"
+	"display name" "???"
+	"player reputation" 1
+	"bribe" 0
+	"fine" 0
+	language "Ember Waste"
+	"attitude toward"
+		"Indigenous Lifeform" 1
+		"Drak" 1
+		" Drak " .01
+		"Korath" -.01
+		"Remnant" .01
 
 government "Wanderer"
 	swizzle 2
