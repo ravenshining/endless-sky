@@ -56,3 +56,6 @@ plugins/
 **/*.sln.docstates
 **/*.xcodeproj/**
 **/*.kate-swp
+.idea/
+.idea_modules/
+CMakeLists.txt
