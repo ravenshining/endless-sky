@@ -202,6 +202,7 @@ fleet "Korath Raid"
 		"Korath Raider"
 		"Korath Chaser" 2
 
+
 fleet "Korath Small Raid"
 	government "Korath"
 	names "korath"
@@ -229,6 +230,33 @@ fleet "Korath Small Raid"
 	variant 1
 		"Korath Ravager (Shock-Firestorm)"
 
+fleet "Korath Ember Waste Raid"
+	government "Korath"
+	names "korath"
+	fighters "korath"
+	cargo 1
+	personality
+		disables plunders opportunistic harvests
+	variant 2
+		"Korath Raider (Ember)"
+		"Korath Chaser" 2
+	variant 2
+		"Korath Raider (Ember)"
+		"Korath Chaser (Expeller)" 2
+	variant 2
+		"Korath Raider (Ember)"
+		"Korath Chaser (Shocker)" 2
+	variant 2
+		"Korath Raider (Ember)"
+		"Korath Chaser (Digger)" 2
+	variant 2
+		"Korath Raider (Ember)"
+		"Korath Chaser (Gel)" 2
+	variant 1
+		"Korath Ravager (Firestorm Heaver)"
+	variant 1
+		"Korath Ravager (Shock-Firestorm)"
+
 fleet "Korath Miners"
 	government "Korath"
 	names "korath"
@@ -248,6 +276,7 @@ fleet "Korath Civilian Miners"
 		heroic disables frugal mining harvests
 	variant 5
 		"Korath Dredger (Civilian)"
+
 
 fleet "Korath Home"
 	government "Korath"
@@ -376,6 +405,11 @@ fleet "Korath Ember Waste Raid"
 	variant 12
 		"Korath Raider (Ember)"
 		"Korath Chaser (Digger)" 2
+	variant 12
+		"Korath World-Ship C"
+	variant 12
+		"Korath Dredger"
+		"Korath Chaser" 4
 	variant 12
 		"Korath Raider (Ember)"
 		"Korath Chaser (Shocker)" 2
