@@ -251,8 +251,8 @@ outfit "Korath Fire-Lance"
 		"firing heat" 1.7
 		"shield damage" 3.5
 		"hull damage" 1.5
-		"heat damage" 6
-		"burning damage" 2
+		"heat damage" 8
+		"burn damage" .5
 		
 	description "The Korath Fire-Lance is a medium-range beam weapon designed to be used by their fighters."
 
@@ -751,7 +751,7 @@ outfit "Firestorm Turret"
 		"shield damage" 1900
 		"hull damage" 1900
 		"heat damage" 3600
-		"burning damage" 60
+		"burn damage" 25
 		"corrosion damage" 4
 		"hit force" 4000
 		"missile strength" 105
@@ -846,7 +846,7 @@ outfit "Korath Inferno"
 	"weapon capacity" -71
 	"turret mounts" -1
 	"required crew" 1
-	# Stats are the same as 3 Fire-Lances except 50% more heat damage, 100% more burning damage, double range, 5 more space, 10% more power, and 400% more heat generation. This takes about 120-130 space to support.
+	# Stats are the same as 3 Fire-Lances except 50% more heat damage, 50% more burn damage, double range, 5 more space, 10% more power, and 400% more heat generation. This takes about 120-130 space to support.
 	weapon
 		sprite "projectile/korath inferno"
 			"frame rate" 20
@@ -862,8 +862,8 @@ outfit "Korath Inferno"
 		"firing heat" 8.5
 		"shield damage" 10.5
 		"hull damage" 4.5
-		"heat damage" 27
-		"burning damage" 12
+		"heat damage" 36
+		"burn damage" 2.25
 	description "The Korath Inferno was the crowning achievement of Kor Sestor weapon design before they were driven out of their territory. The more efficient short-range Fire-Lance is based on this technology."
 
 effect "korath inferno hit"
