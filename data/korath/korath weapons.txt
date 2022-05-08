@@ -145,9 +145,9 @@ outfit "Korath Expeller"
 	category "Guns"
 	cost 819000
 	thumbnail "outfit/expeller"
-	"mass" 25
-	"outfit space" -25
-	"weapon capacity" -25
+	"mass" 20
+	"outfit space" -20
+	"weapon capacity" -20
 	"gun ports" -1
 	weapon
 		sprite "projectile/expeller"
@@ -158,38 +158,12 @@ outfit "Korath Expeller"
 		"velocity" 400
 		"lifetime" 1
 		"reload" 1
-		"firing energy" 2.9
-		"firing heat" 3.6
-		"shield damage" 1.7
-		"hull damage" .75
-		"hit force" 20
+		"firing energy" 1.75
+		"firing heat" 3.1
+		"shield damage" 1.4
+		"hull damage" .45
+		"hit force" 25
 	description "The short-range Expeller is designed for fighters to push vessels away from Korath carriers."
-
-outfit "Korath Expeller Turret"
-	category "Turrets"
-	cost 938000
-	thumbnail "outfit/expeller turret"
-	"mass" 27
-	"outfit space" -27
-	"weapon capacity" -27
-	"turret mounts" -1
-	weapon
-		sprite "projectile/expeller"
-			"frame rate" 60
-		sound "banisher"
-		"hit effect" "banisher impact"
-		"inaccuracy" .4
-		"velocity" 400
-		"lifetime" 1
-		"reload" 1
-		"hardpoint sprite" "hardpoint/expeller turret"
-		"firing energy" 2.9
-		"turret turn" 4.2
-		"firing heat" 3.6
-		"shield damage" 1.7
-		"hull damage" .75
-		"hit force" 20
-	description "This fighter weapon has been mounted on a turret, allowing a capital ship to push small vessels away while keeping them within range of its offensive weapons."
 
 effect "banisher impact"
 	sprite "effect/banisher impact"
@@ -939,100 +913,6 @@ effect "korath digger hit"
 	"lifetime" 5
 	"random angle" 30
 	"velocity scale" .005
-
-
-outfit "Korath Shocker"
-	category "Guns"
-	cost 419000
-	thumbnail "outfit/korath shocker"
-	"mass" 23
-	"outfit space" -23
-	"weapon capacity" -23
-	"gun ports" -1
-	"energy capacity" 190
-	weapon
-		sprite "projectile/shock"
-			"frame rate" 20
-		sound "korath shocker"
-		"inaccuracy" 0.4
-		"velocity" 12
-		"lifetime" 90
-		"reload" 60
-		"acceleration" 1
-		"drag" .1
-		"turn" 1.35
-		"homing" 4
-		"tracking" 0.8
-		"firing energy" 190
-		"firing heat" 210
-		"shield damage" 140
-		"hull damage" 45
-		"ion damage" 3
-	description `The Korath Shocker is designed to incapacitate small vessels long enough for a Korath mothership to disable and pillage them.`
-
-outfit "Korath Shock Turret"
-	category "Turrets"
-	cost 509000
-	thumbnail "outfit/korath shock turret"
-	"mass" 25
-	"outfit space" -25
-	"weapon capacity" -25
-	"turret mounts" -1
-	"required crew" 1
-	"energy capacity" 190
-	weapon
-		sprite "projectile/shock"
-			"frame rate" 20
-		"hardpoint sprite" "hardpoint/korath shock turret"
-		sound "korath shocker"
-		"turret turn" 3.6
-		"inaccuracy" 0.2
-		"velocity" 12
-		"lifetime" 90
-		"reload" 60
-		"acceleration" 1
-		"drag" .1
-		"turn" 1.35
-		"homing" 4
-		"tracking" 0.8
-		"firing energy" 190
-		"firing heat" 210
-		"shield damage" 140
-		"hull damage" 45
-		"ion damage" 3
-	description `This weaker version of the Heavy Shock Turret will slowly drain power from its target's energy reserves. Several of these firing at once can be quite deadly.`
-
-outfit "Korath Heavy Shock Turret"
-	category "Turrets"
-	cost 509000
-	thumbnail "outfit/korath heavy shock turret"
-	"mass" 75
-	"outfit space" -75
-	"weapon capacity" -75
-	"turret mounts" -1
-	"required crew" 1
-	"energy capacity" 190
-	weapon
-		sprite "projectile/shock"
-			"frame rate" 20
-		"hardpoint sprite" "hardpoint/korath heavy shock turret"
-		sound "korath shocker"
-		"turret turn" 2.4
-		"inaccuracy" 0.2
-		"velocity" 13
-		"lifetime" 100
-		"reload" 20
-		"acceleration" 1
-		"drag" .1
-		"turn" 1.35
-		"homing" 4
-		"tracking" 0.8
-		"firing energy" 190
-		"firing heat" 210
-		"shield damage" 140
-		"hull damage" 45
-		"ion damage" 3
-	description `This turret rapidly drains its target's energy reserves. If they haven't generator capacity to spare, the unfortunate targets may soon be stripped bare by a Korath raiding party.`
 
 
 outfit "Korath Nutrigel"
