@@ -858,6 +858,7 @@ outfit "Korath Digger Turret"
 	"mass" 19
 	"outfit space" -19
 	"weapon capacity" -19
+	# miner
 	"asteroid scan power" 15
 	"turret mounts" -1
 	"required crew" 1
@@ -886,6 +887,7 @@ outfit "Korath Digger"
 	"mass" 17
 	"outfit space" -17
 	"weapon capacity" -17
+	# miner
 	"asteroid scan power" 10
 	"gun ports" -1
 	weapon
