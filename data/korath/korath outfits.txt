@@ -184,7 +184,7 @@ outfit "Command Center"
 	"required crew" 1
 	"automaton" -1
 	unplunderable 1
-	description "In response to occasional raids by the robotic war machines left behind after their recent conflict, the Kor Efret have developed this minimal, spartan command center that can be installed in a captured robotic ship to allow a pilot to override the AI and interface with the ship's controls. The command center only provides a single bunk for the captain, so more bunks may be necessary if the ship has turrets or other systems that require crew."
+	description "In response to occasional raids by the robotic war machines left behind after their recent conflict, the Kor Efret have developed this minimal, spartan command center that can be installed in a captured robotic ship to allow a pilot to override the AI and interface with the ship's controls. The command center only provides a single bunk for the captain, so more may be necessary if the ship has turrets or other systems that require crew."
 
 outfit "Reasoning Node"
 	category "Systems"
@@ -328,9 +328,9 @@ outfit "Reverser (Asteroid Class)"
 	"reverse thrust" 11.2
 	"reverse thrusting energy" 1.5
 	"reverse thrusting heat" 3.4
-	"flare sprite" "effect/korath flare/tiny"
+	"reverse flare sprite" "effect/korath flare/tiny"
 		"frame rate" 8
-	"flare sound" "plasma tiny"
+	"reverse flare sound" "plasma tiny"
 	description "This Korath engine has been modified for installation in a ship's weapon space, allowing it to push the ship in reverse."
 
 outfit "Reverser (Comet Class)"
@@ -344,9 +344,9 @@ outfit "Reverser (Comet Class)"
 	"reverse thrust" 21.8
 	"reverse thrusting energy" 2.8
 	"reverse thrusting heat" 6.5
-	"flare sprite" "effect/korath flare/small"
+	"reverse flare sprite" "effect/korath flare/small"
 		"frame rate" 7.5
-	"flare sound" "plasma small"
+	"reverse flare sound" "plasma small"
 	description "This Korath engine has been modified for installation in a ship's weapon space, allowing it to push the ship in reverse."
 
 outfit "Reverser (Lunar Class)"
@@ -360,9 +360,9 @@ outfit "Reverser (Lunar Class)"
 	"reverse thrust" 41.2
 	"reverse thrusting energy" 4.9
 	"reverse thrusting heat" 11.9
-	"flare sprite" "effect/korath flare/medium"
+	"reverse flare sprite" "effect/korath flare/medium"
 		"frame rate" 7
-	"flare sound" "plasma medium"
+	"reverse flare sound" "plasma medium"
 	description "This Korath engine has been modified for installation in a ship's weapon space, allowing it to push the ship in reverse."
 
 outfit "Reverser (Planetary Class)"
@@ -376,9 +376,9 @@ outfit "Reverser (Planetary Class)"
 	"reverse thrust" 80.0
 	"reverse thrusting energy" 8.9
 	"reverse thrusting heat" 22.7
-	"flare sprite" "effect/korath flare/large"
+	"reverse flare sprite" "effect/korath flare/large"
 		"frame rate" 6.5
-	"flare sound" "plasma large"
+	"reverse flare sound" "plasma large"
 	description "This Korath engine has been modified for installation in a ship's weapon space, allowing it to push the ship in reverse."
 
 outfit "Reverser (Stellar Class)"
@@ -392,9 +392,9 @@ outfit "Reverser (Stellar Class)"
 	"reverse thrust" 153.4
 	"reverse thrusting energy" 15.8
 	"reverse thrusting heat" 42.6
-	"flare sprite" "effect/korath flare/huge"
+	"reverse flare sprite" "effect/korath flare/huge"
 		"frame rate" 6
-	"flare sound" "plasma huge"
+	"reverse flare sound" "plasma huge"
 	description "This Korath engine has been modified for installation in a ship's weapon space, allowing it to push the ship in reverse."
 
 outfit "Thruster (Asteroid Class)"
