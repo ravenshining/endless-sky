@@ -640,3 +640,4 @@ outfit "Korath Defense Station"
 	"heat generation" 0.166667
 	"unplunderable" 1
 	description "This description is a placeholder."
+
