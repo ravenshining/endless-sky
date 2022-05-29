@@ -141,7 +141,7 @@ outfit "Systems Core (Large)"
 	thumbnail "outfit/large systems core"
 	"mass" 91
 	"outfit space" -91
-	"energy capacity" 5200
+	"energy capacity" 10400
 	"shield generation" 6.0
 	"shield energy" 8.8
 	"hull repair rate" 0.8
