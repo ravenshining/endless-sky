@@ -576,3 +576,191 @@ effect "slicer impact"
 	"random spin" 2
 	"random velocity" .1
 	"velocity scale" -.002
+
+outfit "Firestorm Torpedo"
+	plural "Firestorm Torpedoes"
+	category "Ammunition"
+	cost 19800
+	thumbnail "outfit/firestorm torpedo"
+	"mass" 0.7
+	"firestorm torpedo capacity" -1
+	description `Ammo for the Firestorm Turret.`
+
+outfit "Firestorm Torpedo Rack"
+	plural "Firestorm Torpedo Racks"
+	category "Ammunition"
+	cost "135000"
+	thumbnail "outfit/firestorm torpedo rack"
+	"mass" 6
+	"outfit space" -20
+	"firestorm torpedo capacity" 20
+	ammo "Firestorm Torpedo"
+	description "This appears to be a modified Korath Mine Rack, designed to carry Firestorm Torpedoes."
+
+outfit "Firestorm Turret"
+	category "Secondary Weapons"
+	cost 2383000
+	thumbnail "outfit/firestorm turret"
+	"mass" 20
+	"outfit space" -48
+	"weapon capacity" -48
+	"turret mounts" -1
+	"required crew" 1
+	"firestorm torpedo capacity" 40
+	"energy capacity" 1300
+	weapon
+		sprite "projectile/firestorm torpedo"
+			"frame rate" 2
+			"no repeat"
+		"hardpoint sprite" "hardpoint/firestorm torpedo"
+		sound "firestorm"
+		ammo "Firestorm Torpedo"
+		"turret turn" 2.7
+		icon "icon/firestorm torpedo"
+		"hit effect" "firestorm ring" 40
+		"die effect" "small explosion"
+		stream
+		"reload" 210
+		"firing energy" 635
+		"firing heat" 451
+		"inaccuracy" 3
+		"lifetime" 1900
+		"velocity" 6.6
+		"acceleration" .6
+		"drag" .12
+		"turn" 1.6
+		"homing" 4
+		"infrared tracking" .7
+		"optical tracking" .9
+		"trigger radius" 40
+		"blast radius" 95
+		"shield damage" 2760
+		"hull damage" 2760
+		"heat damage" 5320
+		"burn damage" 40
+		"corrosion damage" 5
+		"hit force" 4000
+		"missile strength" 115
+	description "This torpedo contains an augmented Korath Plasma Core reactor element, with no protective casing. When it activates, there is a tremendous explosion of heat and force, pushing ships away and even melting hulls."
+	description `	Though the warhead is a simple Korath design, the torpedo casing and launcher are distinctly not Korath in style. This may be a device they discovered and learned to reproduce.`
+
+outfit "Firelight Storage Rack"
+	category "Ammunition"
+	cost 27400
+	thumbnail "outfit/firelight rack"
+	"mass" 3.3
+	"outfit space" -13
+	"firelight torpedo capacity" 21
+	ammo "Firelight Torpedo"
+	description "This rack stores additional Firelight ammunition to feed into a Firelight Bank."
+
+outfit "Firelight Torpedo"
+	plural "Firelight Torpedoes"
+	category "Ammunition"
+	cost 7600
+	thumbnail "outfit/firelight"
+	"mass" 0.3
+	"firelight torpedo capacity" -1
+	"energy generation" 0.06
+	"heat generation" 0.3
+	description "Ammo for the Firelight Bank."
+
+outfit "Firelight Bank"
+	category "Secondary Weapons"
+	cost 1937000
+	thumbnail "outfit/firelight bank"
+	"mass" 16
+	"outfit space" -31
+	"weapon capacity" -31
+	"gun ports" -1
+	"energy capacity" 700
+	"firelight torpedo capacity" 33
+	weapon
+		ammo "Firelight Torpedo"
+		sprite "projectile/firelight"
+		icon "icon/firelight"
+		"hit effect" "firelight ring" 20
+		"burst reload" 30
+		"burst count" 3
+		"reload" 120
+		stream
+		submunition "Firelight Turning"
+		sound "firelight"
+		"firing energy" 211
+		"firing heat" 151
+		"velocity override" 16
+		"lifetime" 10
+		"velocity" 4
+		"acceleration" 0.6
+		"drag" .1
+		"homing" 4
+		"trigger radius" 30
+		"blast radius" 60
+		"hit force" 1000
+		"missile strength" 60
+	description "Firelight Bank Description"
+	
+
+outfit "Firelight Turning"
+	weapon
+		sprite "projectile/firelight"
+			"frame rate" 12
+		"hit effect" "firelight ring" 20
+		"die effect" "piercer fire"
+		"velocity" 0.1
+		"acceleration" -0.1
+		"lifetime" 20
+		"turn" 4
+		"homing" 4
+		"submunition" "Firelight Activated"
+		"infrared tracking" .7
+		"optical tracking" .9
+		"trigger radius" 30
+		"blast radius" 60
+		"hit force" 1000
+		"missile strength" 60
+
+outfit "Firelight Activated"
+	weapon
+		sprite "projectile/firelight active"
+			"frame rate" 12
+		"hit effect" "firelight ring" 20
+		"die effect" "small explosion"
+		"velocity" 3
+		"lifetime" 180
+		"acceleration" 1.8
+		"turn" 3
+		"drag" .1
+		"homing" 4
+		"infrared tracking" .5
+		"optical tracking" .7
+		"trigger radius" 30
+		"blast radius" 60
+		"shield damage" 950
+		"hull damage" 950
+		"heat damage" 1800
+		"burn damage" 20
+		"corrosion damage" 3
+		"hit force" 800
+		"missile strength" 78
+
+effect "firestorm ring"
+	sprite "effect/firestorm ring"
+		"no repeat"
+		"frame rate" 10
+	"lifetime" 70
+	sound "firestorm hit"
+	"random angle" 360
+	"random velocity" 3
+	"velocity scale" 0.1
+
+effect "firelight ring"
+	sprite "effect/firestorm ring"
+		"scale" 0.5
+		"no repeat"
+		"frame rate" 14
+	"lifetime" 50
+	sound "firelight hit"
+	"random angle" 360
+	"random velocity" 2
+	"velocity scale" 0.1
