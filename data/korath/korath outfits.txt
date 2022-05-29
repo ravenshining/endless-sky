@@ -111,7 +111,7 @@ outfit "Systems Core (Small)"
 	thumbnail "outfit/small systems core"
 	"mass" 31
 	"outfit space" -31
-	"energy capacity" 1300
+	"energy capacity" 2600
 	"shield generation" 1.6
 	"shield energy" 2.4
 	"hull repair rate" 0.2
