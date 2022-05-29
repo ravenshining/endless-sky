@@ -754,6 +754,11 @@ effect "firestorm ring"
 	"random velocity" 3
 	"velocity scale" 0.1
 
+effect "firelight fire"
+	sprite "effect/firelight fire"
+		"frame rate" 20
+	"lifetime" 10
+
 effect "firelight ring"
 	sprite "effect/firestorm ring"
 		"scale" 0.5
