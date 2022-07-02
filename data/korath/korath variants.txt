@@ -171,7 +171,7 @@ ship "Korath Dredger" "Korath Dredger (Heaver)"
 		"Reverser (Asteroid Class)"
 		"Afterburner (Lunar Class)"
 		"Thruster (Planetary Class)"
-		"Steering (Planetary Class"
+		"Steering (Planetary Class)"
 		"Jump Drive"
 
 	turret "Korath Warder"
