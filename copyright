@@ -485,13 +485,6 @@ Copyright: Becca Tommaso (tommasobecca03@gmail.com)
 License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license).
 
-Files:
- images/ship/dredger*
- images/thumbnail/dredger*
-Copyright: Becca Tommaso (tommasobecca03@gmail.com)
-License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser (under the same license) and detailed by Lia Gerty.
-
 Files: images/outfit/railslug?rack*
 Copyright: Becca Tommaso (tommasobecca03@gmail.com)
 License: CC-BY-SA-4.0
@@ -1079,7 +1072,9 @@ Files:
  images/outfit/grab-strike*
  images/hardpoint/grab-strike*
  images/ship/bulk?freighter*
+ images/ship/dredger*
  images/thumbnail/bulk?freighter*
+ images/thumbnail/dredger*
 Copyright: Lia Gerty (https://github.com/ravenshining)
 License: CC-BY-SA-4.0
 Comment: Derived from work by Michael Zahniser (under the same licence) and Becca Tomaso (under the same licence).
