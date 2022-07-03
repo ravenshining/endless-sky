@@ -65,15 +65,15 @@ ship "Korath Dredger"
 	engine -32 164 .7
 	engine 32 164 .7
 	"reverse engine" -116 -68
-		zoom 0.8
+		zoom 0.6
 	"reverse engine" 116 -68
-		zoom 0.8
+		zoom 0.6
 	"reverse engine" -80.5 73
 		over
-		zoom 0.8
+		zoom 0.7
 	"reverse engine" 80.5 73
 		over
-		zoom 0.8
+		zoom 0.7
 	bay "Fighter" -93.5 -61
 	bay "Fighter" 93.5 -61
 	bay "Fighter" -84 174
