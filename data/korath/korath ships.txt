@@ -869,7 +869,7 @@ ship "Korath Haven"
 		"fuel capacity" 1700
 		"cargo space" 1864
 		"outfit space" 2630
-		"weapon capacity" 1160
+		"weapon capacity" 1181
 		"engine capacity" 516
 		weapon
 			"blast radius" 400
