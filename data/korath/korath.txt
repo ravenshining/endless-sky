@@ -378,18 +378,6 @@ fleet "Korath Civilian Large"
 	variant 1
 		"Korath Chaser (World-Ship)"
 
-fleet "Korath Civilian Haven"
-	government "Korath Civilian"
-	names "korath"
-	fighters "korath"
-	cargo 3
-	personality
-		frugal timid opportunistic forbearing surveillance
-	variant 1
-		"Korath Haven"
-		"Korath Chaser" 14
-		"Korath Chaser (Expeller)" 10
-
 fleet "Kor Efret Home"
 	government "Kor Efret"
 	names "korath"

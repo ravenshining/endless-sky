@@ -1,0 +1,79 @@
+
+fleet "Korath Havens"
+	government "Korath (Civilian)"
+	names "korath"
+	fighters "korath"
+	cargo 3
+	variant 40
+		"Korath Haven"
+		"Korath Chaser" 24
+	variant 9
+		"Korath Haven" 2
+		"Korath Chaser" 48
+	variant 
+		"Korath Haven" 3
+		"Korath Chaser" 72
+
+mission "North Korath Havens (Natural)"
+	invisible
+	landing
+	repeat
+	to offer
+		not "North Korath Havens (Natural): active"
+	to complete
+		never
+	destination
+  		distance 1 3
+	npc save
+		government "Korath (Civilian)"
+		personality frugal opportunistic disables forbearing
+		system "Kor Fel'tar"
+		fleet "Korath Havens"
+		
+mission "North Korath Havens (Staying)"
+	invisible
+	landing
+	repeat
+	to offer
+		not "North Korath Havens (Staying): active"
+	to complete
+		never
+	destination
+  		distance 1 3
+	npc save
+		government "Korath (Civilian)"
+		personality frugal opportunistic disables forbearing staying
+		system "Kor Fel'tar"
+		fleet "Korath Havens"
+
+mission "South Korath Havens (Natural)"
+	invisible
+	landing
+	repeat
+	to offer
+		not "South Korath Havens (Natural): active"
+	to complete
+		never
+	destination
+  		distance 1 3
+	npc save
+		government "Korath (Civilian)"
+		personality frugal opportunistic disables forbearing
+		system "Kor Tar'bei"
+		fleet "Korath Havens"
+		
+mission "South Korath Havens (Staying)"
+	invisible
+	landing
+	repeat
+	to offer
+		not "South Korath Havens (Staying): active"
+	to complete
+		never
+	destination
+  		distance 1 3
+	npc save
+		government "Korath (Civilian)"
+		personality frugal opportunistic disables forbearing staying
+		system "Kor Tar'bei"
+		fleet "Korath Havens"

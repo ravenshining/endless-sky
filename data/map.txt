@@ -14660,7 +14660,6 @@ system "Kor En'lakfar"
 	fleet "Korath Large Raid" 25000
 	fleet "Korath Civilian Miners" 5000
 	fleet "Korath Civilian Large" 5000
-	fleet "Korath Civilian Haven" 2000
 	object
 		sprite star/g0
 		period 10
@@ -14726,7 +14725,6 @@ system "Kor Fel'tar"
 	fleet "Korath Home" 2500
 	fleet "Korath Civilian Miners" 5000
 	fleet "Korath Civilian Large" 4000
-	fleet "Korath Civilian Haven" 2000
 	object
 		sprite star/k3
 		period 10
@@ -14796,7 +14794,6 @@ system "Kor Men"
 	fleet "Korath Large Raid" 25000
 	fleet "Korath Civilian Large" 1500
 	fleet "Korath Civilian Miners" 10000
-	fleet "Korath Civilian Haven" 2000
 	object
 		sprite star/f5
 		distance 28.0824
@@ -14860,7 +14857,6 @@ system "Kor Nor'peli"
 	fleet "Korath Large Raid" 30000
 	fleet "Korath Ember Waste Raid" 2500
 	fleet "Korath Home" 500
-	fleet "Korath Civilian Haven" 2000
 	object
 		sprite star/k3
 		distance 22.4307
@@ -14930,7 +14926,6 @@ system "Kor Tar'bei"
 	fleet "Korath Civilian Miners" 5000
 	fleet "Korath Home" 1000
 	fleet "Korath Civilian Large" 1000
-	fleet "Korath Civilian Haven" 2000
 	object
 		sprite star/m3
 		period 10
@@ -14985,7 +14980,6 @@ system "Kor Zena'i"
 	fleet "Korath Home" 1500
 	fleet "Korath Large Raid" 20000
 	fleet "Korath Civilian Large" 1000
-	fleet "Korath Civilian Haven" 2000
 	object
 		sprite star/g5-old
 		distance 11.9387
