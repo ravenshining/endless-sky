@@ -384,7 +384,7 @@ fleet "Korath Civilian Haven"
 	fighters "korath"
 	cargo 3
 	personality
-		frugal timid opportunistic disables forbearing surveillance
+		frugal timid opportunistic forbearing surveillance
 	variant 1
 		"Korath Haven"
 		"Korath Chaser" 14

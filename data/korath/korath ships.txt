@@ -852,11 +852,8 @@ ship "Korath World-Ship" "Korath World-Ship C"
 
 
 ship "Korath Haven"
-	swizzle 2
 	sprite "ship/korath haven"
-	thumbnail
 	attributes
-		"uncapturable"
 		category "Heavy Freighter"
 		cost 27690000
 		shields 196420
@@ -871,13 +868,14 @@ ship "Korath Haven"
 		"outfit space" 2630
 		"weapon capacity" 1181
 		"engine capacity" 516
+		"atmosphere scan" 100
+		"uncapturable"
 		weapon
 			"blast radius" 400
 			"shield damage" 8000
 			"hull damage" 4000
 			"hit force" 12000
 	outfits
-
 		"Korath Banisher" 7
 		"Korath Heaver" 3
 		"Korath Inferno" 4
