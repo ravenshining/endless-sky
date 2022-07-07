@@ -851,6 +851,215 @@ ship "Korath World-Ship" "Korath World-Ship C"
 	turret 91 290 "Korath Warder"
 
 
+ship "Korath Haven"
+	swizzle 2
+	sprite "ship/korath haven"
+	thumbnail "thumbnail/korath haven"
+	attributes
+		"uncapturable"
+		category "Heavy Freighter"
+		cost 27690000
+		shields 196420
+		hull 320690
+		"required crew" 1940
+		"bunks" 10920
+		"mass" 12000
+		"drag" 84
+		"heat dissipation" .22
+		"fuel capacity" 1700
+		"cargo space" 1864
+		"outfit space" 2630
+		"weapon capacity" 1160
+		"engine capacity" 516
+		weapon
+			"blast radius" 400
+			"shield damage" 8000
+			"hull damage" 4000
+			"hit force" 12000
+	outfits
+
+		"Korath Banisher" 7
+		"Korath Heaver" 3
+		"Korath Inferno" 4
+		"Korath Warder" 7
+		"Firelight Missile Bank" 4
+		"Firelight Storage Rack" 4
+		"Firelight Missile" 108
+		"Firestorm Torpedo" 62
+		"Firestorm Turret" 1
+
+		"Triple Plasma Core" 3
+		"Systems Core (Large)" 2
+		"Liquid Sodium Cooler" 2
+		"Fuel Processor" 7
+		"Korath Repeater Rifle" 1150
+		
+		"Reverser (Stellar Class)"
+		"Reverser (Planetary Class)"
+		"Thruster (Stellar Class)"
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Steering (Planetary Class)"
+		"Hyperdrive"
+
+	"reverse engine" -90 -464 0.8
+	"reverse engine" 90 -464 0.8
+	"reverse engine" -115.5 -445.5 0.7
+	"reverse engine" 115.5 -445.5 0.7
+	"steering engine" -90 -464
+		zoom 0.7
+		left
+		angle 180
+	"steering engine" 90 -464
+		zoom 0.7
+		right
+		angle 180
+	"steering engine" -115.5 -445.5
+		zoom 0.6
+		left
+		angle 180
+	"steering engine" 115.5 -445.5
+		zoom 0.6
+		right
+		angle 180
+	"steering engine" -152.5 -270
+		angle 45
+		right
+		zoom 0.6
+	"steering engine" 152.5 -270
+		angle 315
+		left
+		zoom 0.6
+	"steering engine" -172 169
+		angle 135
+		left
+		zoom 0.6
+	"steering engine" 172 169
+		angle 225
+		right
+		zoom 0.6
+	"steering engine" -135.5 444
+		zoom 1.2
+		right
+	"steering engine" 135.5 444
+		zoom 1.2
+		left
+	engine 0 481.5
+		zoom 1.7
+	engine -135.5 444
+		zoom 1.6
+	engine 135.5 444
+		zoom 1.6
+	engine -88.5 430.5
+		zoom 0.7
+	engine 88.5 430.5
+		zoom 0.7
+	engine -77 436
+		zoom 0.7
+	engine 77 436
+		zoom 0.7
+	engine -46 454.5
+		zoom 0.8
+	engine 46 454.5
+		zoom 0.8
+	turret -19.5 -438.5 "Korath Banisher"
+	turret 19.5 -438.5 "Korath Warder"
+	turret -178 -332 "Korath Warder"
+	turret 178 -332 "Korath Banisher"
+	turret -186 -285.5 "Korath Banisher"
+	turret 186 -285.5 "Korath Warder"
+	turret -131.5 -173.5 "Korath Heaver"
+	turret 131.5 -173.5 "Korath Inferno"
+	turret -131.5 -156 "Korath Inferno"
+	turret 131.5 -156 "Korath Warder"
+	turret 46 -12 "Korath Warder"
+	turret -16.5 16 "Korath Banisher"
+	turret 62 128 "Korath Heaver"
+	turret -75.5 162.5 "Firestorm Turret"
+	turret -204.5 200 "Korath Banisher"
+	turret 204.5 200 "Korath Warder"
+	turret -192.5 257.5 "Korath Warder"
+	turret 192.5 257.5 "Korath Banisher"
+	turret -72.5 338.5 "Korath Heaver"
+	turret 72.5 338.5 "Korath Inferno"
+	turret -95.5 365.5 "Korath Inferno"
+	turret 95.5 365.5 "Korath Banisher"
+	gun -170 -104 "Firelight Missile Bank"
+		angle 315
+	gun 170 -104 "Firelight Missile Bank"
+		angle 45
+	gun -178 -84 "Firelight Missile Bank"
+		angle 290
+	gun 178 -84 "Firelight Missile Bank"
+		angle 70
+	bay "Fighter" -167.5 -420
+		angle 315
+	bay "Fighter" 167.5 -420
+		angle 45
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+	bay "Fighter" -167.5 -420
+		angle 315
+	bay "Fighter" 167.5 -420
+		angle 45
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+	bay "Fighter" -167.5 -420
+		angle 315
+	bay "Fighter" 167.5 -420
+		angle 45
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+	bay "Fighter" -167.5 -420
+		angle 315
+	bay "Fighter" 167.5 -420
+		angle 45
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+	bay "Fighter" -167.5 -420
+		angle 315
+	bay "Fighter" 167.5 -420
+		angle 45
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+	bay "Fighter" -167.5 -420
+		angle 315
+	bay "Fighter" 167.5 -420
+		angle 45
+	bay "Fighter" -179.5 80
+		angle 45
+		back
+	bay "Fighter" 179.5 80
+		angle 315
+		back
+	explode "tiny explosion" 30
+	explode "small explosion" 45
+	explode "medium explosion" 50
+	explode "large explosion" 40
+	explode "huge explosion" 50
+	"final explode" "final explosion large"
+	description "Korath Havens are massive nomadic habitats that hold all that is left of their people."
+
 
 ship "Kar Ik Vot 349"
 	sprite "ship/kar ik vot 349"
