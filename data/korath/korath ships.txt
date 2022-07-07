@@ -854,7 +854,7 @@ ship "Korath World-Ship" "Korath World-Ship C"
 ship "Korath Haven"
 	swizzle 2
 	sprite "ship/korath haven"
-	thumbnail "thumbnail/korath haven"
+	thumbnail
 	attributes
 		"uncapturable"
 		category "Heavy Freighter"
