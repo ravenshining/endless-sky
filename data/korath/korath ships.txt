@@ -539,7 +539,7 @@ ship "Korath Tanker"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "The largest of Korath production vessels are derived from a common and ancient chassis. This relatively streamlined ship has been adapted to collect, refine, and trasport hyperspace fuel."
+	description "The largest of Korath production vessels are derived from a common and ancient chassis. This relatively streamlined ship has been adapted to collect, refine, and transport hyperspace fuel."
 
 
 ship "Korath Traveller"
@@ -763,7 +763,7 @@ ship "Korath Habitat"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "When the Korath were exiled, it was on these gargantuan 'world-ships' they first fled and lived on.  Since the introduction of purpose-built city ships, these ancient vessels have mosty been decommissioned, turned into stations, or reconfigured into smaller, specialised vessels. Yet a few still ply the starlanes, crewed by those too restless to live on stations yet not bold enough to go on raids."
+	description "When the Korath were exiled, it was on these gargantuan 'world-ships' they first fled and lived on. Since the introduction of purpose-built city ships, these ancient vessels have mostly been decommissioned, turned into stations, or reconfigured into smaller, specialized vessels. Yet a few still ply the starlanes, crewed by those too restless to live on stations yet not bold enough to go on raids."
 
 
 
