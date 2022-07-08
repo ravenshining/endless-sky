@@ -863,12 +863,12 @@ ship "Korath World-Ship (Efreti)"
 		hull 34000
 		"required crew" 794
 		"bunks" 1492
-		"mass" 1735
-		"drag" 21
+		"mass" 2442
+		"drag" 27
 		"heat dissipation" .4
 		"fuel capacity" 1000
 		"cargo space" 264
-		"outfit space" 779
+		"outfit space" 805
 		"weapon capacity" 314
 		"engine capacity" 165
 		weapon
@@ -927,7 +927,7 @@ ship "Korath Dredger (Efreti)"
 		"required crew" 201
 		"bunks" 395
 		"mass" 1503
-		"drag" 18.3
+		"drag" 17
 		"heat dissipation" .65
 		"fuel capacity" 900
 		"cargo space" 605
@@ -987,7 +987,7 @@ ship "Korath Raider (Efreti)"
 		"required crew" 145
 		"bunks" 250
 		"mass" 720
-		"drag" 12
+		"drag" 11
 		"heat dissipation" .5
 		"fuel capacity" 600
 		"cargo space" 175
