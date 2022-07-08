@@ -890,7 +890,8 @@ ship "Korath Haven"
 		"Systems Core (Large)" 2
 		"Liquid Sodium Cooler" 2
 		"Fuel Processor" 7
-		"Korath Repeater Rifle" 1150
+		"Korath Repeater Rifle" 1954
+		"Microbot Defense Station" 214
 		
 		"Afterburner (Stellar Class)"
 		"Reverser (Stellar Class)"
