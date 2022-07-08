@@ -860,7 +860,7 @@ ship "Korath Haven"
 		shields 196420
 		hull 320690
 		"required crew" 1940
-		"bunks" 10920
+		"bunks" 31920
 		"mass" 12000
 		"drag" 84
 		"heat dissipation" .22
