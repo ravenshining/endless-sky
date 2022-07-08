@@ -864,7 +864,7 @@ ship "Korath Haven"
 		"mass" 12000
 		"drag" 84
 		"heat dissipation" .22
-		"fuel capacity" 1700
+		"fuel capacity" 1000
 		"cargo space" 1864
 		"outfit space" 2630
 		"weapon capacity" 1181
