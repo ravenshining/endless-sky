@@ -13969,6 +13969,7 @@ system Kashikt
 	fleet Quarg 1000
 	fleet "Large Quarg" 2000
 	fleet "Kor Efret Home" 1000
+	fleet "Kor Efret Miners" 3600
 	object
 		sprite star/f5
 		period 10
@@ -22548,6 +22549,7 @@ system Sevrelect
 	fleet Quarg 1000
 	fleet "Large Quarg" 3000
 	fleet "Kor Efret Home" 1000
+	fleet "Kor Efret Miners" 3600
 	object
 		sprite star/m0
 		period 10
@@ -24278,6 +24280,7 @@ system Sumprast
 	fleet Quarg 1000
 	fleet "Large Quarg" 2500
 	fleet "Kor Efret Home" 1000
+	fleet "Kor Efret Miners" 3600
 	object
 		sprite star/k0
 		period 10
