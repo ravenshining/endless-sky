@@ -386,12 +386,12 @@ fleet "Kor Efret Home"
 	cargo 3
 	personality
 		timid
-	variant 3
-		"Korath World-Ship"
 	variant 1
-		"Korath World-Ship B"
-	variant 2
-		"Korath World-Ship C"
+		"Korath World-Ship (Efreti)"
+	variant 1
+		"Korath Dredger (Efreti)"
+	variant 1
+		"Korath Raider (Efreti)"
 
 
 fleet "Small Kor Sestor"
