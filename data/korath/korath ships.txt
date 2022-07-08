@@ -1056,7 +1056,7 @@ ship "Korath Haven"
 	explode "large explosion" 40
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
-	description "Korath Havens are massive nomadic habitats that hold all that is left of their people."
+	description "Korath Havens are massive nomadic habitats that hold much of their remaining population."
 
 
 ship "Kar Ik Vot 349"
