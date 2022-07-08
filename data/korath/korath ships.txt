@@ -853,6 +853,7 @@ ship "Korath World-Ship" "Korath World-Ship C"
 
 ship "Korath Haven"
 	sprite "ship/korath haven"
+	"uncapturable"
 	attributes
 		category "Heavy Freighter"
 		cost 27690000
@@ -869,7 +870,6 @@ ship "Korath Haven"
 		"weapon capacity" 1181
 		"engine capacity" 516
 		"atmosphere scan" 100
-		"uncapturable"
 		weapon
 			"blast radius" 400
 			"shield damage" 8000
