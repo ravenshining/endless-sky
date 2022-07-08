@@ -4,15 +4,10 @@ fleet "Korath Havens"
 	names "korath"
 	fighters "korath"
 	cargo 3
-	variant 40
+	variant 10
 		"Korath Haven"
-		"Korath Chaser" 24
-	variant 9
-		"Korath Haven" 2
-		"Korath Chaser" 48
-	variant 
-		"Korath Haven" 3
-		"Korath Chaser" 72
+		"Korath Chaser" 14
+		"Korath Chaser (Expeller)" 10
 
 mission "North Korath Havens (Natural)"
 	invisible
