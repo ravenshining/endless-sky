@@ -855,7 +855,7 @@ ship "Korath World-Ship" "Korath World-Ship C"
 ship "Korath World-Ship (Efreti)"
 #currentlyworldshipstats
 	sprite "ship/kws-efreti"
-	thumbnail
+	thumbnail "thumbnail/kws-efreti"
 	attributes
 		category "Heavy Freighter"
 		cost 27690000
@@ -918,7 +918,7 @@ ship "Korath World-Ship (Efreti)"
 ship "Korath Dredger (Efreti)"
 #currentlydredgerstats
 	sprite "ship/dredger-efreti"
-	thumbnail
+	thumbnail "thumbnail/dredger-efreti"
 	attributes
 		category "Heavy Freighter"
 		"cost" 29370000
@@ -978,7 +978,7 @@ ship "Korath Dredger (Efreti)"
 ship "Korath Raider (Efreti)"
 #currentlyraiderstats
 	sprite "ship/raider-efreti"
-	thumbnail
+	thumbnail "thumbnail/raider-efreti"
 	attributes
 		category "Transport"
 		"cost" 16570000
