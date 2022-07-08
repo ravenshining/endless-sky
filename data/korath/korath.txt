@@ -393,6 +393,7 @@ fleet "Kor Efret Home"
 	variant 2
 		"Korath World-Ship C"
 
+
 fleet "Small Kor Sestor"
 	government "Kor Sestor"
 	names "kor sestor"
