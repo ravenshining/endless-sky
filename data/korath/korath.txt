@@ -378,6 +378,7 @@ fleet "Korath Civilian Large"
 	variant 1
 		"Korath Chaser (World-Ship)"
 
+
 fleet "Kor Efret Home"
 	government "Kor Efret"
 	names "korath"
