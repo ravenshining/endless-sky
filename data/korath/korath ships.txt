@@ -355,16 +355,13 @@ ship "Korath Conveyor"
 	engine 0 333 .8
 	engine 37 333 .8
 	"reverse engine" -19 -303 0.5
-	"reverse engine" -19 -303 0.5
 		over
-	"reverse engine" 0 -303 0.5
 	"reverse engine" 0 -303 0.5
 		over
 	"reverse engine" 19 -303 0.5
-	"reverse engine" 19 -303 0.5
 		over
-	gun -47 -254 "Korath Digger"
-	gun 47 -254 "Korath Digger"
+	gun -47 -244 "Korath Digger"
+	gun 47 -244 "Korath Digger"
 	turret -73 -159 "Korath Digger Turret"
 	turret 73 -159 "Korath Digger Turret"
 	turret -56 -137 "Korath Warder"
@@ -436,12 +433,9 @@ ship "Korath Conqueror"
 	engine -55 323 .4
 	engine 55 323 .4
 	"reverse engine" -19 -303 0.5
-	"reverse engine" -19 -303 0.5
 		over
 	"reverse engine" 0 -303 0.5
-	"reverse engine" 0 -303 0.5
 		over
-	"reverse engine" 19 -303 0.5
 	"reverse engine" 19 -303 0.5
 		over
 	gun -75 -112 "Korath Fire-Lance"
@@ -451,16 +445,16 @@ ship "Korath Conqueror"
 		angle 110
 	gun -42 90 "Firelight Missile Bank"
 		angle 250
-	turret -53 -253 "Korath Warder"
-	turret 53 -253 "Korath Banisher"
-	turret -69 -220 "Korath Inferno"
-	turret 69 -220 "Korath Inferno"
-	turret -53 -187 "Korath Grab-Strike"
-	turret 53 -187 "Korath Grab-Strike"
-	turret -80 164 "Korath Blaze-Pike"
-	turret 80 164 "Korath Blaze-Pike"
-	turret -63 194 "Korath Banisher"
-	turret 63 194 "Korath Warder"
+	turret -56 -254 "Korath Warder"
+	turret 56 -254 "Korath Banisher"
+	turret -73.5 -221 "Korath Inferno"
+	turret 73.5 -221 "Korath Inferno"
+	turret -56 -186.5 "Korath Grab-Strike"
+	turret 56 -186.5 "Korath Grab-Strike"
+	turret -83 163.5 "Korath Blaze-Pike"
+	turret 83 163.5 "Korath Blaze-Pike"
+	turret -68 195 "Korath Banisher"
+	turret 68 195 "Korath Warder"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -514,25 +508,22 @@ ship "Korath Tanker"
 	engine 0 333 .8
 	engine 37 333 .8
 	"reverse engine" -19 -303 0.5
-	"reverse engine" -19 -303 0.5
 		over
 	"reverse engine" 0 -303 0.5
-	"reverse engine" 0 -303 0.5
 		over
-	"reverse engine" 19 -303 0.5
 	"reverse engine" 19 -303 0.5
 		over
 	fighter -70 51 back
 	fighter 0 51 back
 	fighter 70 51 back
-	turret -46 -81 "Korath Banisher"
-	turret 46 -81 "Korath Warder"
-	turret -50 -49 "Korath Warder"
-	turret 50 -49 "Korath Banisher"
-	turret -51 55 "Korath Heaver"
-	turret 51 55 "Korath Heaver"
-	turret -74 281 "Korath Banisher"
-	turret 74 281 "Korath Warder"
+	turret -52.5 -80.5 "Korath Banisher"
+	turret 52.5 -80.5 "Korath Warder"
+	turret -57 -50.5 "Korath Warder"
+	turret 57.5 -50.5 "Korath Banisher"
+	turret -56.5 55 "Korath Heaver"
+	turret 56.5 55 "Korath Heaver"
+	turret -80 283 "Korath Banisher"
+	turret 80 283 "Korath Warder"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -587,12 +578,9 @@ ship "Korath Traveller"
 	engine 0 333 .8
 	engine 37 333 .8
 	"reverse engine" -19 -303 0.5
-	"reverse engine" -19 -303 0.5
 		over
 	"reverse engine" 0 -303 0.5
-	"reverse engine" 0 -303 0.5
 		over
-	"reverse engine" 19 -303 0.5
 	"reverse engine" 19 -303 0.5
 		over
 	fighter -90 160 back
@@ -600,12 +588,12 @@ ship "Korath Traveller"
 	fighter 90 160 back
 	gun -45 -253 "Korath Fire-Lance"
 	gun 45 -253 "Korath Fire-Lance"
-	turret -73 -116 "Korath Shunt-Strike"
-	turret 73 -116 "Korath Shunt-Strike"
+	turret -77 -116.5 "Korath Shunt-Strike"
+	turret 77 -116.5 "Korath Shunt-Strike"
 	turret -87 -83 "Korath Banisher"
 	turret 87 -83 "Korath Warder"
-	turret -48 274 "Korath Warder"
-	turret 48 274 "Korath Banisher"
+	turret -51 276.5 "Korath Warder"
+	turret 51 276.5 "Korath Banisher"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -658,11 +646,7 @@ ship "Korath Herder"
 	
 	engine -42 343 .6
 	engine -22 343 .6
-	engine -22 343 .6
-		over
 	engine 22 343 .6
-	engine 22 343 .6
-		over
 	engine 42 343 .6
 	"reverse engine" -16 -336 0.9
 	"reverse engine" 16 -336 0.9
@@ -671,28 +655,28 @@ ship "Korath Herder"
 	fighter -100 -169
 	fighter 0 -169
 	fighter 100 -169
-	fighter -98 -156 back
-	fighter 98 -156 back
+	fighter -98 156
+	fighter 98 156
 	fighter -50 303 back
 	fighter -50 303 back
 	fighter 50 303 back
 	fighter 50 303 back
 	drone -100 -169
 	drone 100 -169
-	drone -98 -156 back
-	drone 98 -156 back
+	drone -98 156 back
+	drone 98 156 back
 	drone -50 303 back
 	drone 50 303 back
 	gun -71 -209 "Korath Fire-Lance"
 	gun 0 -209 "Korath Fire-Lance"
 	gun 71 -209 "Korath Fire-Lance"
-	turret -49 -294 "Korath Banisher"
-	turret 49 -294 "Korath Warder"
-	turret -100 -12 "Korath Grab-Strike"
-	turret 0 -12 "Korath Grab-Strike"
-	turret 100 -12 "Korath Grab-Strike"
-	turret -78 190 "Korath Warder"
-	turret 78 190 "Korath Banisher"
+	turret -52 -295 "Korath Banisher"
+	turret 52 -295 "Korath Warder"
+	turret -104 -13 "Korath Grab-Strike"
+	turret 0 -13 "Korath Grab-Strike"
+	turret 104 -13 "Korath Grab-Strike"
+	turret -80.5 191.5 "Korath Warder"
+	turret 80.5 191.5 "Korath Banisher"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -749,14 +733,14 @@ ship "Korath Habitat"
 	"reverse engine" 16 -336 0.9
 	"reverse engine" 0 -303 0.5
 		over
-	turret -75 -233 "Korath Banisher"
-	turret 75 -233 "Korath Warder"
-	turret -76 9 "Korath Grab-Strike"
-	turret 75 9 "Korath Grab-Strike"
-	turret -71 40 "Korath Banisher"
-	turret 71 40 "Korath Warder"
-	turret -76 232 "Korath Warder"
-	turret 76 232 "Korath Banisher"
+	turret -78 -233.5 "Korath Banisher"
+	turret 78 -233.5 "Korath Warder"
+	turret -78 9.5 "Korath Grab-Strike"
+	turret 78 9.5 "Korath Grab-Strike"
+	turret -73.5 41 "Korath Banisher"
+	turret 73.5 41 "Korath Warder"
+	turret -78 231.5 "Korath Warder"
+	turret 78 231.5 "Korath Banisher"
 	explode "tiny explosion" 30
 	explode "small explosion" 45
 	explode "medium explosion" 50
@@ -851,184 +835,6 @@ ship "Korath World-Ship" "Korath World-Ship C"
 	turret -91 290 "Korath Banisher"
 	turret 91 290 "Korath Warder"
 
-
-ship "Korath World-Ship (Efreti)"
-#currentlyworldshipstats
-	sprite "ship/kws-efreti"
-	thumbnail "thumbnail/kws-efreti"
-	attributes
-		category "Heavy Freighter"
-		cost 27690000
-		shields 47000
-		hull 34000
-		"required crew" 794
-		"bunks" 1492
-		"mass" 2442
-		"drag" 27
-		"heat dissipation" .4
-		"fuel capacity" 1000
-		"cargo space" 264
-		"outfit space" 805
-		"weapon capacity" 314
-		"engine capacity" 165
-		weapon
-			"blast radius" 400
-			"shield damage" 8000
-			"hull damage" 4000
-			"hit force" 12000
-	outfits
-		"Korath Fire-Lance" 2
-		"Korath Expeller" 2
-		"Korath Grab-Strike" 2
-		"Korath Banisher" 
-		"Korath Warder" 2
-		
-		"Triple Plasma Core"
-		"Systems Core (Large)"
-		"Large Heat Shunt" 2
-		"Fuel Processor"
-		"Korath Repeater Rifle" 150
-		
-		"Huge Grav-Thruster"
-		"Steering (Lunar Class)"
-		"Reverser (Lunar Class)"
-		"Hyperdrive"
-
-	"reverse engine" -31 -290
-	"reverse engine" 31 -290
-	engine -69 230
-	engine 69 230
-	turret 0 -166 "Korath Grab-Strike"
-	turret -41 -69 "Korath Grab-Strike"
-	turret 41 -69 "Korath Warder"
-	turret -41.5 264 "Korath Warder"
-	turret 41.5 264 "Korath Banisher"
-	gun -75 -250 "Korath Expeller"
-	gun 75 -250 "Korath Expeller"
-	gun -60 -214.5 "Korath Fire-Lance" 2
-	gun 60 -214.5 "Korath Fire-Lance" 2
-	explode "tiny explosion" 30
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 50
-	"final explode" "final explosion large"
-	description "Korath World-Ships are massive nomadic habitats that hold all that is left of their people."
-
-ship "Korath Dredger (Efreti)"
-#currentlydredgerstats
-	sprite "ship/dredger-efreti"
-	thumbnail "thumbnail/dredger-efreti"
-	attributes
-		category "Heavy Freighter"
-		"cost" 29370000
-		"shields" 39000
-		"hull" 16000
-		"required crew" 201
-		"bunks" 395
-		"mass" 1503
-		"drag" 17
-		"heat dissipation" .65
-		"fuel capacity" 900
-		"cargo space" 605
-		"outfit space" 827
-		"weapon capacity" 297
-		"engine capacity" 181
-		
-		weapon
-			"blast radius" 300
-			"shield damage" 4600
-			"hull damage" 2300
-			"hit force" 5900
-	outfits
-		"Korath Banisher" 1
-		"Korath Expeller" 2
-		"Korath Warder" 2
-		
-		"Systems Core (Large)"
-		"Triple Plasma Core"
-		"Large Heat Shunt" 3
-		"Fuel Processor"
-		"Korath Repeater Rifle" 190
-		
-		"Large Grav-Thruster"
-		"Steering (Lunar Class)"
-		"Reverser (Lunar Class)"
-		"Hyperdrive"
-
-	engine 19.5 189.5
-	engine -19.5 189.5
-	engine 46 170 0.7
-	engine -46 170 0.7
-	"reverse engine" 14.5 -187.5
-	"reverse engine" -14.5 -187.5
-	turret 0 -119.5 "Korath Warder"
-	turret 0 42 "Korath Banisher"
-	turret 0 138.5 "Korath Warder"
-	gun -37.5 -187 "Korath Expeller"
-	gun 37.5 -187 "Korath Expeller"
-	explode "tiny explosion" 120
-	explode "small explosion" 60
-	explode "medium explosion" 70
-	explode "large explosion" 50
-	explode "huge explosion" 15
-	"final explode" "final explosion large"
-	description "After the Korath were exiled from their homelands, efficient resource collection became a priority. World-ships were too precious to risk on dangerous forays, and Raiders lacked the cargo capacity. The Dredger was born as an answer to this problem, featuring an abundance of cargo and passenger space, with formidable defensive armament. With such a complement, these bulky ships can also offer potent support for frontline Raiders."
-
-ship "Korath Raider (Efreti)"
-#currentlyraiderstats
-	sprite "ship/raider-efreti"
-	thumbnail "thumbnail/raider-efreti"
-	attributes
-		category "Transport"
-		"cost" 16570000
-		"shields" 27000
-		"hull" 9000
-		"required crew" 145
-		"bunks" 250
-		"mass" 720
-		"drag" 11
-		"heat dissipation" .5
-		"fuel capacity" 600
-		"cargo space" 175
-		"outfit space" 721
-		"weapon capacity" 284
-		"engine capacity" 159
-		weapon
-			"blast radius" 250
-			"shield damage" 3600
-			"hull damage" 1800
-			"hit force" 5400
-	outfits
-		"Korath Fire-Lance" 2
-		"Korath Expeller"
-		"Korath Warder" 2
-		
-		"Triple Plasma Core"
-		"Systems Core (Medium)"
-		"Large Heat Shunt" 2
-		"Small Heat Shunt"
-		"Fuel Processor"
-		"Korath Repeater Rifle" 196
-		"Hyperdrive"
-		
-		"Medium Grav-Thruster"
-		"Steering (Lunar Class)"
-
-	engine -17.5 139.5
-	engine 17.5 139.5
-	turret 0 -35 "Korath Warder"
-	turret 0 97 "Korath Warder"
-	gun 0 -118 "Korath Expeller"
-	gun -16.5 -114.5 "Korath Fire-Lance"
-	gun 16.5 -114.5 "Korath Fire-Lance"
-	explode "tiny explosion" 20
-	explode "small explosion" 45
-	explode "medium explosion" 50
-	explode "large explosion" 40
-	explode "huge explosion" 10
-	"final explode" "final explosion large"
-	description "The Korath Raider is their warship of choice for plundering neighboring species."
 
 ship "Korath Haven"
 	sprite "ship/korath haven"
