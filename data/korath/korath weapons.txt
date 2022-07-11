@@ -9,7 +9,7 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
-outfit "Korath Grab-Strike"
+outfit "Grab-Strike Turret"
 	category "Turrets"
 	cost 821000
 	thumbnail "outfit/grab-strike"
@@ -54,7 +54,7 @@ effect "grab-strike impact"
 	"velocity scale" -.1
 
 
-outfit "Korath Shunt-Strike"
+outfit "Shunt-Strike Turret"
 	category "Turrets"
 	cost 821000
 	thumbnail "outfit/shunt-strike"
@@ -112,7 +112,7 @@ effect "shunt-strike sparkle"
 	"random angle" 10
 
 
-outfit "Korath Banisher"
+outfit "Banisher Grav-Turret"
 	category "Turrets"
 	cost 943000
 	thumbnail "outfit/banisher"
@@ -140,7 +140,7 @@ outfit "Korath Banisher"
 		"hit force" 40
 	description "The Korath like to keep their enemies close... but not too close."
 
-outfit "Korath Expeller"
+outfit "Expeller Grav-Gun"
 	category "Guns"
 	cost 819000
 	thumbnail "outfit/expeller"
@@ -172,7 +172,7 @@ effect "banisher impact"
 	"velocity scale" 0.
 
 
-outfit "Korath Warder"
+outfit "Warder Anti-Missile"
 	category "Turrets"
 	cost 845000
 	thumbnail "outfit/warder"
@@ -202,7 +202,7 @@ effect "korath warder"
 	"velocity scale" 1
 
 
-outfit "Korath Fire-Lance"
+outfit "Fire-Lance"
 	category "Guns"
 	cost 697000
 	thumbnail "outfit/fire-lance"
@@ -236,7 +236,7 @@ effect "fire-lance impact"
 	"random angle" 360
 	"velocity scale" 0.
 
-outfit "Korath Blaze-Pike"
+outfit "Blaze-Pike Turret"
 	category "Turrets"
 	cost 1970000
 	thumbnail "outfit/blaze-pike"
@@ -300,7 +300,7 @@ outfit "Korath Inferno"
 		"hull damage" 4.8
 		"heat damage" 30
 		"burn damage" 0.9
-	description "Some Korath consider the Inferno the crowning achievement of Exile weapon design. The three Fire-Lances mounted together in precisely the right manner combine synergistically, creating a longer, more powerful beam than three would individually."
+	description "Enough Korath consider the Inferno to be the crowning achievement of Exile weapon design that rather than name it for some ancient polearm, they named the weapon after themselves. The three Fire-Lances mounted together in precisely the right manner combine synergistically, creating a longer, more powerful beam than three would individually."
 
 effect "korath inferno hit"
 	sprite "effect/korath inferno hit"
@@ -313,7 +313,7 @@ effect "korath inferno hit"
 	"velocity scale" .005
 
 
-outfit "Korath Repeater"
+outfit "Plasma Repeater"
 	category "Guns"
 	cost 306000
 	thumbnail "outfit/repeater"
@@ -351,7 +351,7 @@ effect "repeater impact"
 	"random velocity" .6
 	"velocity scale" -.1
 
-outfit "Korath Repeater Turret"
+outfit "Plasma Repeater Turret"
 	category "Turrets"
 	cost 874000
 	thumbnail "outfit/repeater turret"
@@ -384,25 +384,25 @@ outfit "Korath Repeater Turret"
 	description "Korath repeaters fire compact bolts of superheated plasma at their targets. For every one of these turrets installed on a ship, an auxiliary cooling system is typically required to cope with its heat output."
 
 
-outfit "Korath Piercer"
+outfit "Piercer Missile"
 	category "Ammunition"
 	cost 3500
 	thumbnail "outfit/piercer"
 	"mass" .3
 	"piercer capacity" -1
-	description "This missile is fired from a Korath Piercer Launcher."
+	description "This missile is fired from a Korath Piercer launcher."
 
-outfit "Korath Piercer Rack"
+outfit "Piercer Missile Rack"
 	category "Ammunition"
 	cost 56000
 	thumbnail "outfit/korath piercer storage"
 	"mass" 2.2
 	"outfit space" -7
 	"piercer capacity" 16
-	ammo "Korath Piercer"
-	description "The Korath Piercer Rack is used to store extra ammunition for Korath Piercer Launchers."
+	ammo "Piercer Missile"
+	description "The Piercer Missile Rack is used to store extra ammunition for Piercer Missile Launchers."
 
-outfit "Korath Piercer Launcher"
+outfit "Piercer Missile Launcher"
 	category "Secondary Weapons"
 	cost 593000
 	thumbnail "outfit/piercer launcher"
@@ -417,7 +417,7 @@ outfit "Korath Piercer Launcher"
 			"frame rate" 5
 			"random start frame"
 		sound "piercer"
-		ammo "Korath Piercer"
+		ammo "Piercer Missile"
 		icon "icon/piercer"
 		"fire effect" "piercer fire"
 		"hit effect" "piercer impact"
@@ -536,25 +536,25 @@ effect "detainer smoke"
 	"velocity scale" -.01
 
 
-outfit "Korath Mine"
+outfit "Cluster Mine"
 	category "Ammunition"
 	cost 3500
 	thumbnail "outfit/korath mine"
 	"mass" .7
 	"minelayer capacity" -1
-	description "This is ammunition for a Korath Minelayer. Each mine splits into eleven submunitions after it is deployed."
+	description "This is ammunition for a Cluster Mine Layer. Each mine splits into eleven submunitions after it is deployed."
 
-outfit "Korath Mine Rack"
+outfit "Cluster Mine Rack"
 	category "Ammunition"
 	cost 31500
 	thumbnail "outfit/korath mine storage"
 	"mass" 2.7
 	"outfit space" -9
 	"minelayer capacity" 9
-	ammo "Korath Mine"
-	description "The Korath Mine Rack is used to store extra ammunition for Korath Minelayers."
+	ammo "Cluster Mine"
+	description "The Cluster Mine Rack is used to store extra ammunition for Cluster Mine Layers."
 
-outfit "Korath Minelayer"
+outfit "Cluster Mine Layer"
 	category "Secondary Weapons"
 	cost 1073000
 	thumbnail "outfit/korath minelayer"
@@ -569,7 +569,7 @@ outfit "Korath Minelayer"
 			"frame rate" .6
 			"no repeat"
 		sound "minelayer"
-		ammo "Korath Mine"
+		ammo "Cluster Mine"
 		icon "icon/minelayer"
 		"fire effect" "minelayer fire"
 		"hit effect" "huge explosion"
@@ -634,7 +634,7 @@ effect "minelayer split"
 	"velocity scale" .8
 
 
-outfit "Korath Disruptor"
+outfit "Shield Disruptor Turret"
 	category "Turrets"
 	cost 983000
 	thumbnail "outfit/disruptor"
@@ -673,7 +673,7 @@ effect "disruptor impact"
 	"velocity scale" -.004
 
 
-outfit "Korath Slicer"
+outfit "Rock-Slice"
 	category "Guns"
 	cost 832000
 	thumbnail "outfit/slicer"
@@ -698,7 +698,7 @@ outfit "Korath Slicer"
 		"hull damage" 16.7
 	description "This massive beam weapon is relatively ineffective against shields, but cuts through hull armor like it's made of paper."
 
-outfit "Korath Slicer Turret"
+outfit "Rock-Slice Turret"
 	category "Turrets"
 	cost 1473000
 	thumbnail "outfit/slicer turret"
@@ -725,7 +725,7 @@ outfit "Korath Slicer Turret"
 		"firing heat" 17.8
 		"shield damage" 6.3
 		"hull damage" 16.7
-	description "This turret fires a tightly focused energy beam that is particularly effective against hull armor. When paired with a disruptor turret, it is a deadly combination."
+	description "This turret fires a tightly focused energy beam that is particularly effective against hull armor. When paired with a Shield Disruptor Turret, it is a deadly combination."
 
 effect "slicer impact"
 	sprite "effect/slicer impact"
@@ -738,7 +738,7 @@ effect "slicer impact"
 	"velocity scale" -.002
 
 
-outfit "Korath Digger Turret"
+outfit "Digger Mining Turret"
 	category "Turrets"
 	cost 509000
 	thumbnail "outfit/korath digger turret"
@@ -767,7 +767,7 @@ outfit "Korath Digger Turret"
 		"disruption damage" .08
 	description `When the Korath Exiles needed a cheap mining laser for their large vessels, they re-engineered this ancient but robust design. The mild shield disruption effect makes it somewhat useful in combat if required.`
 
-outfit "Korath Digger"
+outfit "Digger Mining Gun"
 	category "Guns"
 	cost 419000
 	thumbnail "outfit/korath digger"
@@ -802,7 +802,7 @@ effect "korath digger hit"
 	"velocity scale" .005
 
 
-outfit "Korath Heaver"
+outfit "Langrage Hyper-Heaver"
 	category "Secondary Weapons"
 	cost 3450000
 	thumbnail "outfit/korath heaver"
@@ -832,7 +832,7 @@ outfit "Korath Heaver"
 		"firing heat" 190
 		"firing fuel" 12.5
 		"inaccuracy" 0.5
-	description `Korath Heavers raise to a fine art the age-old warfare method of throwing rocks at one's enemy until they die. A small Banisher throws asteroids or other debris into an unstable hyperspace window. At close range, this merely pushes the enemy, but after the debris exits hyperspace, it becomes a rapidly-expanding cloud of deadly projectiles.`
+	description `Langrage Hyper-Heavers raise to a fine art the age-old warfare method of throwing rocks at one's enemy until they die. A small Banisher throws scrap, asteroids, or other debris into an unstable hyperspace window. At close range, the jump merely forces the enemy back. But, being forced to hyper transforms the langrage into a rapidly-expanding cloud of deadly projectiles as it returns to normal space.`
 
 effect "heaver hyperspace hit"
 	sprite "effect/heaver hyperspace hit"
