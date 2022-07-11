@@ -40,6 +40,13 @@ ship "Korath Dredger" "Korath Dredger (Civilian)"
 	turret "Langrage Hyper-Heaver"
 	turret "Banisher Grav-Turret"
 	turret "Warder Anti-Missile"
+	turret "Digger Mining Turret"
+	turret "Shunt-Strike Turret"
+	turret "Digger Mining Turret"
+	turret "Korath Warder"
+	turret "Langrage Hyper-Heaver"
+	turret "Korath Banisher"
+	turret "Korath Warder"
 
 
 ship "Korath Dredger" "Korath Dredger (Crippled)"
@@ -416,7 +423,7 @@ ship "Korath Raider Mark XLII" "Korath Raider Mark XLII (Crippler)"
 
 ship "Korath Chaser" "Korath Chaser (Expeller)"
 	outfits
-		"Expeller Grav-Gun"
+		"Expeller Grav-Ray"
 		
 		"Generator (Candle Class)"
 		"Systems Core (Tiny)"
@@ -428,7 +435,7 @@ ship "Korath Chaser" "Korath Chaser (Expeller)"
 
 ship "Korath Chaser" "Korath Chaser (Digger)"
 	outfits
-		"Digger Mining Gun"
+		"Digger Mining Beam"
 		
 		"Generator (Candle Class)"
 		"Systems Core (Tiny)"
