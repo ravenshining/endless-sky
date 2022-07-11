@@ -10,7 +10,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 
-ship "Korath Dredger" "Korath Dredger (Civilian)"
+ship "Kaoakst" "Kaoakst (Civilian)"
 	add attributes
 		"atmosphere scan" 1
 	outfits
@@ -49,7 +49,7 @@ ship "Korath Dredger" "Korath Dredger (Civilian)"
 	turret "Korath Warder"
 
 
-ship "Korath Dredger" "Korath Dredger (Crippled)"
+ship "Kaoakst" "Kaoakst (Crippled)"
 	outfits
 		"Banisher Grav-Turret"
 		"Digger Mining Turret"
@@ -79,7 +79,7 @@ ship "Korath Dredger" "Korath Dredger (Crippled)"
 	turret "Banisher Grav-Turret"
 
 
-ship "Korath Dredger" "Korath Dredger (Digger)"
+ship "Kaoakst" "Kaoakst (Digger)"
 	outfits
 		"Digger Mining Turret" 5
 		"Warder Anti-Missile"
@@ -108,7 +108,7 @@ ship "Korath Dredger" "Korath Dredger (Digger)"
 	turret "Digger Mining Turret"
 
 
-ship "Korath Dredger" "Korath Dredger (Shunt)"
+ship "Kaoakst" "Kaoakst (Shunt)"
 	outfits
 		"Shunt-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -135,7 +135,7 @@ ship "Korath Dredger" "Korath Dredger (Shunt)"
 	turret "Warder Anti-Missile"
 
 
-ship "Korath Dredger" "Korath Dredger (Ground Assault)"
+ship "Kaoakst" "Kaoakst (Ground Assault)"
 	"crew" 449
 	outfits
 		"Banisher Grav-Turret" 2
@@ -163,7 +163,7 @@ ship "Korath Dredger" "Korath Dredger (Ground Assault)"
 	turret "Banisher Grav-Turret"
 
 
-ship "Korath Dredger" "Korath Dredger (Heaver)"
+ship "Kaoakst" "Kaoakst (Heaver)"
 	outfits
 		"Langrage Hyper-Heaver" 4
 		"Warder Anti-Missile" 3
@@ -189,7 +189,7 @@ ship "Korath Dredger" "Korath Dredger (Heaver)"
 	turret "Langrage Hyper-Heaver"
 
 
-ship "Korath Raider" "Korath Raider (Blaze)"
+ship "Vertsipmo" "Vertsipmo (Blaze)"
 	outfits
 		"Blaze-Pike Turret" 4
 		"Digger Mining Turret" 1
@@ -219,7 +219,7 @@ ship "Korath Raider" "Korath Raider (Blaze)"
 	turret "Warder Anti-Missile"
 
 
-ship "Korath Raider" "Korath Raider (Crippled)"
+ship "Vertsipmo" "Vertsipmo (Crippled)"
 	outfits
 		"Grab-Strike Turret" 2
 		"Banisher Grav-Turret"
@@ -251,7 +251,7 @@ ship "Korath Raider" "Korath Raider (Crippled)"
 	turret "Warder Anti-Missile"
 
 
-ship "Korath Raider" "Korath Raider (Ember)"
+ship "Vertsipmo" "Vertsipmo (Ember)"
 	outfits
 		"Grab-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -285,7 +285,7 @@ ship "Korath Raider" "Korath Raider (Ember)"
 	turret "Warder Anti-Missile"
 
 
-ship "Korath Raider" "Korath Raider (Ember Blaze)"
+ship "Vertsipmo" "Vertsipmo (Ember Blaze)"
 	outfits
 		"Blaze-Pike Turret" 4
 		"Digger Mining Turret"
@@ -317,7 +317,7 @@ ship "Korath Raider" "Korath Raider (Ember Blaze)"
 	turret "Warder Anti-Missile"
 
 
-ship "Korath Raider" "Korath Raider (Ember Shunt)"
+ship "Vertsipmo" "Vertsipmo (Ember Shunt)"
 	outfits
 		"Shunt-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -351,7 +351,7 @@ ship "Korath Raider" "Korath Raider (Ember Shunt)"
 	turret "Warder Anti-Missile"
 
 
-ship "Korath Raider" "Korath Raider (Hyperdrive)"
+ship "Vertsipmo" "Vertsipmo (Hyperdrive)"
 	outfits
 		"Grab-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -384,7 +384,7 @@ ship "Korath Raider" "Korath Raider (Hyperdrive)"
 
 
 
-ship "Korath Raider Mark XLII" "Korath Raider Mark XLII (Crippler)"
+ship "Kakafrolj" "Kakafrolj (Crippler)"
 	add attributes
 		"cargo space" -70
 		"outfit space" 70
@@ -421,7 +421,7 @@ ship "Korath Raider Mark XLII" "Korath Raider Mark XLII (Crippler)"
 
 
 
-ship "Korath Chaser" "Korath Chaser (Expeller)"
+ship "Rekaniz" "Rekaniz (Expeller)"
 	outfits
 		"Expeller Grav-Ray"
 		
@@ -433,7 +433,7 @@ ship "Korath Chaser" "Korath Chaser (Expeller)"
 		"Bow Drive (Meteor Class)"
 
 
-ship "Korath Chaser" "Korath Chaser (Digger)"
+ship "Rekaniz" "Rekaniz (Digger)"
 	outfits
 		"Digger Mining Beam"
 		
@@ -446,7 +446,7 @@ ship "Korath Chaser" "Korath Chaser (Digger)"
 		"Engine (Meteor Class)"
 
 
-ship "Korath Chaser" "Korath Chaser (World-Ship)"
+ship "Rekaniz" "Rekaniz (World-Ship)"
 	add attributes
 		"atmosphere scan" 1
 	outfits
