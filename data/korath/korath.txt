@@ -266,9 +266,6 @@ fleet "Korath Home"
 	variant 4
 		"Korath Tanker"
 		"Korath Chaser" 3
-	variant 3
-		"Korath Tanker (Jump Firestorm)"
-		"Korath Chaser" 3
 	variant 14
 		"Korath Traveller"
 		"Korath Chaser" 3
