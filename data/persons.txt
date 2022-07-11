@@ -617,7 +617,7 @@ ship "Modified Osprey"
 			"hit force" 30000
 	outfits
 		"Nuclear Missile"
-		"Rock-Slice" 4
+		"Husk-Slice" 4
 		"Korath Detainer" 4
 		"Finisher Pod" 2
 		"Finisher Torpedo" 200
@@ -648,10 +648,10 @@ ship "Modified Osprey"
 	engine -16.5 105 .6
 	engine 16.5 105 .6
 	gun 0 -114 "Nuclear Missile"
-	gun -6.5 -100 "Rock-Slice"
-	gun 6.5 -100 "Rock-Slice"
-	gun -14 -91 "Rock-Slice"
-	gun 14 -91 "Rock-Slice"
+	gun -6.5 -100 "Husk-Slice"
+	gun 6.5 -100 "Husk-Slice"
+	gun -14 -91 "Husk-Slice"
+	gun 14 -91 "Husk-Slice"
 	gun -19 -59 "Korath Detainer"
 	gun 19 -59 "Korath Detainer"
 	gun -26.5 -53 "Korath Detainer"
@@ -801,7 +801,7 @@ ship "Ursa Polaris"
 		"Large Heat Shunt"
 		"Small Heat Shunt" 2
 		"Systems Core (Large)" 2
-		"Plasma Repeater Rifle" 600
+		"Thermal Repeater Rifle" 600
 		"Thruster (Stellar Class)"
 		"Smelter-Class Thruster"
 		`"Basrem" Atomic Thruster`

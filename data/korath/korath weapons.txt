@@ -313,7 +313,7 @@ effect "korath inferno hit"
 	"velocity scale" .005
 
 
-outfit "Plasma Repeater"
+outfit "Thermal Repeater"
 	category "Guns"
 	cost 306000
 	thumbnail "outfit/repeater"
@@ -351,7 +351,7 @@ effect "repeater impact"
 	"random velocity" .6
 	"velocity scale" -.1
 
-outfit "Plasma Repeater Turret"
+outfit "Thermal Repeater Turret"
 	category "Turrets"
 	cost 874000
 	thumbnail "outfit/repeater turret"
@@ -673,7 +673,7 @@ effect "disruptor impact"
 	"velocity scale" -.004
 
 
-outfit "Rock-Slice"
+outfit "Husk-Slice"
 	category "Guns"
 	cost 832000
 	thumbnail "outfit/slicer"
@@ -698,7 +698,7 @@ outfit "Rock-Slice"
 		"hull damage" 16.7
 	description "This massive beam weapon is relatively ineffective against shields, but cuts through hull armor like it's made of paper."
 
-outfit "Rock-Slice Turret"
+outfit "Husk-Slice Turret"
 	category "Turrets"
 	cost 1473000
 	thumbnail "outfit/slicer turret"

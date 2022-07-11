@@ -1132,7 +1132,7 @@ ship "Carrier" "Carrier (Alpha)"
 		"Hai Tracker Pod" 4
 		"Hai Tracker" 224
 		"Shield Disruptor Turret" 2
-		"Rock-Slice Turret" 2
+		"Husk-Slice Turret" 2
 		
 		"Triple Plasma Core"
 		"Systems Core (Large)"
@@ -1155,9 +1155,9 @@ ship "Carrier" "Carrier (Alpha)"
 	gun
 	gun
 	turret "Shield Disruptor Turret"
-	turret "Rock-Slice Turret"
+	turret "Husk-Slice Turret"
 	turret "Shield Disruptor Turret"
-	turret "Rock-Slice Turret"
+	turret "Husk-Slice Turret"
 
 mission "Wanderers: Alpha Surveillance D"
 	name "Find the Alphas"

@@ -47,7 +47,7 @@ ship "Kaoakst"
 		"Large Heat Shunt" 2
 		"Small Heat Shunt"
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 190
+		"Thermal Repeater Rifle" 190
 		
 		"Reverser (Lunar Class)"
 		"Steering (Planetary Class)"
@@ -128,7 +128,7 @@ ship "Vertsipmo"
 		"Large Heat Shunt" 1
 		"Small Heat Shunt" 3
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
@@ -202,7 +202,7 @@ ship "Kakafrolj"
 		"Large Heat Shunt" 2
 		"Small Heat Shunt" 2
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		
 		"Thruster (Planetary Class)"
 		"Thruster (Lunar Class)"
@@ -302,7 +302,7 @@ ship "Rekaniz"
 		
 		"Generator (Furnace Class)"
 		"Small Heat Shunt"
-		"Plasma Repeater Rifle"
+		"Thermal Repeater Rifle"
 		
 		"Thruster (Asteroid Class)"
 		"Steering (Asteroid Class)"
@@ -347,7 +347,7 @@ ship "Korath World-Ship"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 150
+		"Thermal Repeater Rifle" 150
 		"Microbot Defense Station" 19
 		
 		"Thruster (Planetary Class)"
@@ -432,7 +432,7 @@ ship "Kar Ik Vot 349"
 		"Piercer Missile" 94
 		"Piercer Missile Rack" 2
 		"Warder Anti-Missile" 2
-		"Plasma Repeater Turret" 6
+		"Thermal Repeater Turret" 6
 		
 		"Triple Plasma Core"
 		"Plasma Core"
@@ -451,12 +451,12 @@ ship "Kar Ik Vot 349"
 	gun 8 -212 "Korath Detainer"
 	gun -16 -158 "Piercer Missile Launcher"
 	gun 16 -158 "Piercer Missile Launcher"
-	turret -37 -150 "Plasma Repeater Turret"
-	turret 37 -150 "Plasma Repeater Turret"
-	turret -38 -132 "Plasma Repeater Turret"
-	turret 38 -132 "Plasma Repeater Turret"
-	turret -40 -111 "Plasma Repeater Turret"
-	turret 40 -111 "Plasma Repeater Turret"
+	turret -37 -150 "Thermal Repeater Turret"
+	turret 37 -150 "Thermal Repeater Turret"
+	turret -38 -132 "Thermal Repeater Turret"
+	turret 38 -132 "Thermal Repeater Turret"
+	turret -40 -111 "Thermal Repeater Turret"
+	turret 40 -111 "Thermal Repeater Turret"
 	turret -102 188 "Warder Anti-Missile"
 	turret 102 188 "Warder Anti-Missile"
 	explode "tiny explosion" 120
@@ -707,8 +707,8 @@ ship "Met Par Tek 53"
 			"hull damage" 1600
 			"hit force" 4800
 	outfits
-		"Plasma Repeater" 3
-		"Plasma Repeater Turret" 6
+		"Thermal Repeater" 3
+		"Thermal Repeater Turret" 6
 		
 		"Double Plasma Core"
 		"Generator (Inferno Class)"
@@ -722,15 +722,15 @@ ship "Met Par Tek 53"
 	
 	engine -24 132
 	engine 24 132
-	gun 0 -92 "Plasma Repeater"
-	gun -10 -65 "Plasma Repeater"
-	gun 10 -65 "Plasma Repeater"
-	turret -36 -45 "Plasma Repeater Turret"
-	turret 36 -45 "Plasma Repeater Turret"
-	turret -38 -28 "Plasma Repeater Turret"
-	turret 38 -28 "Plasma Repeater Turret"
-	turret -40 -8 "Plasma Repeater Turret"
-	turret 40 -8 "Plasma Repeater Turret"
+	gun 0 -92 "Thermal Repeater"
+	gun -10 -65 "Thermal Repeater"
+	gun 10 -65 "Thermal Repeater"
+	turret -36 -45 "Thermal Repeater Turret"
+	turret 36 -45 "Thermal Repeater Turret"
+	turret -38 -28 "Thermal Repeater Turret"
+	turret 38 -28 "Thermal Repeater Turret"
+	turret -40 -8 "Thermal Repeater Turret"
+	turret 40 -8 "Thermal Repeater Turret"
 	
 	explode "tiny explosion" 60
 	explode "small explosion" 30
@@ -764,7 +764,7 @@ ship "Far Lek 14"
 			"hull damage" 25
 			"hit force" 75
 	outfits
-		"Plasma Repeater"
+		"Thermal Repeater"
 		
 		"Generator (Candle Class)"
 		"Small Heat Shunt"
@@ -804,7 +804,7 @@ ship "Far Osk 27"
 			"hull damage" 60
 			"hit force" 180
 	outfits
-		"Plasma Repeater" 2
+		"Thermal Repeater" 2
 		
 		"Generator (Furnace Class)"
 		"Small Heat Shunt" 2
@@ -849,7 +849,7 @@ ship "Model 8"
 			"hull damage" 600
 			"hit force" 1800
 	outfits
-		"Rock-Slice"
+		"Husk-Slice"
 		
 		"Generator (Furnace Class)"
 		"Generator (Candle Class)"
@@ -862,7 +862,7 @@ ship "Model 8"
 	
 	engine -11 49
 	engine 11 49
-	gun 9 -36 "Rock-Slice"
+	gun 9 -36 "Husk-Slice"
 	gun -11 -15
 	explode "tiny explosion" 30
 	explode "small explosion" 10
@@ -899,7 +899,7 @@ ship "Model 16"
 		"Cluster Mine Layer"
 		"Cluster Mine" 17
 		"Shield Disruptor Turret"
-		"Rock-Slice Turret"
+		"Husk-Slice Turret"
 		
 		"Plasma Core"
 		"Generator (Inferno Class)"
@@ -915,7 +915,7 @@ ship "Model 16"
 	engine 10 99
 	gun 0 -99 "Cluster Mine Layer"
 	turret -18 -31 "Shield Disruptor Turret"
-	turret 19 49 "Rock-Slice Turret"
+	turret 19 49 "Husk-Slice Turret"
 	explode "tiny explosion" 60
 	explode "small explosion" 40
 	explode "medium explosion" 30
@@ -953,7 +953,7 @@ ship "Model 32"
 		"Cluster Mine Layer"
 		"Cluster Mine" 17
 		"Shield Disruptor Turret"
-		"Rock-Slice Turret" 2
+		"Husk-Slice Turret" 2
 		
 		"Double Plasma Core"
 		"Generator (Candle Class)"
@@ -969,8 +969,8 @@ ship "Model 32"
 	engine 10 128
 	gun 0 -129 "Cluster Mine Layer"
 	turret 32 -24 "Shield Disruptor Turret"
-	turret -31 -9 "Rock-Slice Turret"
-	turret 24 19 "Rock-Slice Turret"
+	turret -31 -9 "Husk-Slice Turret"
+	turret 24 19 "Husk-Slice Turret"
 	explode "tiny explosion" 80
 	explode "small explosion" 55
 	explode "medium explosion" 40
@@ -1009,7 +1009,7 @@ ship "Model 64"
 		"Cluster Mine" 35
 		"Cluster Mine Rack" 2
 		"Shield Disruptor Turret" 2
-		"Rock-Slice Turret" 2
+		"Husk-Slice Turret" 2
 		
 		"Double Plasma Core"
 		"Generator (Furnace Class)"
@@ -1024,9 +1024,9 @@ ship "Model 64"
 	engine -19 159
 	engine 19 159
 	gun 0 -159 "Cluster Mine Layer"
-	turret 20 -74 "Rock-Slice Turret"
+	turret 20 -74 "Husk-Slice Turret"
 	turret -35 -69 "Shield Disruptor Turret"
-	turret -29 71 "Rock-Slice Turret"
+	turret -29 71 "Husk-Slice Turret"
 	turret 34 77 "Shield Disruptor Turret"
 	explode "tiny explosion" 100
 	explode "small explosion" 70
@@ -1065,7 +1065,7 @@ ship "Model 128"
 		"Cluster Mine Layer" 2
 		"Cluster Mine" 34
 		"Shield Disruptor Turret" 2
-		"Rock-Slice Turret" 3
+		"Husk-Slice Turret" 3
 		
 		"Double Plasma Core"
 		"Generator (Inferno Class)"
@@ -1081,11 +1081,11 @@ ship "Model 128"
 	engine 14 178
 	gun -11 -166 "Cluster Mine Layer"
 	gun 11 -166 "Cluster Mine Layer"
-	turret 29 -83 "Rock-Slice Turret"
+	turret 29 -83 "Husk-Slice Turret"
 	turret -26 -53 "Shield Disruptor Turret"
-	turret 56 35 "Rock-Slice Turret"
+	turret 56 35 "Husk-Slice Turret"
 	turret 50 84 "Shield Disruptor Turret"
-	turret -24 115 "Rock-Slice Turret"
+	turret -24 115 "Husk-Slice Turret"
 	explode "tiny explosion" 120
 	explode "small explosion" 85
 	explode "medium explosion" 60
@@ -1124,7 +1124,7 @@ ship "Model 256"
 		"Cluster Mine" 61
 		"Cluster Mine Rack" 3
 		"Shield Disruptor Turret" 3
-		"Rock-Slice Turret" 3
+		"Husk-Slice Turret" 3
 		
 		"Triple Plasma Core"
 		"Systems Core (Large)"
@@ -1141,10 +1141,10 @@ ship "Model 256"
 	gun -22 -148 "Cluster Mine Layer"
 	gun 22 -148 "Cluster Mine Layer"
 	turret 36 -85 "Shield Disruptor Turret"
-	turret -56 -45 "Rock-Slice Turret"
+	turret -56 -45 "Husk-Slice Turret"
 	turret 69 3 "Shield Disruptor Turret"
-	turret -73 38 "Rock-Slice Turret"
-	turret 66 64 "Rock-Slice Turret"
+	turret -73 38 "Husk-Slice Turret"
+	turret 66 64 "Husk-Slice Turret"
 	turret -56 101 "Shield Disruptor Turret"
 	explode "tiny explosion" 140
 	explode "small explosion" 100
@@ -1184,7 +1184,7 @@ ship "Model 512"
 		"Cluster Mine" 52
 		"Cluster Mine Rack" 2
 		"Shield Disruptor Turret" 3
-		"Rock-Slice Turret" 4
+		"Husk-Slice Turret" 4
 		
 		"Triple Plasma Core"
 		"Plasma Core"
@@ -1201,12 +1201,12 @@ ship "Model 512"
 	engine 145 97
 	gun -22 -143 "Cluster Mine Layer"
 	gun 22 -143 "Cluster Mine Layer"
-	turret -23 -134 "Rock-Slice Turret"
+	turret -23 -134 "Husk-Slice Turret"
 	turret 91 -102 "Shield Disruptor Turret"
-	turret 124 -57 "Rock-Slice Turret"
+	turret 124 -57 "Husk-Slice Turret"
 	turret -130 -33 "Shield Disruptor Turret"
-	turret 138 20 "Rock-Slice Turret"
-	turret -121 86 "Rock-Slice Turret"
+	turret 138 20 "Husk-Slice Turret"
+	turret -121 86 "Husk-Slice Turret"
 	turret 54 138 "Shield Disruptor Turret"
 	explode "tiny explosion" 160
 	explode "small explosion" 115

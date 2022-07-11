@@ -24,7 +24,7 @@ ship "Kaoakst" "Kaoakst (Civilian)"
 		"Fuel Processor" 2
 		"Systems Core (Large)"
 		"Triple Plasma Core"
-		"Plasma Repeater Rifle" 206
+		"Thermal Repeater Rifle" 206
 		"Microbot Defense Station" 8
 		
 		"Afterburner (Asteroid Class)"
@@ -60,7 +60,7 @@ ship "Kaoakst" "Kaoakst (Crippled)"
 		"Large Heat Shunt"
 		"Small Heat Shunt" 4
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 190
+		"Thermal Repeater Rifle" 190
 		
 		"Reverser (Lunar Class)"
 		"Steering (Lunar Class)"
@@ -90,7 +90,7 @@ ship "Kaoakst" "Kaoakst (Digger)"
 		"Fuel Processor"
 		"Systems Core (Medium)"
 		"Triple Plasma Core"
-		"Plasma Repeater Rifle" 206
+		"Thermal Repeater Rifle" 206
 		"Cargo Expansion"
 		
 		"Reverser (Planetary Class)"
@@ -118,7 +118,7 @@ ship "Kaoakst" "Kaoakst (Shunt)"
 		"Fuel Processor"
 		"Systems Core (Large)"
 		"Triple Plasma Core"
-		"Plasma Repeater Rifle" 206
+		"Thermal Repeater Rifle" 206
 		
 		"Reverser (Asteroid Class)"
 		"Steering (Planetary Class)"
@@ -146,7 +146,7 @@ ship "Kaoakst" "Kaoakst (Ground Assault)"
 		"Bunk Room" 23
 		"Large Heat Shunt"
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 449
+		"Thermal Repeater Rifle" 449
 		
 		"Reverser (Asteroid Class)"
 		"Steering (Lunar Class)"
@@ -173,7 +173,7 @@ ship "Kaoakst" "Kaoakst (Heaver)"
 		"Large Heat Shunt"
 		"Systems Core (Large)"
 		"Fuel Processor" 5
-		"Plasma Repeater Rifle" 190
+		"Thermal Repeater Rifle" 190
 
 		"Reverser (Asteroid Class)"
 		"Thruster (Planetary Class)"
@@ -202,7 +202,7 @@ ship "Vertsipmo" "Vertsipmo (Blaze)"
 		"Small Heat Shunt" 3
 		"Systems Core (Medium)"
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		
 		"Reverser (Asteroid Class)"
 		"Steering (Planetary Class)"
@@ -229,7 +229,7 @@ ship "Vertsipmo" "Vertsipmo (Crippled)"
 		
 		"Triple Plasma Core"
 		"Liquid Sodium Cooler"
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		"Outfits Expansion"
 		
 		"Bow Drive (Meteor Class)"
@@ -265,7 +265,7 @@ ship "Vertsipmo" "Vertsipmo (Ember)"
 		"Liquid Sodium Cooler"
 		"Small Heat Shunt"
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		"Outfits Expansion" 2
 		
 		"Bow Drive (Meteor Class)"
@@ -299,7 +299,7 @@ ship "Vertsipmo" "Vertsipmo (Ember Blaze)"
 		"Systems Core (Medium)"
 		"Fuel Processor"
 		"Outfits Expansion" 2
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		
 		"Reverser (Asteroid Class)"
 		"Steering (Planetary Class)"
@@ -333,7 +333,7 @@ ship "Vertsipmo" "Vertsipmo (Ember Shunt)"
 		"Small Heat Shunt"
 		"Fuel Processor"
 		"Outfits Expansion"
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		
 		"Reverser (Comet Class)"
 		"Thruster (Planetary Class)"
@@ -364,7 +364,7 @@ ship "Vertsipmo" "Vertsipmo (Hyperdrive)"
 		"Systems Core (Medium)"
 		"Liquid Sodium Cooler"
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		"Outfits Expansion"
 		
 		"Bow Drive (Meteor Class)"
@@ -403,7 +403,7 @@ ship "Kakafrolj" "Kakafrolj (Crippler)"
 		"Large Heat Shunt" 2
 		"Small Heat Shunt" 3
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 196
+		"Thermal Repeater Rifle" 196
 		
 		"Thruster (Planetary Class)"
 		"Thruster (Lunar Class)"
@@ -427,7 +427,7 @@ ship "Rekaniz" "Rekaniz (Expeller)"
 		
 		"Generator (Candle Class)"
 		"Systems Core (Tiny)"
-		"Plasma Repeater Rifle" 
+		"Thermal Repeater Rifle" 
 		
 		"Thruster (Asteroid Class)"
 		"Bow Drive (Meteor Class)"
@@ -439,7 +439,7 @@ ship "Rekaniz" "Rekaniz (Digger)"
 		
 		"Generator (Candle Class)"
 		"Systems Core (Tiny)"
-		"Plasma Repeater Rifle" 
+		"Thermal Repeater Rifle" 
 		"Cargo Expansion"
 		"Interference Plating"
 				
@@ -453,7 +453,7 @@ ship "Rekaniz" "Rekaniz (World-Ship)"
 		"Generator (Candle Class)"
 		"Systems Core (Tiny)"
 		"Small Bunk Room"
-		"Plasma Repeater Rifle" 3
+		"Thermal Repeater Rifle" 3
 		
 		"Steering (Asteroid Class)"
 		"Afterburner (Asteroid Class)"
@@ -471,7 +471,7 @@ ship "Korath World-Ship" "Korath World-Ship A (Jump)"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 150
+		"Thermal Repeater Rifle" 150
 		"Microbot Defense Station" 20
 		
 		"Thruster (Planetary Class)"
@@ -497,7 +497,7 @@ ship "Korath World-Ship" "Korath World-Ship B (Crippled)"
 		
 		"Triple Plasma Core"
 		"Large Heat Shunt" 2
-		"Plasma Repeater Rifle" 150
+		"Thermal Repeater Rifle" 150
 		"Microbot Defense Station" 20
 		"Outfits Expansion"
 		
@@ -527,7 +527,7 @@ ship "Korath World-Ship" "Korath World-Ship B (Ember)"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 150
+		"Thermal Repeater Rifle" 150
 		"Microbot Defense Station" 18
 		"Outfits Expansion"
 		
@@ -557,7 +557,7 @@ ship "Korath World-Ship" "Korath World-Ship B (Jump)"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 150
+		"Thermal Repeater Rifle" 150
 		"Microbot Defense Station" 20
 		
 		"Thruster (Planetary Class)"
@@ -586,7 +586,7 @@ ship "Korath World-Ship" "Korath World-Ship C (Jump)"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
-		"Plasma Repeater Rifle" 150
+		"Thermal Repeater Rifle" 150
 		"Microbot Defense Station" 20
 		
 		"Thruster (Planetary Class)"
@@ -608,7 +608,7 @@ ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Offense)"
 	outfits
 		"Piercer Missile Launcher" 4
 		"Piercer Missile" 124
-		"Plasma Repeater Turret" 6
+		"Thermal Repeater Turret" 6
 		"Grab-Strike Turret" 2
 		
 		"Triple Plasma Core"
@@ -624,12 +624,12 @@ ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Offense)"
 		"Steering (Stellar Class)"
 		Hyperdrive
 	
-	turret "Plasma Repeater Turret"
-	turret "Plasma Repeater Turret"
-	turret "Plasma Repeater Turret"
-	turret "Plasma Repeater Turret"
-	turret "Plasma Repeater Turret"
-	turret "Plasma Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
 	turret "Grab-Strike Turret"
 	turret "Grab-Strike Turret"
 
@@ -702,8 +702,8 @@ ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Trapper)"
 ship "Tek Far 71 - Lek" "Tek Far 71 - Lek (Close Quarters)"
 	outfits
 		"Korath Detainer"
-		"Plasma Repeater" 2
-		"Plasma Repeater Turret" 3
+		"Thermal Repeater" 2
+		"Thermal Repeater Turret" 3
 		"Warder Anti-Missile"
 		
 		"Double Plasma Core"
@@ -718,10 +718,10 @@ ship "Tek Far 71 - Lek" "Tek Far 71 - Lek (Close Quarters)"
 		"Steering (Lunar Class)"
 		"Hyperdrive"
 	
-	turret "Plasma Repeater Turret"
-	turret "Plasma Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
 	turret "Warder Anti-Missile"
-	turret "Plasma Repeater Turret"
+	turret "Thermal Repeater Turret"
 
 
 
@@ -729,7 +729,7 @@ ship "Tek Far 78 - Osk" "Tek Far 78 - Osk (Close Quarters)"
 	outfits
 		"Korath Detainer"
 		"Warder Anti-Missile" 2
-		"Plasma Repeater Turret" 3
+		"Thermal Repeater Turret" 3
 		
 		"Triple Plasma Core"
 		"Systems Core (Medium)"
@@ -742,9 +742,9 @@ ship "Tek Far 78 - Osk" "Tek Far 78 - Osk (Close Quarters)"
 		Hyperdrive
 	
 	turret "Warder Anti-Missile"
-	turret "Plasma Repeater Turret"
-	turret "Plasma Repeater Turret"
-	turret "Plasma Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
+	turret "Thermal Repeater Turret"
 	turret "Warder Anti-Missile"
 
 
