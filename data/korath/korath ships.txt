@@ -392,7 +392,7 @@ ship "Korath Conqueror"
 		hull 39500
 		"required crew" 619
 		"bunks" 972
-		"mass" 2375
+		"mass" 1735
 		"drag" 22.5
 		"heat dissipation" .42
 		"fuel capacity" 1000
@@ -542,7 +542,7 @@ ship "Korath Traveller"
 		shields 47000
 		hull 34800
 		"required crew" 538
-		"bunks" 2892
+		"bunks" 1492
 		"mass" 1857
 		"drag" 22.3
 		"heat dissipation" .39

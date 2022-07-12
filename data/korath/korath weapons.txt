@@ -1039,7 +1039,7 @@ outfit "Firestorm Turret"
 	"weapon capacity" -48
 	"turret mounts" -1
 	"required crew" 1
-	"firestorm torpedo capacity" 9
+	"firestorm torpedo capacity" 13
 	"energy capacity" 1300
 	weapon
 		sprite "projectile/firestorm torpedo"
@@ -1053,7 +1053,7 @@ outfit "Firestorm Turret"
 		"hit effect" "firestorm ring" 40
 		"die effect" "small explosion"
 		stream
-		"reload" 310
+		"reload" 210
 		"firing energy" 635
 		"firing heat" 451
 		"inaccuracy" 3
