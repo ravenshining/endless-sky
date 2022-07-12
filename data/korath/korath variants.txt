@@ -482,7 +482,7 @@ ship "Korath Conqueror" "Korath Conqueror (Crippled)"
 
 ship "Korath Conqueror" "Korath Conqueror (Ember)"
 	outfits
-		"Korath Shunt-Strike" 4
+		"Shunt-Strike Turret" 4
 		"Blaze-Pike Turret" 2
 		"Korath Banisher" 2
 		"Korath Warder" 2
