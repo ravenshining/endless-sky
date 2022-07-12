@@ -628,6 +628,7 @@ ship "Korath Herder" "Korath Herder (Digger)"
 		"Fuel Processor" 2
 		"Asteroid Scanner"
 		"Cargo Expansion" 5
+		"Korath Repeater Rifle" 308
 		"Jump Drive"
 
 		"Afterburner (Lunar Class)"
@@ -643,6 +644,44 @@ ship "Korath Herder" "Korath Herder (Digger)"
 	turret "Digger Mining Turret"
 	turret "Shunt-Strike Turret"
 	turret "Digger Mining Turret"
+	turret "Korath Warder"
+	turret "Korath Warder"
+
+
+ship "Korath Herder" "Korath Herder (Automata)"
+	outfits
+		"Korath Detainer"
+		"Korath Repeater" 2
+		"Korath Repeater Turret" 2
+		"Korath Disruptor"
+		"Korath Slicer Turret"
+		"Korath Warder" 3
+
+		"Triple Plasma Core"
+		"Plasma Core"
+		"Systems Core (Large)"
+		"Liquid Sodium Cooler"
+		"Large Heat Shunt"
+		"Fuel Processor"
+		"Reasoning Node"
+		"Control Transceiver"
+		"Korath Repeater Rifle" 308
+		"Jump Drive"
+		"Microbot Defense Station" 9
+
+		"Afterburner (Lunar Class)"
+		"Reverser (Lunar Class)"
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+
+	gun "Korath Repeater"
+	gun "Korath Detainer"
+	gun "Korath Repeater"
+	turret "Korath Slicer Turret"
+	turret "Korath Disruptor"
+	turret "Korath Repeater Turret"
+	turret "Korath Warder"
+	turret "Korath Repeater Turret"
 	turret "Korath Warder"
 	turret "Korath Warder"
 
