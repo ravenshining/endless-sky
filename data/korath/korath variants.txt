@@ -520,6 +520,39 @@ ship "Korath Conqueror" "Korath Conqueror (Ember)"
 	turret "Blaze-Pike Turret"
 
 
+ship "Korath Herder" "Korath Herder (Digger)"
+	outfits
+		"Digger Mining Beam" 3
+		"Digger Mining Turret" 4
+		"Shunt-Strike Turret" 1
+		"Korath Warder" 2
+
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Systems Core (Medium)"
+		"Liquid Sodium Cooler"
+		"Large Heat Shunt"
+		"Fuel Processor" 2
+		"Asteroid Scanner"
+		"Cargo Expansion" 5
+		"Jump Drive"
+
+		"Afterburner (Lunar Class)"
+		"Reverser (Lunar Class)"
+		"Thruster (Planetary Class)"
+		"Steering (Stellar Class)"
+
+	gun "Digger Mining Beam"
+	gun "Digger Mining Beam"
+	gun "Digger Mining Beam"
+	turret "Digger Mining Turret"
+	turret "Digger Mining Turret"
+	turret "Digger Mining Turret"
+	turret "Shunt-Strike Turret"
+	turret "Digger Mining Turret"
+	turret "Korath Warder"
+	turret "Korath Warder"
+
 
 ship "Korath World-Ship" "Korath World-Ship A (Jump)"
 	outfits

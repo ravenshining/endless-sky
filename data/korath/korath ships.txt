@@ -636,7 +636,6 @@ ship "Korath Herder"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
-		"Asteroid Scanner"
 		"Security Station" 11
 		"Korath Repeater Rifle" 308
 		
