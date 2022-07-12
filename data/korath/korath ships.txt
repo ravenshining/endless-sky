@@ -397,7 +397,7 @@ ship "Korath Conqueror"
 		"heat dissipation" .42
 		"fuel capacity" 1000
 		"cargo space" 191
-		"outfit space" 1277
+		"outfit space" 1278
 		"weapon capacity" 633
 		"engine capacity" 213
 		weapon
