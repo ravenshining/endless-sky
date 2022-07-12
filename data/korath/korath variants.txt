@@ -482,9 +482,13 @@ ship "Korath Conqueror" "Korath Conqueror (Crippled)"
 
 ship "Korath Conqueror" "Korath Conqueror (Ember)"
 	outfits
-		"Korath Grab-Strike" 2
-		"Korath Banisher" 3
-		"Korath Warder" 3
+		"Korath Shunt-Strike" 4
+		"Blaze-Pike Turret" 2
+		"Korath Banisher" 2
+		"Korath Warder" 2
+		"Korath Fire-Lance" 3
+		"Firelight Missile Bank" 2
+		"Firelight Missile" 36
 		
 		"Triple Plasma Core"
 		"Systems Core (Large)"
@@ -499,14 +503,21 @@ ship "Korath Conqueror" "Korath Conqueror (Ember)"
 		"Jump Drive"
 		"Hyperdrive"
 		
-	turret "Korath Grab-Strike"
-	turret "Korath Grab-Strike"
-	turret "Korath Banisher"
+	gun "Korath Fire-Lance"
+	gun "Korath Fire-Lance"
+	gun "Korath Fire-Lance"
+	gun "Firelight Missile Bank"
+	gun "Firelight Missile Bank"
+	turret "Blaze-Pike Turret"
+	turret "Shunt-Strike Turret"
+	turret "Shunt-Strike Turret"
 	turret "Korath Banisher"
 	turret "Korath Warder"
 	turret "Korath Warder"
-	turret "Korath Warder"
 	turret "Korath Banisher"
+	turret "Shunt-Strike Turret"
+	turret "Shunt-Strike Turret"
+	turret "Blaze-Pike Turret"
 
 
 
