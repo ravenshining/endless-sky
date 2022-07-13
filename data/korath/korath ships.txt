@@ -639,7 +639,7 @@ ship "Korath Herder"
 		"Microbot Defense Station" 16
 		"Korath Repeater Rifle" 308
 		
-		"Reveresr (Lunar Class)"
+		"Reverser (Lunar Class)"
 		"Thruster (Stellar Class)"
 		"Steering (Stellar Class)"
 		"Jump Drive"
@@ -697,7 +697,7 @@ ship "Korath Habitat"
 		shields 44000
 		hull 49600
 		"required crew" 543
-		"bunks" 186s7
+		"bunks" 1867
 		"mass" 2650
 		"drag" 24
 		"heat dissipation" .43
