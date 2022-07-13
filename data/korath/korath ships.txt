@@ -325,8 +325,8 @@ ship "Korath Conveyor"
 		"heat dissipation" .4
 		"fuel capacity" 1000
 		"cargo space" 1375
-		"outfit space" 859
-		"weapon capacity" 321
+		"outfit space" 873
+		"weapon capacity" 338
 		"engine capacity" 237
 		weapon
 			"blast radius" 400
@@ -335,20 +335,20 @@ ship "Korath Conveyor"
 			"hit force" 12000
 	outfits
 		"Korath Banisher" 2
-		"Korath Warder" 3
-		"Digger Mining Turret" 3
-		"Digger Mining Beam" 2
+		"Korath Warder" 4
+		"Korath Grab-Strike" 2
+		"Expeller Grav-Ray" 2
 		
 		"Triple Plasma Core"
-		"Systems Core (Large)"
+		"Systems Core (Medium)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
 		"Korath Repeater Rifle" 237
-		"Microbot Defense Station" 19
+		"Microbot Defense Station" 17
 		
 		"Thruster (Stellar Class)"
 		"Steering (Planetary Class)"
-		"Hyperdrive"
+		"Scram Drive"
 	
 	engine -37 333 .8
 	engine 0 333 .8
@@ -359,15 +359,15 @@ ship "Korath Conveyor"
 		over
 	"reverse engine" 19 -303 0.5
 		over
-	gun -47 -244 "Digger Mining Beam"
-	gun 47 -244 "Digger Mining Beam"
-	turret -73 -159 "Digger Mining Turret"
-	turret 73 -159 "Digger Mining Turret"
+	gun -47 -244 "Expeller Grav-Ray"
+	gun 47 -244 "Expeller Grav-Ray"
+	turret -73 -159 "Korath Warder"
+	turret 73 -159 "Korath Grab-Strike"
 	turret -56 -137 "Korath Warder"
 	turret 56 -137 "Korath Warder"
 	turret -58 -6 "Korath Banisher"
 	turret 58 -6 "Korath Banisher"
-	turret -58 25 "Digger Mining Turret"
+	turret -58 25 "Korath Grab-Strike"
 	turret 58 25 "Korath Warder"
 	fighter -72 294 back
 	fighter 0 294 back
@@ -420,10 +420,11 @@ ship "Korath Conqueror"
 		"Fuel Processor"
 		"Brig"
 		"Security Station" 7
-		"Korath Repeater Rifle" 272
+		"Microbot Defense Station" 19
+		"Korath Repeater Rifle" 359
 		
 		"Thruster (Planetary Class)"
-		"Steering (Planetary Class)"
+		"Steering (Stellar Class)"
 		"Jump Drive"
 	
 	engine -37 333 .7
@@ -547,7 +548,7 @@ ship "Korath Traveller"
 		"heat dissipation" .37
 		"fuel capacity" 1000
 		"cargo space" 264
-		"outfit space" 779
+		"outfit space" 856
 		"weapon capacity" 321
 		"engine capacity" 241
 		weapon
@@ -566,12 +567,12 @@ ship "Korath Traveller"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
 		"Brig"
-		"Security Station" 7
+		"Microbot Defense Station" 15
 		"Korath Repeater Rifle" 272
 		
-		"Thruster (Planetary Class)"
+		"Thruster (Stellar Class)"
 		"Steering (Planetary Class)"
-		"Hyperdrive"
+		"Scram Drive"
 	
 	engine -37 333 .8
 	engine 0 333 .8
@@ -635,9 +636,10 @@ ship "Korath Herder"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
 		"Fuel Processor"
-		"Security Station" 11
+		"Microbot Defense Station" 16
 		"Korath Repeater Rifle" 308
 		
+		"Reverser (Lunar Class)"
 		"Thruster (Stellar Class)"
 		"Steering (Stellar Class)"
 		"Jump Drive"
@@ -695,14 +697,14 @@ ship "Korath Habitat"
 		shields 44000
 		hull 49600
 		"required crew" 543
-		"bunks" 1837
+		"bunks" 1867
 		"mass" 2650
 		"drag" 24
 		"heat dissipation" .43
 		"fuel capacity" 600
 		"cargo space" 1052
-		"outfit space" 1138
-		"weapon capacity" 321
+		"outfit space" 1038
+		"weapon capacity" 331
 		"engine capacity" 251
 		weapon
 			"blast radius" 400
@@ -717,14 +719,17 @@ ship "Korath Habitat"
 		"Triple Plasma Core"
 		"Systems Core (Large)"
 		"Large Heat Shunt" 2
-		"Fuel Processor"
+		"Fuel Processor" 2
 		"Brig"
-		"Security Station" 7
-		"Korath Repeater Rifle" 272
+		"Luxury Accommodations"
+		"Microbot Defense Station" 23
+		"Korath Repeater Rifle" 372
 		
-		"Thruster (Planetary Class)"
+		"Afterburner (Comet Class)"
+		"Reverser (Lunar Class)"
+		"Thruster (Stellar Class)"
 		"Steering (Planetary Class)"
-		"Hyperdrive"
+		"Scram Drive"
 	
 	engine -37 343 .8
 	engine 0 343 .9
