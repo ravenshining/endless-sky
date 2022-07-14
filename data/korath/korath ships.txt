@@ -17,8 +17,8 @@ ship "Kaoakst"
 	attributes
 		category "Heavy Freighter"
 		"cost" 29370000
-		"shields" 27000
-		"hull" 22000
+		"shields" 32500
+		"hull" 16500
 		"required crew" 137
 		"bunks" 357
 		"crew" 315
@@ -35,7 +35,6 @@ ship "Kaoakst"
 			"shield damage" 4600
 			"hull damage" 2300
 			"hit force" 5900
-
 	outfits
 		"Grab-Strike Turret" 2
 		"Banisher Grav-Turret" 1
