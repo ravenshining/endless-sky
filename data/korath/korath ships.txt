@@ -652,8 +652,6 @@ ship "Korath Herder"
 	engine 42 343 .6
 	"reverse engine" -16 -336 0.9
 	"reverse engine" 16 -336 0.9
-	"reverse engine" 0 -303 0.5
-		over
 	fighter -100 -169
 	fighter 0 -169
 	fighter 100 -169
@@ -788,7 +786,7 @@ ship "Korath Haven"
 		"Firelight Missile Bank" 4
 		"Firelight Storage Rack" 4
 		"Firelight Missile" 108
-		"Firestorm Torpedo" 62
+		"Firestorm Torpedo" 13
 		"Firestorm Turret" 1
 
 		"Triple Plasma Core" 3
@@ -963,7 +961,6 @@ ship "Korath Haven"
 	explode "huge explosion" 50
 	"final explode" "final explosion large"
 	description "Korath Havens are massive nomadic habitats that hold much of their remaining population."
-
 
 
 ship "Cesmip'tlad"
