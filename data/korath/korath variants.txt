@@ -376,7 +376,6 @@ ship "Korath Raider" "Korath Raider (Hyperdrive)"
 	turret "Korath Warder"
 
 
-
 ship "Korath Raider Mark XLII" "Korath Raider Mark XLII (Crippler)"
 	add attributes
 		"cargo space" -70
@@ -411,7 +410,6 @@ ship "Korath Raider Mark XLII" "Korath Raider Mark XLII (Crippler)"
 	turret "Korath Grab-Strike"
 	turret "Korath Disruptor"
 	turret "Korath Banisher"
-
 
 
 ship "Korath Chaser" "Korath Chaser (Expeller)"
@@ -453,26 +451,6 @@ ship "Korath Chaser" "Korath Chaser (World-Ship)"
 		"Hyperdrive"
 
 
-
-ship "Korath Conveyor" "Korath Conveyor (Jump)"
-	outfits
-		"Korath Banisher" 2
-		"Korath Warder" 3
-		"Digger Mining Turret" 3
-		"Digger Mining Beam" 2
-		
-		"Triple Plasma Core"
-		"Systems Core (Large)"
-		"Large Heat Shunt" 2
-		"Fuel Processor"
-		"Korath Repeater Rifle" 237
-		"Microbot Defense Station" 19
-		
-		"Thruster (Stellar Class)"
-		"Steering (Planetary Class)"
-		"Jump Drive"
-
-
 ship "Korath Conqueror" "Korath Conqueror (Crippled)"
 	outfits
 		"Korath Banisher" 3
@@ -501,30 +479,30 @@ ship "Korath Conqueror" "Korath Conqueror (Crippled)"
 
 ship "Korath Conqueror" "Korath Conqueror (Ember)"
 	outfits
-		"Shunt-Strike Turret" 4
+		"Shunt-Strike Turret" 5
 		"Blaze-Pike Turret" 2
-		"Korath Banisher" 2
+		"Korath Banisher" 1
 		"Korath Warder" 2
 		"Korath Fire-Lance" 3
 		"Firelight Missile Bank" 2
 		"Firelight Missile" 36
 		
 		"Triple Plasma Core"
+		"Double Plasma Core"
 		"Systems Core (Large)"
 		"Liquid Sodium Cooler"
 		"Large Heat Shunt"
+		"Small Heat Shunt"
 		"Fuel Processor" 2
-		"Korath Repeater Rifle" 150
-		"Microbot Defense Station" 19
-		"Security Station" 7
-		"Outfits Expansion"
+		"Korath Repeater Rifle" 480
+		"Microbot Defense Station" 25
+		"Outfits Expansion" 2
 		
-		"Afterburner (Lunar Class)"
-		"Reverser (Planetary Class)"
+		"Afterburner (Comet Class)"
+		"Reverser (Lunar Class)"
 		"Thruster (Stellar Class)"
 		"Steering (Planetary Class)"
 		"Jump Drive"
-		"Hyperdrive"
 		
 	gun "Korath Fire-Lance"
 	gun "Korath Fire-Lance"
@@ -534,13 +512,96 @@ ship "Korath Conqueror" "Korath Conqueror (Ember)"
 	turret "Blaze-Pike Turret"
 	turret "Shunt-Strike Turret"
 	turret "Shunt-Strike Turret"
-	turret "Korath Banisher"
+	turret "Shunt-Strike Turret"
 	turret "Korath Warder"
 	turret "Korath Warder"
+	turret "Shunt-Strike Turret"
+	turret "Shunt-Strike Turret"
 	turret "Korath Banisher"
-	turret "Shunt-Strike Turret"
-	turret "Shunt-Strike Turret"
 	turret "Blaze-Pike Turret"
+
+
+ship "Korath Conqueror" "Korath Conqueror (Grab)"
+	outfits
+		"Firelight Missile" 72
+		"Firelight Missile Bank" 2
+		"Firelight Storage Rack" 4
+		"Korath Banisher" 2
+		"Korath Fire-Lance" 3
+		"Korath Grab-Strike" 6
+		"Korath Warder" 2
+
+		"Triple Plasma Core"
+		"Systems Core (Large)" 2
+		"Fuel Processor"
+		"Large Heat Shunt"
+		"Liquid Sodium Cooler"
+		"Outfits Expansion" 3
+		"Korath Repeater Rifle" 359
+		"Microbot Defense Station" 23
+
+		"Afterburner (Planetary Class)"
+		"Steering (Stellar Class)"
+		"Thruster (Planetary Class)"
+		"Jump Drive"
+
+	gun "Korath Fire-Lance"
+	gun "Korath Fire-Lance"
+	gun "Korath Fire-Lance"
+	gun "Firelight Missile Bank"
+	gun "Firelight Missile Bank"
+	turret "Korath Grab-Strike"
+	turret "Korath Warder"
+	turret "Korath Grab-Strike"
+	turret "Korath Grab-Strike"
+	turret "Korath Warder"
+	turret "Korath Grab-Strike"
+	turret "Korath Grab-Strike"
+	turret "Korath Grab-Strike"
+	turret "Korath Banisher"
+	turret "Korath Banisher"
+
+
+ship "Korath Conqueror" "Korath Conqueror (Storm)"
+	outfits
+		"Blaze-Pike Turret" 2
+		"Korath Fire-Lance" 3
+		"Korath Inferno" 2
+		"Korath Warder" 2
+		"Shunt-Strike Turret" 2
+		"Firelight Missile" 36
+		"Firelight Missile Bank" 2
+		"Firestorm Torpedo" 26
+		"Firestorm Turret" 2
+
+		"Triple Plasma Core"
+		"Double Plasma Core"
+		"Systems Core (Large)"
+		"Liquid Sodium Cooler"
+		"Small Heat Shunt" 2
+		"Fuel Processor"
+		"Microbot Defense Station" 21
+		"Korath Repeater Rifle" 359
+
+		"Steering (Stellar Class)"
+		"Thruster (Planetary Class)"
+		"Jump Drive"
+
+	gun "Korath Fire-Lance"
+	gun "Korath Fire-Lance"
+	gun "Korath Fire-Lance"
+	gun "Firelight Missile Bank"
+	gun "Firelight Missile Bank"
+	turret "Korath Inferno"
+	turret "Korath Warder"
+	turret "Shunt-Strike Turret"
+	turret "Korath Inferno"
+	turret "Korath Warder"
+	turret "Shunt-Strike Turret"
+	turret "Firestorm Turret"
+	turret "Blaze-Pike Turret"
+	turret "Blaze-Pike Turret"
+	turret "Firestorm Turret"
 
 
 ship "Korath Conqueror" "Korath Conqueror (Mereti)"
@@ -560,7 +621,7 @@ ship "Korath Conqueror" "Korath Conqueror (Mereti)"
 		"Small Heat Shunt"
 		"Fuel Processor"
 		"Korath Repeater Rifle" 272
-		"Microbot Defense Station" 17
+		"Microbot Defense Station" 23
 		"Outfits Expansion"
 		"Reasoning Node"
 		"Brig"
@@ -605,13 +666,12 @@ ship "Korath Conqueror" "Korath Conqueror (Sestor)"
 		"Large Heat Shunt" 2
 		"Small Heat Shunt"
 		"Fuel Processor"
-		"Korath Repeater Rifle" 272
-		"Microbot Defense Station" 17
+		"Korath Repeater Rifle" 369
+		"Microbot Defense Station" 24
 		"Outfits Expansion" 3
 		"Control Transceiver"
 		"Brig"
 		
-		"Afterburner (Comet Class)"
 		"Thruster (Planetary Class)"
 		"Steering (Planetary Class)"
 		"Jump Drive"
@@ -631,6 +691,25 @@ ship "Korath Conqueror" "Korath Conqueror (Sestor)"
 	turret "Korath Banisher"
 	turret "Korath Warder"
 	turret "Korath Grab-Strike"
+
+
+ship "Korath Conveyor" "Korath Conveyor (Jump)"
+	outfits
+		"Korath Banisher" 2
+		"Korath Warder" 3
+		"Digger Mining Turret" 3
+		"Digger Mining Beam" 2
+		
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 2
+		"Fuel Processor"
+		"Korath Repeater Rifle" 237
+		"Microbot Defense Station" 19
+		
+		"Thruster (Stellar Class)"
+		"Steering (Planetary Class)"
+		"Jump Drive"
 
 
 ship "Korath Conveyor" "Korath Conveyor (Digger)"
@@ -748,6 +827,38 @@ ship "Korath Herder" "Korath Herder (Digger)"
 	turret "Digger Mining Turret"
 	turret "Korath Warder"
 	turret "Korath Warder"
+
+
+ship "Korath Herder" "Korath Herder (Storm)"
+	outfits
+		"Blaze-Pike Turret" 2
+		"Korath Warder" 3
+		"Korath Fire-Lance" 3
+		"Firestorm Torpedo" 26
+		"Firestorm Turret" 2
+
+		"Triple Plasma Core"
+		"Systems Core (Large)"
+		"Large Heat Shunt" 2
+		"Fuel Processor"
+		"Korath Repeater Rifle" 308
+		"Microbot Defense Station" 18
+
+		"Reverser (Lunar Class)"
+		"Steering (Stellar Class)"
+		"Thruster (Stellar Class)"
+		"Jump Drive"
+	
+	gun "Korath Fire-Lance"
+	gun "Korath Fire-Lance"
+	gun "Korath Fire-Lance"
+	turret "Blaze-Pike Turret"
+	turret "Blaze-Pike Turret"
+	turret "Korath Warder"
+	turret "Korath Warder"
+	turret "Korath Warder"
+	turret "Firestorm Turret"
+	turret "Firestorm Turret"
 
 
 ship "Korath Herder" "Korath Herder (Automata)"
@@ -1104,7 +1215,6 @@ ship "Kar Ik Vot 349" "Kar Ik Vot 349 (Trapper)"
 	turret
 
 
-
 ship "Tek Far 71 - Lek" "Tek Far 71 - Lek (Close Quarters)"
 	outfits
 		"Korath Detainer"
@@ -1130,7 +1240,6 @@ ship "Tek Far 71 - Lek" "Tek Far 71 - Lek (Close Quarters)"
 	turret "Korath Repeater Turret"
 
 
-
 ship "Tek Far 78 - Osk" "Tek Far 78 - Osk (Close Quarters)"
 	outfits
 		"Korath Detainer"
@@ -1152,7 +1261,6 @@ ship "Tek Far 78 - Osk" "Tek Far 78 - Osk (Close Quarters)"
 	turret "Korath Repeater Turret"
 	turret "Korath Repeater Turret"
 	turret "Korath Warder"
-
 
 
 ship "Met Par Tek 53" "Met Par Tek 53 (Sniper)"

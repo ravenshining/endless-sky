@@ -263,6 +263,10 @@ fleet "Korath Home"
 		"Korath Chaser" 3
 	variant 22
 		"Korath Conqueror"
+	variant 12
+		"Korath Conqueror (Grab)"
+	variant 2
+		"Korath Conqueror (Storm)"
 	variant 4
 		"Korath Tanker"
 		"Korath Chaser" 3
@@ -361,6 +365,8 @@ fleet "Korath Civilian Large"
 		"Korath Chaser (Expeller)" 3
 	variant 6
 		"Korath Conqueror"
+	variant 4
+		"Korath Conqueror (Grab)"
 	variant 12
 		"Korath Tanker"
 		"Korath Chaser (Expeller)" 3
@@ -391,9 +397,10 @@ fleet "Kor Efret Home"
 	variant 5
 		"Cesmip'tlad"
 	variant 3
-		"Korath Dredger (Efreti)"
+		"Efreti Freighter"
 	variant 1
-		"Korath Raider (Efreti)"
+		"Efreti Transport"
+
 
 fleet "Kor Efret Miners"
 	government "Kor Efret"
@@ -403,7 +410,7 @@ fleet "Kor Efret Miners"
 	personality
 		timid disables plunders frugal mining harvests
 	variant
-		"Korath Raider (Efreti)"
+		"Efreti Transport"
 
 
 fleet "Small Kor Sestor"
