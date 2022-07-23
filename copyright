@@ -1070,6 +1070,12 @@ Comment: Derived from works by Michael Zahniser (under the same license)
 
 Files:
  image/effect/firestorm?ring*
+ images/effect/firestorm?ring*
+ imagse/hardpoint/firestorm?torpedo*
+ images/icon/firestorm?torpedo*
+ images/outfit/firestorm?torpedo*
+ images/outfit/firestorm?torpedo?rack*
+ images/outfit/firestorm?turret*
 Copyright: NomadicVolcano (NomadicVolcano@gmail.com).
 License: CC0 (Creative Commons Zero)/Public-Domain
 
@@ -1439,6 +1445,19 @@ Files:
 Copyright: Gefüllte Taubenbrust <jeaminer23@gmail.com>
 License: CC-BY-SA-4.0
 
+Files:
+ images/outfit/large?efreti?thruster*
+ images/outfit/medium?efreti?thruster*
+ images/outfit/small?efreti?thruster*
+ images/outfit/tiny?efreti?thruster*
+ images/outfit/large?efreti?steering*
+ images/outfit/medium?efreti?steering*
+ images/outfit/small?efreti?steering*
+ images/outfit/tiny?efreti?steering*
+Copyright: Gefüllte Taubenbrust <jeaminer23@gmail.com>
+License: CC-BY-SA-4.0
+Comment: Derived from works by NomadicVolcano.
+
 Files: sounds/ionball*
 Copyright: pluralz
 License: public-domain
@@ -1544,7 +1563,20 @@ License: CC-BY-SA-4.0
 Comment: Derived from works by Michael Zahniser (under the same license) and Becca Tommaso (under the same licence).
 
 Files:
+ images/ship/korath?haven*
+ images/ship/korath?haven*
+ images/thumbnail/korath?haven*
+Liense: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahniser (under the same license), Becca Tommaso (under the same licence), and NomadicVolcano.
+
+Files:
+ images/ship/efreti?ws*
+ images/ship/efreti?freighter*
+ images/ship/efreti?transport*
  images/ship/raider?xlii*
+ images/thumbnail/efreti?ws*
+ images/thumbnail/efreti?freighter*
+ images/thumbnail/efreti?transport*
  images/thumbnail/raider?xlii*
 Copyright: Saugia <https://github.com/Saugia>
 License: CC-BY-SA-4.0

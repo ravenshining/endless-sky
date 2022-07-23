@@ -962,8 +962,8 @@ ship "Korath Haven"
 
 
 ship "Cesmip'tlad"
-	sprite "ship/kws-efreti"
-	thumbnail "thumbnail/kws-efreti"
+	sprite "ship/efreti ws"
+	thumbnail "thumbnail/efreti ws"
 	attributes
 		category "Heavy Freighter"
 		cost 27690000
@@ -1026,8 +1026,8 @@ ship "Cesmip'tlad"
 
 #placeholder name
 ship "Efreti Freighter"
-	sprite "ship/dredger-efreti"
-	thumbnail "thumbnail/dredger-efreti"
+	sprite "ship/efreti freighter"
+	thumbnail "thumbnail/efreti freighter"
 	attributes
 		category "Heavy Freighter"
 		"cost" 29370000
@@ -1088,8 +1088,8 @@ ship "Efreti Freighter"
 
 #placeholder name
 ship "Efreti Transport"
-	sprite "ship/raider-efreti"
-	thumbnail "thumbnail/raider-efreti"
+	sprite "ship/efreti transport"
+	thumbnail "thumbnail/efreti transport"
 	attributes
 		category "Transport"
 		"cost" 16570000
