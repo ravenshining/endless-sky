@@ -199,11 +199,11 @@ fleet "Korath Raid"
 	personality
 		disables plunders opportunistic harvests
 	variant 4 
-		"Vertsipmo"
-		"Rekaniz" 2
+		"Palavreb"
+		"Olohfec" 2
 	variant
-		"Vertsipmo (Blaze)"
-		"Rekaniz" 2
+		"Palavreb (Blaze)"
+		"Olohfec" 2
 
 fleet "Korath Ember Waste Raid"
 	government "Korath"
@@ -215,11 +215,11 @@ fleet "Korath Ember Waste Raid"
 	personality
 		disables plunders opportunistic harvests
 	variant 7
-		"Vertsipmo (Ember)"
-		"Rekaniz" 2
+		"Palavreb (Ember)"
+		"Olohfec" 2
 	variant
-		"Vertsipmo (Ember Shunt)"
-		"Rekaniz" 2
+		"Palavreb (Ember Shunt)"
+		"Olohfec" 2
 
 fleet "Korath Miners"
 	government "Korath"
@@ -229,8 +229,8 @@ fleet "Korath Miners"
 	personality
 		timid disables plunders frugal mining harvests
 	variant
-		"Kaoakst (Digger)"
-		"Rekaniz (Digger)" 4
+		"Ratolenred (Digger)"
+		"Olohfec (Digger)" 4
 
 fleet "Korath Civilian Miners"
 	government "Korath (Civilian)"
@@ -240,9 +240,9 @@ fleet "Korath Civilian Miners"
 	personality
 		heroic disables frugal mining harvests coward forbearing
 	variant
-		"Kaoakst (Civilian)"
-		"Rekaniz (Expeller)" 2
-		"Rekaniz (Digger)" 2
+		"Ratolenred (Civilian)"
+		"Olohfec (Expeller)" 2
+		"Olohfec (Digger)" 2
 
 fleet "Korath Home"
 	government "Korath"
@@ -258,21 +258,21 @@ fleet "Korath Home"
 	variant 7
 		"Korath World-Ship C"
 	variant 3
-		"Kaoakst"
-		"Rekaniz" 2
-		"Rekaniz (Expeller)" 2
+		"Ratolenred"
+		"Olohfec" 2
+		"Olohfec (Expeller)" 2
 	variant 1
-		"Kaoakst (Shunt)"
-		"Rekaniz" 2
-		"Rekaniz (Expeller)" 2
+		"Ratolenred (Shunt)"
+		"Olohfec" 2
+		"Olohfec (Expeller)" 2
 	variant 1
-		"Kaoakst (Heaver)"
-		"Rekaniz" 4
+		"Ratolenred (Heaver)"
+		"Olohfec" 4
 	variant 1
-		"Kaoakst"
-		"Vertsipmo (Blaze)"
-		"Rekaniz" 4
-		"Rekaniz (Expeller)" 2
+		"Ratolenred"
+		"Palavreb (Blaze)"
+		"Olohfec" 4
+		"Olohfec (Expeller)" 2
 
 fleet "Korath Large Raid"
 	government "Korath"
@@ -282,15 +282,15 @@ fleet "Korath Large Raid"
 	personality
 		disables plunders opportunistic harvests
 	variant 5
-		"Vertsipmo" 2
-		"Rekaniz"  4
+		"Palavreb" 2
+		"Olohfec"  4
 	variant 5
-		"Vertsipmo (Blaze)" 2
-		"Rekaniz" 4
+		"Palavreb (Blaze)" 2
+		"Olohfec" 4
 	variant 2
-		"Kaoakst"
-		"Vertsipmo (Blaze)"
-		"Rekaniz" 6
+		"Ratolenred"
+		"Palavreb (Blaze)"
+		"Olohfec" 6
 
 fleet "Korath Ember Waste Raid"
 	government "Korath"
@@ -300,20 +300,20 @@ fleet "Korath Ember Waste Raid"
 	personality
 		disables plunders opportunistic harvests
 	variant 15
-		"Vertsipmo (Ember)"
-		"Rekaniz" 2
+		"Palavreb (Ember)"
+		"Olohfec" 2
 	variant 3
-		"Vertsipmo (Ember Blaze)"
-		"Rekaniz" 2
+		"Palavreb (Ember Blaze)"
+		"Olohfec" 2
 	variant 3
-		"Vertsipmo (Ember Shunt)"
-		"Rekaniz" 2
+		"Palavreb (Ember Shunt)"
+		"Olohfec" 2
 	variant 2
-		"Kaoakst"
-		"Rekaniz" 4
+		"Ratolenred"
+		"Olohfec" 4
 	variant 2
-		"Kaoakst (Shunt)"
-		"Rekaniz" 4
+		"Ratolenred (Shunt)"
+		"Olohfec" 4
 
 fleet "Korath Civilian Large"
 	government "Korath (Civilian)"
@@ -323,9 +323,9 @@ fleet "Korath Civilian Large"
 	personality
 		frugal opportunistic disables forbearing
 	variant 5
-		"Kaoakst (Civilian)" 2
-		"Rekaniz (Digger)" 4
-		"Rekaniz (Expeller)" 4
+		"Ratolenred (Civilian)" 2
+		"Olohfec (Digger)" 4
+		"Olohfec (Expeller)" 4
 	variant 12
 		"Korath World-Ship"
 	variant 6
@@ -333,7 +333,7 @@ fleet "Korath Civilian Large"
 	variant 18
 		"Korath World-Ship C"
 	variant 1
-		"Rekaniz (World-Ship)"
+		"Olohfec (World-Ship)"
 
 
 fleet "Kor Efret Home"

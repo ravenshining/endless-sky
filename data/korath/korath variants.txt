@@ -10,7 +10,7 @@
 # PARTICULAR PURPOSE.  See the GNU General Public License for more details.
 
 
-ship "Kaoakst" "Kaoakst (Civilian)"
+ship "Ratolenred" "Ratolenred (Civilian)"
 	add attributes
 		"atmosphere scan" 1
 	outfits
@@ -49,7 +49,7 @@ ship "Kaoakst" "Kaoakst (Civilian)"
 	turret "Korath Warder"
 
 
-ship "Kaoakst" "Kaoakst (Crippled)"
+ship "Ratolenred" "Ratolenred (Crippled)"
 	outfits
 		"Banisher Grav-Turret"
 		"Digger Mining Turret"
@@ -79,7 +79,7 @@ ship "Kaoakst" "Kaoakst (Crippled)"
 	turret "Banisher Grav-Turret"
 
 
-ship "Kaoakst" "Kaoakst (Digger)"
+ship "Ratolenred" "Ratolenred (Digger)"
 	outfits
 		"Digger Mining Turret" 5
 		"Warder Anti-Missile"
@@ -108,7 +108,7 @@ ship "Kaoakst" "Kaoakst (Digger)"
 	turret "Digger Mining Turret"
 
 
-ship "Kaoakst" "Kaoakst (Shunt)"
+ship "Ratolenred" "Ratolenred (Shunt)"
 	outfits
 		"Shunt-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -135,7 +135,7 @@ ship "Kaoakst" "Kaoakst (Shunt)"
 	turret "Warder Anti-Missile"
 
 
-ship "Kaoakst" "Kaoakst (Ground Assault)"
+ship "Ratolenred" "Ratolenred (Ground Assault)"
 	"crew" 449
 	outfits
 		"Banisher Grav-Turret" 2
@@ -163,7 +163,7 @@ ship "Kaoakst" "Kaoakst (Ground Assault)"
 	turret "Banisher Grav-Turret"
 
 
-ship "Kaoakst" "Kaoakst (Heaver)"
+ship "Ratolenred" "Ratolenred (Heaver)"
 	outfits
 		"Langrage Hyper-Heaver" 4
 		"Warder Anti-Missile" 3
@@ -189,7 +189,7 @@ ship "Kaoakst" "Kaoakst (Heaver)"
 	turret "Langrage Hyper-Heaver"
 
 
-ship "Vertsipmo" "Vertsipmo (Blaze)"
+ship "Palavreb" "Palavreb (Blaze)"
 	outfits
 		"Blaze-Pike Turret" 4
 		"Digger Mining Turret" 1
@@ -219,7 +219,7 @@ ship "Vertsipmo" "Vertsipmo (Blaze)"
 	turret "Warder Anti-Missile"
 
 
-ship "Vertsipmo" "Vertsipmo (Crippled)"
+ship "Palavreb" "Palavreb (Crippled)"
 	outfits
 		"Grab-Strike Turret" 2
 		"Banisher Grav-Turret"
@@ -251,7 +251,7 @@ ship "Vertsipmo" "Vertsipmo (Crippled)"
 	turret "Warder Anti-Missile"
 
 
-ship "Vertsipmo" "Vertsipmo (Ember)"
+ship "Palavreb" "Palavreb (Ember)"
 	outfits
 		"Grab-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -285,7 +285,7 @@ ship "Vertsipmo" "Vertsipmo (Ember)"
 	turret "Warder Anti-Missile"
 
 
-ship "Vertsipmo" "Vertsipmo (Ember Blaze)"
+ship "Palavreb" "Palavreb (Ember Blaze)"
 	outfits
 		"Blaze-Pike Turret" 4
 		"Digger Mining Turret"
@@ -317,7 +317,7 @@ ship "Vertsipmo" "Vertsipmo (Ember Blaze)"
 	turret "Warder Anti-Missile"
 
 
-ship "Vertsipmo" "Vertsipmo (Ember Shunt)"
+ship "Palavreb" "Palavreb (Ember Shunt)"
 	outfits
 		"Shunt-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -351,7 +351,7 @@ ship "Vertsipmo" "Vertsipmo (Ember Shunt)"
 	turret "Warder Anti-Missile"
 
 
-ship "Vertsipmo" "Vertsipmo (Hyperdrive)"
+ship "Palavreb" "Palavreb (Hyperdrive)"
 	outfits
 		"Grab-Strike Turret" 4
 		"Banisher Grav-Turret"
@@ -384,7 +384,7 @@ ship "Vertsipmo" "Vertsipmo (Hyperdrive)"
 
 
 
-ship "Kakafrolj" "Kakafrolj (Crippler)"
+ship "Tubfalem" "Tubfalem (Crippler)"
 	add attributes
 		"cargo space" -70
 		"outfit space" 70
@@ -421,7 +421,7 @@ ship "Kakafrolj" "Kakafrolj (Crippler)"
 
 
 
-ship "Rekaniz" "Rekaniz (Expeller)"
+ship "Olohfec" "Olohfec (Expeller)"
 	outfits
 		"Expeller Grav-Ray"
 		
@@ -433,7 +433,7 @@ ship "Rekaniz" "Rekaniz (Expeller)"
 		"Bow Drive (Meteor Class)"
 
 
-ship "Rekaniz" "Rekaniz (Digger)"
+ship "Olohfec" "Olohfec (Digger)"
 	outfits
 		"Digger Mining Beam"
 		
@@ -446,7 +446,7 @@ ship "Rekaniz" "Rekaniz (Digger)"
 		"Engine (Meteor Class)"
 
 
-ship "Rekaniz" "Rekaniz (World-Ship)"
+ship "Olohfec" "Olohfec (World-Ship)"
 	add attributes
 		"atmosphere scan" 1
 	outfits
