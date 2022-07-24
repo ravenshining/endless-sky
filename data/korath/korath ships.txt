@@ -998,8 +998,8 @@ ship "Nacasairot"
 		"Fuel Processor"
 		"Korath Repeater Rifle" 150
 		
-		"Large GP Hybrid Thruster"
-		"Large GP Hybrid Steering"
+		"Nelmeb GP Hybrid Thruster"
+		"Nelmeb GP Hybrid Steering"
 		"Hyperdrive"
 
 	"reverse engine" -31 -290
@@ -1062,8 +1062,8 @@ ship "Ikrikopespeb"
 		"Small Heat Shunt"
 		"Fuel Processor"
 		
-		"Large GP Hybrid Thruster"
-		"Medium GP Hybrid Steering"
+		"Nelmeb GP Hybrid Thruster"
+		"Gaktem GP Hybrid Steering"
 		"Hyperdrive"
 
 	engine 19.5 189.5
@@ -1123,8 +1123,8 @@ ship "Haspebrafa"
 		"Small Heat Shunt"
 		"Fuel Processor"
 		
-		"Large GP Hybrid Thruster"
-		"Medium GP Hybrid Steering"
+		"Nelmeb GP Hybrid Thruster"
+		"Gaktem GP Hybrid Steering"
 		"Hyperdrive"
 
 	engine -17.5 139.5
