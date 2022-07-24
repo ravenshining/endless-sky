@@ -963,8 +963,8 @@ ship "Korath Haven"
 
 
 ship "Nacasairot"
-	sprite "ship/cesmiptlad"
-	thumbnail "thumbnail/cesmiptlad"
+	sprite "ship/nacasairot"
+	thumbnail "thumbnail/nacasairot"
 	attributes
 		category "Heavy Freighter"
 		cost 27690000
@@ -1025,8 +1025,8 @@ ship "Nacasairot"
 
 
 ship "Ikrikopespeb"
-	sprite "ship/Ikrikopespeb"
-	thumbnail "thumbnail/Ikrikopespeb"
+	sprite "ship/ikrikopespeb"
+	thumbnail "thumbnail/ikrikopespeb"
 	attributes
 		category "Heavy Freighter"
 		"cost" 29370000
@@ -1087,8 +1087,8 @@ ship "Ikrikopespeb"
 
 
 ship "Haspebrafa"
-	sprite "ship/Haspebrafa"
-	thumbnail "thumbnail/Haspebrafa"
+	sprite "ship/haspebrafa"
+	thumbnail "thumbnail/haspebrafa"
 	attributes
 		category "Transport"
 		"cost" 16570000
