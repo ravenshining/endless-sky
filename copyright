@@ -1070,12 +1070,6 @@ Comment: Derived from works by Michael Zahniser (under the same license)
 
 Files:
  image/effect/firestorm?ring*
- images/effect/firestorm?ring*
- imagse/hardpoint/firestorm?torpedo*
- images/icon/firestorm?torpedo*
- images/outfit/firestorm?torpedo*
- images/outfit/firestorm?torpedo?rack*
- images/outfit/firestorm?turret*
 Copyright: NomadicVolcano (NomadicVolcano@gmail.com).
 License: CC0 (Creative Commons Zero)/Public-Domain
 
@@ -1412,16 +1406,19 @@ Files:
  images/outfit/bright?cloud*
  images/outfit/caldera?afterburner*
  images/outfit/dark?storm*
+ images/outfit/double?plasma?core*
  images/outfit/dual?sunbeam?turret*
  images/outfit/finisher?maegrolain*
  images/outfit/*grav-steering*
  images/outfit/*grav-thruster*
  images/outfit/nuke*
+ images/outfit/plasma?core*
  images/outfit/red?sun*
  images/outfit/sunbeam*
  images/outfit/sunbeam?turret*
  images/outfit/thunderhead?launcher*
  images/outfit/thunderhead?storage*
+ images/outfit/triple?plasma?core*
  images/outfit/wanderer?anti-missile*
  images/outfit/wanderer?heat?sink*
  images/outfit/white?sun*
@@ -1444,19 +1441,6 @@ Files:
  images/thumbnail/splinter*
 Copyright: Gefüllte Taubenbrust <jeaminer23@gmail.com>
 License: CC-BY-SA-4.0
-
-Files:
- images/outfit/large?efreti?thruster*
- images/outfit/medium?efreti?thruster*
- images/outfit/small?efreti?thruster*
- images/outfit/tiny?efreti?thruster*
- images/outfit/large?efreti?steering*
- images/outfit/medium?efreti?steering*
- images/outfit/small?efreti?steering*
- images/outfit/tiny?efreti?steering*
-Copyright: Gefüllte Taubenbrust <jeaminer23@gmail.com>
-License: CC-BY-SA-4.0
-Comment: Derived from works by NomadicVolcano.
 
 Files: sounds/ionball*
 Copyright: pluralz
@@ -1517,17 +1501,23 @@ Files:
  images/ship/aerie*
  images/ship/bactrian*
  images/ship/hailstone*
+ images/ship/haspebrafa*
  images/ship/heavy?gust*
+ images/ship/ikrikopespeb*
  images/ship/mining?drone*
  images/ship/mule*
+ images/ship/nacasairot*
  images/ship/squall*
  images/ship/sunder*
  images/thumbnail/aerie*
  images/thumbnail/bactrian*
  images/thumbnail/hailstone*
+ images/thumbnail/haspebrafa*
  images/thumbnail/heavy?gust*
+ images/thumbnail/ikrikopespeb*
  images/thumbnail/mining?drone*
  images/thumbnail/mule*
+ images/thumbnail/nacasairot*
  images/thumbnail/squall*
  images/thumbnail/sunder*
 Copyright: Saugia <https://github.com/Saugia>
@@ -1560,27 +1550,14 @@ Files:
  images/projectile/firelight?active*
 Copyright: Saugia <https://github.com/Saugia>
 License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser (under the same license) and Becca Tommaso (under the same license).
+Comment: Derived from works by Michael Zahniser (under the same license) and Becca Tommaso (under the same licence).
 
 Files:
- images/ship/korath?haven*
- images/thumbnail/korath?haven*
-Copyright: Saugia <https://github.com/Saugia>
-License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser (under the same license), Becca Tommaso (under the same license), and NomadicVolcano.
-
-Files:
- images/ship/akumikid*
- images/ship/cesmiptlad*
- images/ship/iberinos*
  images/ship/raider?xlii*
- images/thumbnail/akumikid*
- images/thumbnail/cesmiptlad*
- images/thumbnail/iberinos*
  images/thumbnail/raider?xlii*
 Copyright: Saugia <https://github.com/Saugia>
 License: CC-BY-SA-4.0
-Comment: Derived from works by Michael Zahniser (under the same license) and Lia Gerty (under the same license).
+Comment: Derived from works by Michael Zahniser (under the same license) and Lia Gerty (under the same licence).
 
 Files:
  images/outfit/microbot?defense?station*
