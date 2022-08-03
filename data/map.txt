@@ -14659,9 +14659,10 @@ system "Kor En'lakfar"
 	trade Plastic 488
 	fleet "Korath Raid" 600
 	fleet "Korath Home" 2000
-	fleet "Korath Large Raid" 25000
-	fleet "Korath Civilian Miners" 5000
-	fleet "Korath Civilian Large" 5000
+	fleet "Korath Large Raid" 17000
+	fleet "Korath Defense" 3500
+	fleet "Korath Civilian Miners" 6000
+	fleet "Korath Civilian Large" 3000
 	object
 		sprite star/g0
 		period 10
@@ -14725,6 +14726,7 @@ system "Kor Fel'tar"
 	trade Plastic 478
 	fleet "Korath Raid" 1600
 	fleet "Korath Home" 2500
+	fleet "Korath Defense" 3600
 	fleet "Korath Civilian Miners" 5000
 	fleet "Korath Civilian Large" 4000
 	object
@@ -14793,6 +14795,7 @@ system "Kor Men"
 	trade Plastic 497
 	fleet "Korath Home" 800
 	fleet "Korath Raid" 1300
+	fleet "Korath Defense" 2900
 	fleet "Korath Large Raid" 25000
 	fleet "Korath Civilian Large" 1500
 	fleet "Korath Civilian Miners" 10000
@@ -14856,7 +14859,8 @@ system "Kor Nor'peli"
 	trade Medical 850
 	trade Metal 517
 	trade Plastic 423
-	fleet "Korath Large Raid" 30000
+	fleet "Korath Defense" 3500
+	fleet "Korath Large Raid" 20000
 	fleet "Korath Ember Waste Raid" 2500
 	fleet "Korath Home" 500
 	object
@@ -14928,6 +14932,7 @@ system "Kor Tar'bei"
 	fleet "Korath Civilian Miners" 5000
 	fleet "Korath Home" 1000
 	fleet "Korath Civilian Large" 1000
+	fleet "Korath Defense" 2600
 	object
 		sprite star/m3
 		period 10
@@ -14980,6 +14985,7 @@ system "Kor Zena'i"
 	trade Plastic 381
 	fleet "Korath Raid" 800
 	fleet "Korath Home" 1500
+	fleet "Korath Defense" 3000
 	fleet "Korath Large Raid" 20000
 	fleet "Korath Civilian Large" 1000
 	object
