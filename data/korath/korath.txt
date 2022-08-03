@@ -258,10 +258,10 @@ fleet "Korath Home"
 	cargo 3
 	personality
 		timid opportunistic
-	variant 6
+	variant 3
 		"Korath Conveyor"
 		"Korath Chaser" 3
-	variant 4
+	variant 3
 		"Korath Tanker"
 		"Korath Chaser" 3
 	variant 2
@@ -383,23 +383,23 @@ fleet "Korath Civilian Large"
 	cargo 3
 	personality
 		frugal opportunistic disables forbearing
-	variant 15
+	variant 8
 		"Korath Traveller"
 		"Korath Chaser (Expeller)" 3
-	variant 12
+	variant 7
 		"Korath Conveyor"
 		"Korath Chaser (Expeller)" 3
-	variant 12
+	variant 8
 		"Korath Habitat"
 		"Korath Raider" 2
 		"Korath Chaser" 4
-	variant 11
+	variant 6
 		"Korath Tanker"
 		"Korath Chaser (Expeller)" 3
-	variant 9
+	variant 4
 		"Korath Traveller (Grab)"
 		"Korath Chaser (Expeller)" 3
-	variant 5
+	variant 3
 		"Korath Dredger (Civilian)" 2
 		"Korath Chaser (Digger)" 4
 		"Korath Chaser (Expeller)" 4
