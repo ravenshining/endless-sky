@@ -277,6 +277,12 @@ fleet "Korath Home"
 		"Korath Chaser" 3
 
 fleet "Korath Defense"
+	government "Korath"
+	names "korath"
+	fighters "korath"
+	cargo 1
+	personality
+		disables plunders opportunistic harvests
 	variant 3
 		"Korath Conqueror"
 	variant 3
@@ -293,7 +299,7 @@ fleet "Korath Defense"
 		"Korath Raider" 3
 		"Korath Chaser" 6
 	variant 2
-		"Korath Raider (Shunt)" 3
+		"Korath Raider (Ember Shunt)" 3
 		"Korath Chaser" 6
 	variant 1
 		"Korath Dredger"
