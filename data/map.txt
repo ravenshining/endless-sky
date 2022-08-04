@@ -14862,7 +14862,7 @@ system "Kor Nor'peli"
 	fleet "Korath Defense" 3500
 	fleet "Korath Large Raid" 20000
 	fleet "Korath Ember Waste Raid" 2500
-	fleet "Korath Civilian (Large)" 4000
+	fleet "Korath Civilian Large" 4000
 	fleet "Korath Home" 500
 	object
 		sprite star/k3
