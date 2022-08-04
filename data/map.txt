@@ -14859,12 +14859,12 @@ system "Kor Nor'peli"
 	trade Medical 850
 	trade Metal 517
 	trade Plastic 423
-	fleet "Korath Defense" 3500
+	fleet "Korath Defense" 1700
 	fleet "Korath Large Raid" 20000
-	fleet "Korath Ember Waste Raid" 2500
+	fleet "Korath Ember Waste Raid" 1300
 	fleet "Korath Ember Waste Raid Large" 20000
 	fleet "Korath Civilian Large" 4000
-	fleet "Korath Home" 500
+	fleet "Korath Home" 900
 	object
 		sprite star/k3
 		distance 22.4307
@@ -14935,7 +14935,7 @@ system "Kor Tar'bei"
 	fleet "Korath Home" 1000
 	fleet "Korath Civilian Large" 1000
 	fleet "Korath Defense" 1800
-	fleet "Korath Ember Waste Raid" 8000
+	fleet "Korath Ember Waste Raid" 2600
 	fleet "Korath Ember Waste Raid Large" 30000
 	object
 		sprite star/m3
@@ -14987,9 +14987,9 @@ system "Kor Zena'i"
 	trade Medical 785
 	trade Metal 478
 	trade Plastic 381
-	fleet "Korath Raid" 800
+	fleet "Korath Raid" 900
 	fleet "Korath Home" 1500
-	fleet "Korath Defense" 2700
+	fleet "Korath Defense" 2300
 	fleet "Korath Large Raid" 20000
 	fleet "Korath Civilian Large" 1000
 	object
