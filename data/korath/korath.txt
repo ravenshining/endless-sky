@@ -261,7 +261,7 @@ fleet "Korath Home"
 	variant 2
 		"Korath Conveyor"
 		"Korath Chaser" 3
-	variant 2
+	variant 1
 		"Korath Tanker"
 		"Korath Chaser" 3
 	variant 3
@@ -393,7 +393,7 @@ fleet "Korath Civilian Large"
 		"Korath Habitat"
 		"Korath Raider" 2
 		"Korath Chaser" 4
-	variant 6
+	variant 5
 		"Korath Tanker"
 		"Korath Chaser (Expeller)" 3
 	variant 4
