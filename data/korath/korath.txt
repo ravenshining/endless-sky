@@ -294,7 +294,7 @@ fleet "Korath Defense"
 	variant 2
 		"Korath Raider" 3
 		"Korath Chaser" 6
-	variant 1
+	variant 2
 		"Korath Raider" 2
 		"Korath Raider (Blaze)" 2
 		"Korath Chaser" 8
@@ -338,7 +338,7 @@ fleet "Korath Large Raid"
 		"Korath Raider (Blaze)"
 		"Korath Chaser" 6
 
-fleet "Korath Ember Waste Raid"
+fleet "Korath Ember Waste Raid Large"
 	government "Korath"
 	names "korath"
 	fighters "korath"
@@ -383,7 +383,7 @@ fleet "Korath Civilian Large"
 	cargo 3
 	personality
 		frugal opportunistic disables forbearing
-	variant 8
+	variant 7
 		"Korath Traveller"
 		"Korath Chaser (Expeller)" 3
 	variant 6
