@@ -14934,8 +14934,8 @@ system "Kor Tar'bei"
 	fleet "Korath Civilian Miners" 5000
 	fleet "Korath Home" 1000
 	fleet "Korath Civilian Large" 1000
-	fleet "Korath Defense" 2600
-	fleet "Korath Ember Waste Raid" 9000
+	fleet "Korath Defense" 1800
+	fleet "Korath Ember Waste Raid" 8000
 	fleet "Korath Ember Waste Raid Large" 30000
 	object
 		sprite star/m3
@@ -14989,7 +14989,7 @@ system "Kor Zena'i"
 	trade Plastic 381
 	fleet "Korath Raid" 800
 	fleet "Korath Home" 1500
-	fleet "Korath Defense" 3000
+	fleet "Korath Defense" 2700
 	fleet "Korath Large Raid" 20000
 	fleet "Korath Civilian Large" 1000
 	object
