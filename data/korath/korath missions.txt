@@ -667,7 +667,6 @@ mission "First Contact: Korath Exiles"
 					goto wait
 
 			label add
-			# MZ wrote the parts about scorpions, long before the Coalition was added to the game, the scorpions are Archons. (so saith ravenshining)
 			`	Near the southern end of human space, you draw a dot with a partial ring around it: the Quarg ringworld, under construction. The Korath respond by both beginning to draw more rings, spread out all over the galaxy, some broken, some complete. Then they draw scorpions, also spread out all over the galaxy, and then sprinkle sand over the scorpions so they are barely visible.`
 
 			label wait
