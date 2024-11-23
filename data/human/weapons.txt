@@ -578,8 +578,8 @@ outfit "Particle Cannon"
 		sound "particle"
 		"hit effect" "particle impact"
 		"inaccuracy" .5
-		"velocity" 62.5
-		"lifetime" 12
+		"velocity" 50
+		"lifetime" 15
 		"reload" 20
 		"firing energy" 35
 		"firing force" 15
@@ -614,7 +614,7 @@ outfit "Proton Gun"
 		"hit effect" "proton impact" 3
 		"inaccuracy" 4
 		"submunition" "Proton Fragment" 3
-		"velocity" 48
+		"velocity" 39
 		"lifetime" 1
 		"reload" 8
 		"firing energy" 15
@@ -629,7 +629,7 @@ outfit "Proton Fragment"
 			"frame rate" 2
 		"hit effect" "proton impact"
 		"inaccuracy" 2
-		"lifetime" 12
+		"lifetime" 15
 		"hit force" 9
 		"shield damage" 10.1
 		"hull damage" 8.4
@@ -661,7 +661,7 @@ outfit "Proton Turret"
 		"inaccuracy" 4
 		"turret turn" 1.4
 		"submunition" "Proton Fragment" 3
-		"velocity" 48
+		"velocity" 39
 		"lifetime" 1
 		"reload" 8
 		"firing energy" 15
