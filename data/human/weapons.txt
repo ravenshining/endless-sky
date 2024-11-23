@@ -92,6 +92,7 @@ outfit "Blaster Turret"
 			"facing" -0.3
 		"hit effect" "blaster impact" 2
 		"inaccuracy" 3
+		"turret turn" 2
 		"lifetime" 0
 		"velocity override" 21.25
 		"range override" 510
@@ -129,8 +130,9 @@ outfit "Quad Blaster Turret"
 		"submunition" "Blaster Submunition"
 			"offset" -2 0
 			"facing" -0.3
-		"hit effect" "blaster impact" 2
+		"hit effect" "blaster impact" 4
 		"inaccuracy" 3
+		"turret turn" 1.5
 		"lifetime" 0
 		"velocity override" 21.25
 		"range override" 510
@@ -230,6 +232,7 @@ outfit "Modified Blaster Turret"
 			"facing" -0.45
 		"hit effect" "blaster impact" 2
 		"inaccuracy" 4
+		"turret turn" 2
 		"lifetime" 0
 		"velocity override" 21.82
 		"range override" 480
@@ -363,9 +366,9 @@ outfit "Mining Laser"
 	category "Guns"
 	cost 38000
 	thumbnail "outfit/mining laser"
-	"mass" 7
-	"outfit space" -7
-	"weapon capacity" -7
+	"mass" 12
+	"outfit space" -12
+	"weapon capacity" -12
 	"gun ports" -1
 	weapon
 		sprite "projectile/mining laser"
@@ -390,9 +393,9 @@ outfit "Mining Laser Turret"
 	category "Turrets"
 	cost 66000
 	thumbnail "outfit/mining laser turret"
-	"mass" 13
-	"outfit space" -13
-	"weapon capacity" -13
+	"mass" 18
+	"outfit space" -18
+	"weapon capacity" -18
 	"turret mounts" -1
 	"required crew" 1
 	weapon
@@ -707,7 +710,7 @@ outfit "Plasma Turret"
 		"hardpoint sprite" "hardpoint/plasma turret"
 		"hardpoint offset" 15.
 		sound "plasma"
-		"hit effect" "plasma explosion"
+		"hit effect" "plasma explosion" 2
 		"inaccuracy" 2
 		"turret turn" 1
 		"submunition" "Plasma Submunition"
@@ -727,7 +730,7 @@ outfit "Plasma Turret"
 outfit "Plasma Submunition"
 	weapon
 		sprite "projectile/mod blaster"
-		"hit effect" "blaster impact"
+		"hit effect" "plasma explosion"
 		"velocity" 24
 		"lifetime" 20
 		"hit force" 45
@@ -748,8 +751,8 @@ outfit "Plasma Repeater"
 			"frame rate" 3
 		sound "plasma"
 		"hit effect" "plasma explosion"
-		"lifetime" 13
-		"velocity" 34.3
+		"lifetime" 19
+		"velocity" 24
 		"inaccuracy" 5
 		"reload" 7
 		"firing energy" 13
