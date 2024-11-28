@@ -53,8 +53,8 @@ outfit "Pulse Cannon"
 		sound "pulse"
 		"hit effect" "pulse impact"
 		"inaccuracy" 1
-		"velocity" 15
-		"lifetime" 30
+		"velocity" 30
+		"lifetime" 15
 		"reload" 20
 		"firing energy" 24
 		"firing heat" 70
@@ -79,8 +79,8 @@ outfit "Pulse Turret"
 		"hit effect" "pulse impact"
 		"inaccuracy" 1
 		"turret turn" 1.5
-		"velocity" 15
-		"lifetime" 30
+		"velocity" 30
+		"lifetime" 15
 		"reload" 10
 		"firing energy" 24
 		"firing heat" 70
@@ -101,8 +101,8 @@ outfit "Tripulse Shredder"
 		sound "pulse"
 		"hit effect" "pulse impact"
 		"inaccuracy" 5
-		"velocity" 15
-		"lifetime" 30
+		"velocity" 30
+		"lifetime" 15
 		"reload" 6
 		"burst count" 36
 		"burst reload" 4
@@ -273,7 +273,7 @@ outfit "Railgun"
 		"fire effect" "rail sparks"
 		"hit effect" "bullet impact"
 		"inaccuracy" 3
-		"velocity" 44
+		"velocity" 55
 		"lifetime" 1
 		"range override" 2100
 		"reload" 12
@@ -290,8 +290,8 @@ outfit "rslug"
 		sprite "projectile/rail slug"
 			"frame rate" 30
 		"hit effect" "bullet impact"
-		"lifetime" 49
-		"acceleration" 2.2
+		"lifetime" 42
+		"acceleration" 2.8
 		"drag" .05
 		"turn" .6
 		"homing" 1
