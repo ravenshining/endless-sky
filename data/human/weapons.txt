@@ -1568,7 +1568,7 @@ outfit "Gatling Gun"
 		ammo "Gatling Gun Ammo"
 		icon "icon/gat"
 		"inaccuracy" 2
-		"velocity" 16
+		"velocity" 32
 		"lifetime" 1
 		"reload" 3
 		"burst count" 180
@@ -1605,7 +1605,7 @@ outfit "Gatling Turret"
 		icon "icon/gat turret"
 		"inaccuracy" 2
 		"turret turn" 2
-		"velocity" 16
+		"velocity" 32
 		"lifetime" 1
 		"reload" 3
 		"burst count" 180
@@ -1623,7 +1623,7 @@ outfit "gbullet"
 			"random start frame"
 			"frame rate" 0
 		"random velocity" 8
-		"lifetime" 20
+		"lifetime" 10
 		"random lifetime" 5
 		"shield damage" 3
 		"hull damage" 6
