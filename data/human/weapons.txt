@@ -46,10 +46,8 @@ outfit "Twin Blaster"
 		sound "blaster"
 		"submunition" "Blaster Submunition"
 			"offset" 0.5 0
-			"facing" 0.3
 		"submunition" "Blaster Submunition"
 			"offset" -0.5 0
-			"facing" -0.3
 		"hit effect" "blaster impact" 2
 		"inaccuracy" 3
 		"lifetime" 0
@@ -86,10 +84,8 @@ outfit "Blaster Turret"
 		sound "blaster"
 		"submunition" "Blaster Submunition"
 			"offset" 0.5 0
-			"facing" 0.3
 		"submunition" "Blaster Submunition"
 			"offset" -0.5 0
-			"facing" -0.3
 		"hit effect" "blaster impact" 2
 		"inaccuracy" 3
 		"turret turn" 2
@@ -120,16 +116,12 @@ outfit "Quad Blaster Turret"
 		"inaccuracy" 3
 		"submunition" "Blaster Submunition"
 			"offset" 2 0
-			"facing" 0.3
 		"submunition" "Blaster Submunition"
 			"offset" 1 0
-			"facing" -0.3
 		"submunition" "Blaster Submunition"
 			"offset" -1 0
-			"facing" 0.3
 		"submunition" "Blaster Submunition"
 			"offset" -2 0
-			"facing" -0.3
 		"hit effect" "blaster impact" 4
 		"inaccuracy" 3
 		"turret turn" 1.5
@@ -186,10 +178,8 @@ outfit "Twin Modified Blaster"
 		sound "mod blaster"
 		"submunition" "Modified Blaster Submunition"
 			"offset" 0.5 0
-			"facing" 0.45
 		"submunition" "Modified Blaster Submunition"
 			"offset" -0.5 0
-			"facing" -0.45
 		"hit effect" "blaster impact" 2
 		"inaccuracy" 4
 		"lifetime" 0
@@ -226,10 +216,8 @@ outfit "Modified Blaster Turret"
 		sound "mod blaster"
 		"submunition" "Modified Blaster Submunition"
 			"offset" 1.5 0
-			"facing" 0.45
 		"submunition" "Modified Blaster Submunition"
 			"offset" -1.5 0
-			"facing" -0.45
 		"hit effect" "blaster impact" 2
 		"inaccuracy" 4
 		"turret turn" 2
@@ -715,10 +703,8 @@ outfit "Plasma Turret"
 		"turret turn" 1
 		"submunition" "Plasma Submunition"
 			"offset" 1.5 0
-			"facing" 0.3
 		"submunition" "Plasma Submunition"
 			"offset" -1.5 0
-			"facing" -0.3
 		"velocity override" 24
 		"range override" 480
 		"lifetime" 0
