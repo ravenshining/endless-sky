@@ -715,7 +715,7 @@ outfit "Plasma Turret"
 
 outfit "Plasma Submunition"
 	weapon
-		sprite "projectile/mod blaster"
+		sprite "projectile/plasma"
 		"hit effect" "plasma explosion"
 		"velocity" 24
 		"lifetime" 20
