@@ -53,8 +53,8 @@ outfit "Pulse Cannon"
 		sound "pulse"
 		"hit effect" "pulse impact"
 		"inaccuracy" 1
-		"velocity" 30
-		"lifetime" 15
+		"velocity" 19
+		"lifetime" 24
 		"reload" 20
 		"firing energy" 24
 		"firing heat" 70
@@ -79,8 +79,8 @@ outfit "Pulse Turret"
 		"hit effect" "pulse impact"
 		"inaccuracy" 1
 		"turret turn" 1.5
-		"velocity" 30
-		"lifetime" 15
+		"velocity" 19
+		"lifetime" 24
 		"reload" 10
 		"firing energy" 24
 		"firing heat" 70
@@ -101,8 +101,8 @@ outfit "Tripulse Shredder"
 		sound "pulse"
 		"hit effect" "pulse impact"
 		"inaccuracy" 5
-		"velocity" 30
-		"lifetime" 15
+		"velocity" 19
+		"lifetime" 24
 		"reload" 6
 		"burst count" 36
 		"burst reload" 4
@@ -138,8 +138,8 @@ outfit "Ion Cannon"
 		sound "ion"
 		"hit effect" "ion impact" 2
 		"inaccuracy" 1
-		"velocity" 16
-		"lifetime" 50
+		"velocity" 19
+		"lifetime" 42
 		"reload" 60
 		"firing energy" 120
 		"firing force" 15
@@ -177,8 +177,8 @@ outfit "Ionic Blaster Prototype"
 		sound "ionic blast"
 		"hit effect" "ion impact"
 		"inaccuracy" 4
-		"velocity" 18
-		"lifetime" 30
+		"velocity" 21
+		"lifetime" 26
 		"reload" 30
 		"firing energy" 72
 		"firing force" 18
@@ -209,8 +209,8 @@ outfit "Ionic Turret Prototype"
 		"hit effect" "ionic impact" 5
 		"inaccuracy" 2
 		"turret turn" 0.9
-		"velocity" 12
-		"lifetime" 70
+		"velocity" 16
+		"lifetime" 53
 		"reload" 70
 		"firing energy" 371
 		"firing force" 12
@@ -273,7 +273,7 @@ outfit "Railgun"
 		"fire effect" "rail sparks"
 		"hit effect" "bullet impact"
 		"inaccuracy" 3
-		"velocity" 55
+		"velocity" 44
 		"lifetime" 1
 		"range override" 2100
 		"reload" 12
@@ -290,7 +290,7 @@ outfit "rslug"
 		sprite "projectile/rail slug"
 			"frame rate" 30
 		"hit effect" "bullet impact"
-		"lifetime" 42
+		"lifetime" 49
 		"acceleration" 2.8
 		"drag" .05
 		"turn" .6
