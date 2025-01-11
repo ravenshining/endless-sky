@@ -34,7 +34,7 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Ship.h"
 #include "image/Sprite.h"
 #include "image/SpriteSet.h"
-#include "SpriteShader.h"
+#include "shader/SpriteShader.h"
 #include "text/truncate.hpp"
 #include "UI.h"
 
@@ -168,6 +168,9 @@ void OutfitterPanel::DrawItem(const string &name, const Point &point)
 
 	const Font &font = FontSet::Get(14);
 	const Color &bright = *GameData::Colors().Get("bright");
+	const Color &highlight = *GameData::Colors().Get("outfitter difference highlight");
+
+	bool highlightDifferences = false;
 	if(playerShip || isLicense || mapSize)
 	{
 		int minCount = numeric_limits<int>::max();
@@ -178,8 +181,16 @@ void OutfitterPanel::DrawItem(const string &name, const Point &point)
 			minCount = maxCount = player.HasMapped(mapSize);
 		else
 		{
+			highlightDifferences = true;
+			string firstModelName;
 			for(const Ship *ship : playerShips)
 			{
+				// Highlight differences in installed outfit counts only when all selected ships are of the same model.
+				string modelName = ship->TrueModelName();
+				if(firstModelName.empty())
+					firstModelName = modelName;
+				else
+					highlightDifferences &= (modelName == firstModelName);
 				int count = ship->OutfitCount(outfit);
 				minCount = min(minCount, count);
 				maxCount = max(maxCount, count);
@@ -189,13 +200,19 @@ void OutfitterPanel::DrawItem(const string &name, const Point &point)
 		if(maxCount)
 		{
 			string label = "installed: " + to_string(minCount);
+			Color color = bright;
 			if(maxCount > minCount)
+			{
 				label += " - " + to_string(maxCount);
+				if(highlightDifferences)
+					color = highlight;
+			}
 
 			Point labelPos = point + Point(-OUTFIT_SIZE / 2 + 20, OUTFIT_SIZE / 2 - 38);
-			font.Draw(label, labelPos, bright);
+			font.Draw(label, labelPos, color);
 		}
 	}
+
 	// Don't show the "in stock" amount if the outfit has an unlimited stock.
 	int stock = 0;
 	if(!outfitter.Has(outfit))
@@ -446,6 +463,30 @@ ShopPanel::BuyResult OutfitterPanel::CanBuy(bool onlyOwned) const
 				+ Format::CargoString(engineNeeded, "engine space") + ", and this ship has "
 				+ Format::MassString(engineSpace) + " free.");
 
+		int propulsionAccessorySlotNeeded = -selectedOutfit->Get("engine mod space");
+		int propulsionAccessorySlotFree = playerShip->Attributes().Get("engine mod space");
+		if(propulsionAccessorySlotNeeded && !propulsionAccessorySlotFree)
+			return "This afterbuner is designed to be installed in a dedicated slot, "
+				"but your ship does not have any unused propulsion accessory slots available.";
+
+		int reverseThrusterSlotNeeded = -selectedOutfit->Get("reverse thruster slot");
+		int reverseThrusterSlotFree = playerShip->Attributes().Get("reverse thruster slot");
+		if(reverseThrusterSlotNeeded && !reverseThrusterSlotFree)
+			return "This reverse thruster is designed to be installed in a dedicated slot, "
+				"but your ship does not have any unused reverse thruster slots available.";
+
+		int steeringSlotNeeded = -selectedOutfit->Get("steering slot");
+		int steeringSlotFree = playerShip->Attributes().Get("steering slot");
+		if(steeringSlotNeeded && !steeringSlotFree)
+			return "This steering is designed to be installed in a dedicated slot, "
+				"but your ship does not have any unused steering slots available.";
+
+		int thrusterSlotNeeded = -selectedOutfit->Get("thruster slot");
+		int thrusterSlotFree = playerShip->Attributes().Get("thruster slot");
+		if(thrusterSlotNeeded && !thrusterSlotFree)
+			return "This thruster is designed to be installed in a dedicated slot, "
+				"but your ship does not have any unused thruster slots available.";
+
 		if(selectedOutfit->Category() == "Ammunition")
 			errors.push_back(!playerShip->OutfitCount(selectedOutfit) ?
 				"This outfit is ammunition for a weapon. "
@@ -464,6 +505,12 @@ ShopPanel::BuyResult OutfitterPanel::CanBuy(bool onlyOwned) const
 		if(gunsNeeded && !gunsFree)
 			errors.push_back("This weapon is designed to be installed in a gun port, "
 				"but your ship does not have any unused gun ports available.");
+
+		int pylonNeeded = -selectedOutfit->Get("missile pylons");
+		int pylonFree = playerShip->Attributes().Get("missile pylons");
+		if(pylonNeeded && !pylonFree)
+			return "This weapon is designed to be installed on a missile pylon, "
+				"but your ship does not have an unused missile pylons available.";
 
 		if(selectedOutfit->Get("installable") < 0.)
 			errors.push_back("This item is not an outfit that can be installed in a ship.");

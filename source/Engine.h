@@ -19,19 +19,22 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "AlertLabel.h"
 #include "AmmoDisplay.h"
 #include "AsteroidField.h"
-#include "BatchDrawList.h"
+#include "shader/BatchDrawList.h"
 #include "CollisionSet.h"
 #include "Color.h"
 #include "Command.h"
-#include "DrawList.h"
+#include "shader/DrawList.h"
 #include "EscortDisplay.h"
+#include "Fleet.h"
 #include "Information.h"
+#include "LimitedEvents.h"
 #include "PlanetLabel.h"
 #include "Point.h"
 #include "Preferences.h"
 #include "Projectile.h"
 #include "Radar.h"
 #include "Rectangle.h"
+#include "SpawnedFleet.h"
 #include "TaskQueue.h"
 
 #include <condition_variable>
@@ -132,6 +135,7 @@ private:
 			HOSTILE,
 			NEUTRAL,
 			SCAN,
+			SCAN_OUT_OF_RANGE,
 			COUNT // This item should always be the last in this list.
 		};
 
@@ -191,6 +195,12 @@ private:
 
 	void DoGrudge(const std::shared_ptr<Ship> &target, const Government *attacker);
 
+	size_t FleetPlacementLimit(const LimitedEvents<Fleet> &fleet, unsigned frames, bool requireGovernment);
+	size_t CountFleetsWithCategory(const std::string &category);
+	size_t CountNonDisabledFleetsWithCategory(const std::string &category);
+	void PruneSpawnedFleets();
+	void AddSpawnedFleet(const LimitedEvents<Fleet> &category);
+
 	void CreateStatusOverlays();
 	void EmplaceStatusOverlay(const std::shared_ptr<Ship> &ship, Preferences::OverlayState overlaySetting,
 		Status::Type type, double cloak);
@@ -205,6 +215,11 @@ private:
 	std::list<std::shared_ptr<Flotsam>> flotsam;
 	std::vector<Visual> visuals;
 	AsteroidField asteroids;
+	std::unordered_multimap<std::string, std::weak_ptr<SpawnedFleet>> spawnedFleets;
+	bool updateFleetCounters = false;
+
+	// Temporary usage while adding a fleet:
+	std::list<std::shared_ptr<Ship>> fleetShips;
 
 	// New objects created within the latest step:
 	std::list<std::shared_ptr<Ship>> newShips;
@@ -244,6 +259,9 @@ private:
 	Point targetVector;
 	Point targetUnit;
 	int targetSwizzle = -1;
+	// Represents the state of the currently targeted ship when it was last seen,
+	// so the target display does not show updates to its state the player should not be aware of.
+	int lastTargetType = 0;
 	EscortDisplay escorts;
 	AmmoDisplay ammoDisplay;
 	std::vector<Outline> outlines;

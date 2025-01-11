@@ -30,11 +30,13 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "SystemEntry.h"
 
 #include <chrono>
+#include <filesystem>
 #include <list>
 #include <map>
 #include <memory>
 #include <set>
 #include <string>
+#include <unordered_map>
 #include <utility>
 #include <vector>
 
@@ -58,6 +60,7 @@ class UI;
 // and what their current travel plan is, if any.
 class PlayerInfo {
 public:
+	static const std::string UPDATE_FLEET_COUNTERS_CONDITION_NAME;
 	struct FleetBalance {
 		int64_t maintenanceCosts = 0;
 		int64_t assetsReturns = 0;
@@ -81,7 +84,7 @@ public:
 	// Make a new player.
 	void New(const StartConditions &start);
 	// Load an existing player.
-	void Load(const std::string &path);
+	void Load(const std::filesystem::path &path);
 	// Load the most recently saved player. If no save could be loaded, returns false.
 	bool LoadRecent();
 	// Save this player (using the Identifier() as the file name).
@@ -100,7 +103,7 @@ public:
 	// Apply the given changes and store them in the player's saved game file.
 	void AddChanges(std::list<DataNode> &changes);
 	// Add an event that will happen at the given date.
-	void AddEvent(const GameEvent &event, const Date &date);
+	void AddEvent(GameEvent event, const Date &date);
 
 	// Mark the player as dead, or check if they have died.
 	void Die(int response = 0, const std::shared_ptr<Ship> &capturer = nullptr);
@@ -113,7 +116,7 @@ public:
 
 	// Get or change the current date.
 	const Date &GetDate() const;
-	void IncrementDate();
+	void AdvanceDate(int amount = 1);
 
 	// Get basic data about the player's starting scenario.
 	const CoreStartData &StartData() const noexcept;
@@ -338,10 +341,16 @@ public:
 	// Get or set the map zoom level.
 	int MapZoom() const;
 	void SetMapZoom(int level);
+	// Get or set the map display mode.
+	bool StarryMap() const;
+	void SetStarryMap(bool state);
 	// Get the set of collapsed categories for the named panel.
 	std::set<std::string> &Collapsed(const std::string &name);
 	// Should help dialogs relating to carriers be displayed?
 	bool DisplayCarrierHelp() const;
+
+	std::unordered_map<std::string, int64_t> &FleetCounters();
+	const std::unordered_map<std::string, int64_t> &FleetCounters() const;
 
 
 private:
@@ -375,6 +384,8 @@ private:
 
 	// Check that this player's current state can be saved.
 	bool CanBeSaved() const;
+	// Handle the daily salaries and payments.
+	void DoAccounting();
 
 
 private:
@@ -454,14 +465,15 @@ private:
 	DataNode economy;
 	// Persons that have been killed in this player's universe:
 	std::vector<std::string> destroyedPersons;
-	// Events that are going to happen some time in the future:
-	std::list<GameEvent> gameEvents;
+	// Events that are going to happen some time in the future (sorted by date for easy chronological access):
+	std::multiset<GameEvent> gameEvents;
 
 	// The system and position therein to which the "orbits" system UI issued a move order.
 	std::pair<const System *, Point> interstellarEscortDestination;
 	// Currently selected coloring, in the map panel (defaults to reputation):
 	int mapColoring = -6;
 	int mapZoom = 0;
+	bool isStarry = false;
 
 	// Currently collapsed categories for various panels.
 	std::map<std::string, std::set<std::string>> collapsed;
@@ -472,5 +484,11 @@ private:
 	// Basic information about the player's starting scenario.
 	CoreStartData startData;
 
+	// Tracks the number of times a fleet with a given name has
+	// been spawned as a random event or during system entry.
+	// Only updated if "count spawned fleets" condition is set.
+	// Currently, this does not include raid fleets or NPC fleets.
+	// (Intended only for integration testing.)
+	std::unordered_map<std::string, int64_t> fleetCounters;
 	DataWriter *transactionSnapshot = nullptr;
 };

@@ -18,22 +18,22 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 #include "Angle.h"
 #include "DataNode.h"
 #include "text/DisplayText.h"
-#include "FillShader.h"
+#include "shader/FillShader.h"
 #include "text/Font.h"
 #include "text/FontSet.h"
 #include "GameData.h"
 #include "Information.h"
 #include "text/layout.hpp"
-#include "LineShader.h"
-#include "OutlineShader.h"
+#include "shader/LineShader.h"
+#include "shader/OutlineShader.h"
 #include "Panel.h"
-#include "PointerShader.h"
+#include "shader/PointerShader.h"
 #include "Rectangle.h"
-#include "RingShader.h"
+#include "shader/RingShader.h"
 #include "Screen.h"
 #include "image/Sprite.h"
 #include "image/SpriteSet.h"
-#include "SpriteShader.h"
+#include "shader/SpriteShader.h"
 #include "UI.h"
 
 #include <algorithm>
@@ -737,6 +737,17 @@ void Interface::BarElement::Draw(const Rectangle &rect, const Information &info,
 
 			LineShader::Draw(from, to, twidth, *color);
 		}
+		// draw in the opposite direction.
+		if(value < 0)
+			while(v > value)
+			{
+				Point from = start + v * dimensions;
+				v -= filled;
+				Point to = start + max(v, value) * dimensions;
+				v -= empty;
+
+				LineShader::Draw(from, to, width, *color);
+			}
 	}
 }
 

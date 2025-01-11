@@ -15,6 +15,10 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 
 #pragma once
 
+#include "ConditionSet.h"
+#include "ConditionsStore.h"
+#include "DataNode.h"
+
 
 
 // A class representing an event that triggers randomly
@@ -22,32 +26,54 @@ this program. If not, see <https://www.gnu.org/licenses/>.
 template <typename T>
 class RandomEvent {
 public:
-	constexpr RandomEvent(const T *event, int period) noexcept;
+	static const int DEFAULT_PERIOD = 200;
 
-	constexpr const T *Get() const noexcept;
-	constexpr int Period() const noexcept;
+
+	RandomEvent(const T *event, int period, const DataNode &node) noexcept;
+
+	const T *Get() const noexcept;
+	int Period() const noexcept;
+	int &Period() noexcept;
+	bool CanTrigger(const ConditionsStore &tester) const;
 
 private:
 	const T *event;
 	int period;
+	ConditionSet conditions;
 };
 
 
 
 template <typename T>
-constexpr RandomEvent<T>::RandomEvent(const T *event, int period) noexcept
-	: event(event), period(period > 0 ? period : 200)
+RandomEvent<T>::RandomEvent(const T *event, int period, const DataNode &node) noexcept
+	: event(event), period(period > 0 ? period : DEFAULT_PERIOD)
 {
+	for(const auto &child : node)
+		if(child.Size() == 2 && child.Token(0) == "to" && child.Token(1) == "spawn")
+			conditions.Load(child);
+		// TODO: else with an error-message?
 }
 
 template <typename T>
-constexpr const T *RandomEvent<T>::Get() const noexcept
+const T *RandomEvent<T>::Get() const noexcept
 {
 	return event;
 }
 
 template <typename T>
-constexpr int RandomEvent<T>::Period() const noexcept
+int RandomEvent<T>::Period() const noexcept
 {
 	return period;
+}
+
+template <typename T>
+int &RandomEvent<T>::Period() noexcept
+{
+	return period;
+}
+
+template <typename T>
+bool RandomEvent<T>::CanTrigger(const ConditionsStore &tester) const
+{
+	return conditions.IsEmpty() || conditions.Test(tester);
 }
