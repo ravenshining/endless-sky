@@ -77,6 +77,28 @@ outfit "Gold"
 	description "Useful for its high electrical conductivity and prized for its beauty and luxury status, gold can always find a well-paying market."
 
 
+minable "ice"
+	sprite "asteroid/ice/spin"
+	hull 150
+	"random hull" 150
+	payload "Ice" 50
+		"toughness" 1000
+	explode "puff" 40
+	explode "bolide" 20
+	explode "asteroid crunch small"
+
+outfit "Ice"
+	plural "Ice"
+	category "Minerals"
+	cost 200
+	thumbnail "outfit/harvested ice"
+	"flotsam sprite" "effect/flotsam ice"
+	"mass" 1
+	"installable" -1
+	"minable" 1
+	description "Water ice may be nearly worthless to anyone who doesn't need it, but it is the most precious thing in the universe to those who do."
+
+
 minable "iron"
 	sprite "asteroid/iron/spin"
 	hull 1440
@@ -296,6 +318,62 @@ outfit "Yottrite"
 	"minable" 1
 	description "An extraordinarily rare crystalline formation, forged over tens of thousands of years in the molecular clouds around supernova remnants. Although less advanced species can potentially harvest it, very few civilizations other than the Quarg have developed the technology needed to incorporate yottrite in an alloy."
 
+
+# The following worthless, durable asteroids share the same name and sprite as the tileable asteroids, for easy conversion to and from belts
+
+minable "small metal"
+	"display name" "Barren"
+	sprite "asteroid/small metal/spin"
+	hull 30000
+	"random hull" 10000
+	explode "smoke" 30
+	explode "puff" 30
+	explode "asteroid crunch small"
+
+minable "medium metal"
+	"display name" "Barren"
+	sprite "asteroid/medium metal/spin"
+	hull 40000
+	"random hull" 10000
+	explode "smoke" 40
+	explode "puff" 40
+	explode "asteroid crunch medium"
+
+minable "large metal"
+	"display name" "Barren"
+	sprite "asteroid/large rock/spin"
+	hull 50000
+	"random hull" 10000
+	explode "smoke" 50
+	explode "puff" 50
+	explode "asteroid crunch large"
+
+minable "small rock"
+	"display name" "Barren"
+	sprite "asteroid/small rock/spin"
+	hull 20000
+	"random hull" 10000
+	explode "smoke" 20
+	explode "puff" 20
+	explode "asteroid crunch small"
+
+minable "medium rock"
+	"display name" "Barren"
+	sprite "asteroid/medium rock/spin"
+	hull 30000
+	"random hull" 10000
+	explode "smoke" 30
+	explode "puff" 30
+	explode "asteroid crunch medium"
+
+minable "large rock"
+	"display name" "Barren"
+	sprite "asteroid/large rock/spin"
+	hull 40000
+	"random hull" 10000
+	explode "smoke" 40
+	explode "puff" 40
+	explode "asteroid crunch large"
 
 
 # The following are not traditional asteroids, and are not present at the start of the game.
