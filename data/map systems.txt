@@ -32372,6 +32372,10 @@ system Sol
 		sprite planet/mars
 		distance 2281
 		period 687.001
+	object Ceres
+		sprite planet/rhea
+		distance 4140
+		period 1680
 	object Jupiter
 		sprite planet/jupiter
 		distance 7787
@@ -32429,13 +32433,23 @@ system Sol
 			distance 195
 			period -5.8
 	object Pluto
-		sprite planet/neptune
+		sprite planet/europa
 		distance 59062
 		period 90498.1
 		object Charon
 			sprite planet/tethys
 			distance 195
 			period 5.8
+	object Eris
+		sprite planet/miranda
+# Average of semi-major axis and perhelion to reduce map stretch
+		distance 79385
+		period 204199
+		object
+			sprite planet/rock7
+				scale 0.5
+			distance 373
+			period 15.8
 
 system "Sol Arach"
 	pos -711.587 649.051
