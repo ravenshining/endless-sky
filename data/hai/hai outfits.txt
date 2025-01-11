@@ -291,7 +291,7 @@ outfit "rslug"
 			"frame rate" 30
 		"hit effect" "bullet impact"
 		"lifetime" 49
-		"acceleration" 2.8
+		"acceleration" 2.2
 		"drag" .05
 		"turn" .6
 		"homing" 1
