@@ -603,7 +603,7 @@ outfit "Proton Gun"
 		"inaccuracy" 4
 		"submunition" "Proton Fragment" 3
 		"velocity" 24
-		"lifetime" 1
+		"lifetime" 2
 		"reload" 8
 		"firing energy" 15
 		"firing force" 3
@@ -617,7 +617,7 @@ outfit "Proton Fragment"
 			"frame rate" 2
 		"hit effect" "proton impact"
 		"inaccuracy" 2
-		"lifetime" 25
+		"lifetime" 24
 		"hit force" 9
 		"shield damage" 10.1
 		"hull damage" 8.4
@@ -650,7 +650,7 @@ outfit "Proton Turret"
 		"turret turn" 1.4
 		"submunition" "Proton Fragment" 3
 		"velocity" 24
-		"lifetime" 1
+		"lifetime" 2
 		"reload" 8
 		"firing energy" 15
 		"firing force" 3
@@ -1609,7 +1609,7 @@ outfit "gbullet"
 			"random start frame"
 			"frame rate" 0
 		"random velocity" 8
-		"lifetime" 11
+		"lifetime" 20
 		"random lifetime" 5
 		"shield damage" 3
 		"hull damage" 6
