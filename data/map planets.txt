@@ -710,7 +710,7 @@ planet Ceres
 	landscape land/snow37
 	description `Once faintly and occasionally visible from Earth, Ceres enjoyed status as a planet in the ninteeth century prior the discovery of Neptune and the asteroid belt. Its status wavered, usually considered an asteroid, until the discovery of Eris which led to its classification as a dwarf planet.`
 	description	`	Ceres's clay crust over a muddy core sports brine cryovolcones and a tenuous water vapour atmosphere. Conveniently located in the asteroid belt and just within Sol's hyper limit, Ceres has long been a favored stopover for miners and interstellar travellers.`
-	spaceport `The landing pad looks extremely unstable, but you are assured that the low gravity will prevent your ship from sinking into the surface or setting off an eruption.
+	spaceport `The landing pad looks extremely unstable, but you are assured that the low gravity will prevent your ship from sinking into the surface or setting off an eruption.`
 	spaceport `	In a lively cantina, friendly staff serve warm spelt pancakes to children listening with rapt attention to the miners trading stories with out-system travellers.`
 	outfitter "Basic Outfits"
 	outfitter "Ammo North"
@@ -1455,7 +1455,7 @@ planet Eris
 	attributes moon "near earth"
 	landscape land/snow38
 	description `Eris's brief and controversial claim to being the "tenth planet" cast the proverbial golden apple into the scientific community, condemning Pluto and itself to "dwarf planet" status. More massive than Pluto, free from orbital resonance with Neptune, and without many objects in its orbit, it could almost qualify under the new rules, if not for its extreme distance from Sol making it difficult to perturb the remaining asteroids in its path.`
-	description `	Eris is exceptionally bright, owing to its extreme cold allowing methane to condense even it its warmer regions.  The atmosphere of methane and nitrogen is formed through cycles of sublimation from the surface ice.`
+	description `	Eris is exceptionally bright, owing to its extreme cold allowing methane to condense even it its warmer regions. The atmosphere of methane and nitrogen is formed through cycles of sublimation from the surface ice.`
 	government Uninhabited
 
 planet "Esayaku Fen"
