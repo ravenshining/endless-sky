@@ -709,7 +709,7 @@ planet Ceres
 	attributes mining moon "near earth"
 	landscape land/snow37
 	description `Once faintly and occasionally visible from Earth, Ceres enjoyed status as a planet in the nineteenth century prior the discovery of Neptune and the asteroid belt. Its status wavered, usually considered an asteroid, until the discovery of Eris which led to its classification as a dwarf planet.`
-	description	`	Ceres's clay crust over a muddy core sports brine cryovolcanoes and a tenuous water vapor atmosphere. Conveniently located in the asteroid belt and just within Sol's hyper limit, Ceres has long been a favored stopover for miners and interstellar travellers.`
+	description `	Ceres's clay crust over a muddy core sports brine cryovolcanoes and a tenuous water vapor atmosphere. Conveniently located in the asteroid belt and just within Sol's hyper limit, Ceres has long been a favored stopover for miners and interstellar travellers.`
 	spaceport `The landing pad looks extremely unstable, but you are assured that the low gravity will prevent your ship from sinking into the surface or setting off an eruption.`
 	spaceport `	In a lively cantina, friendly staff serve warm spelt pancakes to children listening with rapt attention to the miners trading stories with out-system travellers.`
 	outfitter "Basic Outfits"
