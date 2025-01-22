@@ -95,7 +95,6 @@ outfit "Blaster Turret"
 		"reload" 24
 		"firing energy" 23.2
 		"firing heat" 72
-
 	description "A Blaster Turret is a pair of Energy Blasters mounted on a rotating platform, allowing it to fire in any direction. Sophisticated software algorithms allow the turret to correct for a target's motion, making the Blaster Turret effective even against small, quickly moving fighters. Because it needs a special mounting point with a 360 degree field of view, not all ships are capable of being equipped with a turret."
 
 outfit "Quad Blaster Turret"
@@ -131,7 +130,6 @@ outfit "Quad Blaster Turret"
 		"reload" 24
 		"firing energy" 46.4
 		"firing heat" 144
-
 	description "A Quad Blaster Turret carries four guns on a single turret mount, doubling the firepower of an ordinary Blaster Turret for ships with enough space to install one and energy to drive it."
 
 effect "blaster impact"
@@ -270,7 +268,7 @@ outfit "Laser Turret"
 		sound "laser"
 		"hit effect" "beam laser impact"
 		"inaccuracy" .5
-		"turret turn" 2.2
+		"turret turn" 4
 		"velocity" 300
 		"lifetime" 1
 		"reload" 1
@@ -330,7 +328,7 @@ outfit "Heavy Laser Turret"
 		sound "heavy laser"
 		"hit effect" "heavy laser impact"
 		"inaccuracy" .4
-		"turret turn" 1.3
+		"turret turn" 2.2
 		"velocity" 400
 		"lifetime" 1
 		"reload" 1
@@ -394,7 +392,7 @@ outfit "Mining Laser Turret"
 		sound "mining laser"
 		"hit effect" "beam laser impact"
 		"inaccuracy" .35
-		"turret turn" 2.4
+		"turret turn" 4.4
 		"velocity" 200
 		"lifetime" 1
 		"reload" 1
@@ -475,7 +473,7 @@ outfit "Electron Turret"
 		sound "electron beam"
 		"hit effect" "electron impact"
 		"inaccuracy" .3
-		"turret turn" 0.8
+		"turret turn" 1.2
 		"velocity" 450
 		"lifetime" 1
 		"reload" 1
@@ -520,6 +518,7 @@ effect "small anti-missile"
 		"no repeat"
 		"frame rate" 3
 	sound "anti-missile"
+	"sound category" "anti-missile"
 	"lifetime" 21
 	"velocity scale" 1
 
@@ -549,6 +548,7 @@ effect "large anti-missile"
 		"no repeat"
 		"frame rate" 2
 	sound "heavy anti-missile"
+	"sound category" "anti-missile"
 	"lifetime" 31
 	"velocity scale" 1
 
@@ -647,7 +647,7 @@ outfit "Proton Turret"
 		sound "proton"
 		"hit effect" "proton impact" 3
 		"inaccuracy" 4
-		"turret turn" 1.4
+		"turret turn" 2.4
 		"submunition" "Proton Fragment" 3
 		"velocity" 24
 		"lifetime" 2
@@ -700,7 +700,7 @@ outfit "Plasma Turret"
 		sound "plasma"
 		"hit effect" "plasma explosion" 2
 		"inaccuracy" 2
-		"turret turn" 1
+		"turret turn" 1.6
 		"submunition" "Plasma Submunition"
 			"offset" 1.5 0
 		"submunition" "Plasma Submunition"
@@ -1129,7 +1129,7 @@ outfit "Javelin Turret"
 		icon "icon/javelin turret"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 4
-		"turret turn" 2
+		"turret turn" 3.6
 		"velocity" 10
 		"lifetime" 60
 		"reload" 7.5
@@ -1590,7 +1590,7 @@ outfit "Gatling Turret"
 		ammo "Gatling Gun Ammo" 2
 		icon "icon/gat turret"
 		"inaccuracy" 2
-		"turret turn" 2
+		"turret turn" 3.6
 		"velocity" 20
 		"lifetime" 1
 		"reload" 3
