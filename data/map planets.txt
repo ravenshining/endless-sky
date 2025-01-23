@@ -1627,7 +1627,7 @@ planet "Ergastirio Station"
 		fleet "Avgi Strike Group" 3
 		fleet "Avgi Fleetgroup"
 
- planet Eris
+planet Eris
 	attributes moon "near earth"
 	landscape land/snow38
 	description `Eris's brief and controversial claim to being the "tenth planet" cast the proverbial golden apple into the scientific community, condemning Pluto and itself to "dwarf planet" status. More massive than Pluto, free from orbital resonance with Neptune, and without many objects in its orbit, it could almost qualify under the new rules, if not for its extreme distance from Sol making it difficult to perturb the remaining asteroids in its path.`
