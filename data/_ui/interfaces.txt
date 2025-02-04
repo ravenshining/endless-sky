@@ -479,9 +479,7 @@ interface "load menu"
 
 interface "controls"
 	sprite "ui/keys panel"
-		center -25 -20
-	sprite "ui/shift panel"
-		center -346 56
+		center -65 -20
 	button c "_Controls"
 		center -300 -230
 		dimensions 90 30
@@ -1172,7 +1170,7 @@ interface "hud"
 
 
 
-	# Targets.
+	# RADAR
 	anchor top left
 	visible if "red alert"
 	sprite "ui/red alert"
@@ -1188,7 +1186,6 @@ interface "hud"
 	value "radar radius" 110
 	value "radar pointer radius" 130
 	
-	# Current system.
 	sprite "ui/current system"
 		from 43 0
 		align top left
@@ -1203,7 +1200,6 @@ interface "hud"
 	sprite "ui/navigation"
 		from 195 0
 		align top left
-
 	string "navigation mode"
 		from 215 20
 		align left
@@ -1214,7 +1210,27 @@ interface "hud"
 		color "medium"
 		width 130
 		truncate back
+
+	visible if "system solar display"
+	sprite "ui/tactical/solar"
+		from 251 67
+		align top left
+	string "system solar"
+		from 269 76
+		color "medium"
+		align left
+
+	visible if "system wind display"
+	sprite "ui/tactical/wind"
+		from 256 90
+		align top left
+	string "system wind"
+		from 275 99
+		color "medium"
+		align left
 	
+	# Targets
+	visible
 	sprite "ui/target"
 		from 0 275
 		align top left
@@ -2021,19 +2037,6 @@ interface "map buttons" bottom right
 		from -50 -90 to -80 -120
 		size 18
 
-	sprite "ui/map display"
-		from 0 -120 to -49 -169
-	button x ""
-		from 0 -120 to -49 -169
-	visible if "map is starry"
-	ring "system ring"
-		center -24 -145
-		dimensions 10 10
-		color "map system ring"
-		size 2
-	visible if "!map is starry"
-	sprite "ui/star icon"
-		from 0 -120 to -49 -169
 
 
 interface "map buttons (small screen)" bottom right
@@ -2090,19 +2093,6 @@ interface "map buttons (small screen)" bottom right
 		from -50 -90 to -80 -120
 		size 18
 
-	sprite "ui/map display"
-		from 0 -120 to -49 -169
-	button x ""
-		from 0 -120 to -49 -169
-	visible if "map is starry"
-	ring "system ring"
-		center -24 -145
-		dimensions 10 10
-		color "map system ring"
-		size 2
-	visible if "!map is starry"
-	sprite "ui/star icon"
-		from 0 -120 to -49 -169
 
 
 interface "map"
