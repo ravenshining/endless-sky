@@ -86,7 +86,7 @@ tip "atmosphere scan:"
 
 tip "automaton:"
 	`A ship with this attribute does not need any crew to operate, even if it has outfits that normally require additional crew. However, you cannot use it as your flagship in this state.`
-  
+
 tip "bunks:"
 	`The number of people (passengers or crew) your ship can hold.`
 
