@@ -1489,10 +1489,7 @@ ship "Cruiser" "Cruiser (Heavy)"
 
 ship "Cruiser" "Cruiser (Jump)"
 	outfits
-		"Typhoon Launcher" 2
-		"Typhoon Torpedo" 60
-		"Sidewinder Missile Launcher" 2
-		"Sidewinder Missile" 90
+		"Particle Cannon" 4
 		"Electron Turret" 3
 		"Heavy Anti-Missile Turret"
 		"Laser Rifle" 20
@@ -1510,18 +1507,18 @@ ship "Cruiser" "Cruiser (Jump)"
 		"AL529 Atomic LTC"
 		"A525 Atomic Steering"
 		"Jump Drive"
-	gun
-	gun
-	gun
-	gun
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
+	gun "Particle Cannon"
 	gun
 	gun
 	pylon
 	pylon
-	pylon "Sidewinder Missile Launcher"
-	pylon "Sidewinder Missile Launcher"
-	pylon "Typhoon Launcher"
-	pylon "Typhoon Launcher"
+	pylon
+	pylon
+	pylon
+	pylon
 	turret "Electron Turret"
 	turret "Electron Turret"
 	turret "Electron Turret"
