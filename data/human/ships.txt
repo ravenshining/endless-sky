@@ -2872,8 +2872,7 @@ ship "Lance"
 	outfits
 		"Energy Blaster"
 		"Sidewinder Missile Pod" 2
-		"Sidewinder Missile Rack"
-		"Sidewinder Missile" 35
+		"Sidewinder Missile" 12
 		
 		"nGVF-AA Fuel Cell"
 		"Supercapacitor" 4
