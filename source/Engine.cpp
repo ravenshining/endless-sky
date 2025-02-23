@@ -234,7 +234,6 @@ namespace {
 	}
 
 	const double RADAR_SCALE = .00625;
-	const double MAX_FUEL_DISPLAY = 3000.;
 
 	const double CAMERA_VELOCITY_TRACKING = 0.1;
 	const double CAMERA_POSITION_CENTERING = 0.01;
