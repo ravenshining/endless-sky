@@ -1515,10 +1515,10 @@ ship "Cruiser" "Cruiser (Jump)"
 	gun
 	pylon
 	pylon
-	pylon "Sidewinder Missile Launcher"
-	pylon "Sidewinder Missile Launcher"
-	pylon "Typhoon Launcher"
-	pylon "Typhoon Launcher"
+	pylon
+	pylon
+	pylon
+	pylon
 	turret "Electron Turret"
 	turret "Electron Turret"
 	turret "Electron Turret"
