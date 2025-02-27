@@ -172,7 +172,7 @@ ship "Autumn Leaf"
 		"mass" 260
 		"drag" 3.5
 		"heat dissipation" .67
-		"fuel capacity" 925
+		"fuel capacity" 775
 		"cargo space" 35
 		"outfit space" 361
 		"weapon capacity" 103
