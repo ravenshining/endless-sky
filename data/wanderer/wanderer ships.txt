@@ -174,7 +174,7 @@ ship "Autumn Leaf"
 		"heat dissipation" .67
 		"fuel capacity" 775
 		"cargo space" 35
-		"outfit space" 361
+		"outfit space" 387
 		"weapon capacity" 103
 		"engine capacity" 118
 		"lateral thruster slot" 1
