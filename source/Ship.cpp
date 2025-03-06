@@ -4299,6 +4299,13 @@ void Ship::Linger()
 
 
 
+bool Ship::Immitates(const Ship &other) const
+{
+	return displayModelName == other.DisplayModelName() && outfits == other.Outfits();
+}
+
+
+
 // Check if this ship has been in a different system from the player for so
 // long that it should be "forgotten." Also eliminate ships that have no
 // system set because they just entered a fighter bay. Clear the hyperspace
@@ -4379,7 +4386,7 @@ int Ship::StepDestroyed(vector<Visual> &visuals, list<shared_ptr<Flotsam>> &flot
 				// Negative values override the default chance for ammunition
 				// so the outfit cannot be dropped as flotsam.
 				else if(it.first->Category() == "Ammunition" && !flotsamChance)
-					Jettison(it.first, Random::Binomial(it.second, .05));
+					Jettison(it.first, Random::Binomial(it.second, .10));
 			}
 			for(shared_ptr<Flotsam> &it : jettisoned)
 				it->Place(*this);
@@ -5503,7 +5510,7 @@ void Ship::DoEngineVisuals(vector<Visual> &visuals, bool isUsingAfterburner)
 			Point effectVelocity = velocity - 6. * afterburnerAngle.Unit();
 			for(auto &&it : Attributes().AfterburnerEffects())
 				for(int i = 0; i < it.second; ++i)
-					visuals.emplace_back(*it.first, pos, effectVelocity, afterburnerAngle);
+					visuals.emplace_back(*it.first, pos, effectVelocity, afterburnerAngle, Point{}, point.zoom);
 		}
 	}
 }
